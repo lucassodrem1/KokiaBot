@@ -8,4 +8,12 @@ module.exports = class Guild {
       }
     );
   }
+
+  deleteGuild = guildId => {
+    client.query(`DELETE FROM guilds WHERE guild_id = ${guildId}`,
+      err => {
+        if (err) throw err;
+      }
+    );
+  }
 }
