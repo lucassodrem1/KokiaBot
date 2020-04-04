@@ -17,6 +17,7 @@ module.exports = (client, guild) => {
   // Salvar id da guild no db.
   let guildController = new GuildController();
   guildController.addGuild(guild.id, client.config.prefix);
+  guildController.addGuildLevelSystem(guild.id, client.config);
 
   // Salvar id de todos os membros do server que não sejam bots no db.
   let userController = new UserController();
