@@ -1,10 +1,10 @@
 const Discord = require("discord.js");
 const Enmap = require("enmap");
 const fs = require("fs");
-
 const client = new Discord.Client();
 const config = require("../assets/config.json");
 client.config = config;
+module.exports.talkedRecently = new Set();
 
 fs.readdir("./src/events/", (err, files) => {
   if (err) return console.error(err);
