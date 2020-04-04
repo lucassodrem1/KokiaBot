@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
     return message.channel.send('Você precisa ser um administrador para alterar a mensagem!');
   }
   
-  text = args.slice(2).join(' ');
+  text = args.join(' ');
   let guildId = message.member.guild.id;
   let guildController = new GuildController();
   await guildController.updateSystemLevel(guildId, 'level_up_message', text);

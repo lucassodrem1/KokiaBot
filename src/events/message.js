@@ -35,11 +35,11 @@ module.exports = async (client, message) => {
   // o comando existe. Se não existir, executa o comando de uma palavra.
   let command = null;
   if(client.commands.get(args[0] + '_' + args[1])) {
-    command = (args[0] + '_' + args[1]).toLowerCase();
+    command = args.splice(0, 2).join('_').toLowerCase();
   } else {
     command = args.shift().toLowerCase();
   }
-
+  
 	const cmd = client.commands.get(command);
 
 	if (!cmd) return;
