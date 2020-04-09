@@ -12,7 +12,7 @@ exports.run = async (client, message, args) => {
 
   if(!member) {
     try {
-      const userInfoPromise = userController.getUserInfo(guildId, userId, message).catch(err => console.error(err));
+      const userInfoPromise = userController.getUserInfo(userId, message).catch(err => console.error(err));
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
 
@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
     }
   } else {
     try {
-      const userInfoPromise = userController.getUserInfo(guildId, member.user.id, message).catch(err => console.error(err));
+      const userInfoPromise = userController.getUserInfo(member.user.id, message).catch(err => console.error(err));
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
 

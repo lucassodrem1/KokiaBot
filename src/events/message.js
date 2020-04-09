@@ -21,7 +21,7 @@ module.exports = async (client, message) => {
   let userController = new UserController();
   
   // Dar xp ao usuário ao mandar mensagem.
-  userController.earnXp(guildId, userId, message);
+  userController.earnXp(userId, message);
 
   // Executar comandos normais.
   let guildController = new GuildController();

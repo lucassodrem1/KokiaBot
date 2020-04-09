@@ -20,9 +20,9 @@ module.exports = class User {
   }
   
   // Pegar informações de um usuário.
-  getUserInfo(guildId, userId, message) {
+  getUserInfo(userId, message) {
     return new Promise((resolve, reject) => {
-      client.query(`SELECT * FROM guild_users WHERE guild_id = ${guildId} AND user_id = ${userId}`, (err, results) => {
+      client.query(`SELECT * FROM guild_users WHERE guild_id = ${message.guild.id} AND user_id = ${userId}`, (err, results) => {
         if(err) return reject(err);
 
         if(!results.rows[0]) return message.channel.send('Usuário não encontrado!'); 
@@ -62,26 +62,26 @@ module.exports = class User {
   }  
 
   // Dar 15 a 25 de xp para o usuário caso ele não esteja no tempo de cooldown.
-  async earnXp(guildId, userId, message) {
+  async earnXp(userId, message) {
     // Gerar xp.
     let xpEarnValue = Math.floor(Math.random() * 11) + 15;
 
     client.query(`UPDATE guild_users SET current_xp_level = current_xp_level + ${xpEarnValue}, total_xp = total_xp + ${xpEarnValue}
-    WHERE guild_id = ${guildId} AND user_id = ${userId};`, async err => {
+    WHERE guild_id = ${message.guild.id} AND user_id = ${userId};`, async err => {
       if(err) throw err;
       
       try {
         // Pegar informações do usuário.
-        let userData = await this.getUserInfo(guildId, userId, message);
+        let userData = await this.getUserInfo(userId, message);
 
         // Verificar se o user pode subir de level.
         if(userData.current_xp_level >= userData.nextXpLevel) {
           let overXp = userData.current_xp_level - userData.nextXpLevel;
-          await this.levelUp(guildId, userId, overXp);
+          await this.levelUp(message.guild.id, userId, overXp);
 
           let guildController = new GuildController();
           // Pegar informações da guild level system.
-          let guildData = await guildController.getGuildLevelSystem(guildId);
+          let guildData = await guildController.getGuildLevelSystem(message.guild.id);
 
           // Verificar canal para mandar mensagem de level up.
           if(guildData.level_up_channel == 0) {
