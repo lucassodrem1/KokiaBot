@@ -20,13 +20,30 @@ module.exports = class User {
   }
   
   // Pegar informações de um usuário.
-  getUserInfo(guildId, userId) {
+  getUserInfo(guildId, userId, message) {
     return new Promise((resolve, reject) => {
       client.query(`SELECT * FROM guild_users WHERE guild_id = ${guildId} AND user_id = ${userId}`, (err, results) => {
-        if (err) return reject(err);
+        if(err) return reject(err);
+
+        if(!results.rows[0]) return message.channel.send('Usuário não encontrado!'); 
+
+        let userData = results.rows[0];
         
-        return resolve(results.rows[0]);
+        userData.nextXpLevel = 5 * (Math.pow(userData.level, 2)) + 50 * userData.level + 100;
+
+        return resolve(userData);
       });
+    });
+  }
+
+   // Pegar rank de users do server por ordem de level.
+   getUsersRank(guildId) {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp;`, (err, results) => {
+        if(err) return reject(err);
+       
+        return resolve(results.rows);       
+      }); 
     });
   }
   
@@ -55,12 +72,11 @@ module.exports = class User {
       
       try {
         // Pegar informações do usuário.
-        let userData = await this.getUserInfo(guildId, userId);
-        let xpToUp = 5 * (Math.pow(userData.level, 2)) + 50 * userData.level + 100;
+        let userData = await this.getUserInfo(guildId, userId, message);
 
         // Verificar se o user pode subir de level.
-        if(userData.current_xp_level >= xpToUp) {
-          let overXp = userData.current_xp_level - xpToUp;
+        if(userData.current_xp_level >= userData.nextXpLevel) {
+          let overXp = userData.current_xp_level - userData.nextXpLevel;
           await this.levelUp(guildId, userId, overXp);
 
           let guildController = new GuildController();
