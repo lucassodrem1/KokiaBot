@@ -37,11 +37,21 @@ module.exports = class User {
   }
 
    // Pegar rank de users do server por ordem de level.
-   getUsersRank(guildId) {
+   getUsersRank(guildId, limit = 0) {
     return new Promise((resolve, reject) => {
-      client.query(`SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp;`, (err, results) => {
+      let query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp;`;
+
+      if (limit) {
+        query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp LIMIT ${limit};`;
+      } 
+
+      client.query(query, (err, results) => {
         if(err) return reject(err);
        
+        results.rows.map(data => {
+          data.nextXpLevel = 5 * (Math.pow(data.level, 2)) + 50 * data.level + 100;
+        });
+
         return resolve(results.rows);       
       }); 
     });
