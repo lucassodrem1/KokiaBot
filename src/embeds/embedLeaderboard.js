@@ -15,7 +15,7 @@ module.exports.embedLeaderboard = async function(Discord, message) {
         let leadOut = leadOutp.join("\n");
         
         let embed = new Discord.MessageEmbed()
-            .setColor(0x00AE86)
+            .setColor(0xf33434)
             .setThumbnail(message.guild.iconURL)
             .addField(`**${message.guild.name}** Top 10`, `${leadOut}`, true);
 
