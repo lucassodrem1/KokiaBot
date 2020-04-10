@@ -7,17 +7,25 @@ exports.run = async (client, message, args) => {
     return message.channel.send('Você precisa ser um administrador para alterar o canal da mensagem!');
   }
   
-  channelId = args[0].substring(2, args[0].length - 1);
-  // Pega o channel referente ao escolhido pelo usuário.
-  let channel = message.member.guild.channels.cache.find(channel => channel.id == channelId);
-  
-  if(!channel) {
-    return message.channel.send('Canal de texto não encontrado!');
-  }
+  try {
+    let guildController = new GuildController();
+    let guildId = message.member.guild.id;
 
-  let guildId = message.member.guild.id;
-  let guildController = new GuildController();
-  await guildController.updateSystemLevel(guildId, 'level_up_channel', channel.id);
-  
-  message.channel.send('Canal alterado com sucesso!');
+    if(args[0] === 'default') {
+      await guildController.updateSystemLevel(guildId, 'level_up_channel', 0);
+      return message.channel.send('Mensagem agora será mostrada no canal que o usuário estiver!');
+    }
+
+    let channel = message.mentions.channels.first();
+    
+    if(!channel) {
+      return message.channel.send('Canal de texto não encontrado!');
+    }
+
+    await guildController.updateSystemLevel(guildId, 'level_up_channel', channel.id);
+    
+    message.channel.send('Canal alterado com sucesso!');
+  } catch(e) {
+    console.error(e);
+  }
 }
