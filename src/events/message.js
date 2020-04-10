@@ -44,8 +44,8 @@ module.exports = async (client, message) => {
   // Pega os dois primeiros argumentos, se formarem o nome de um file,
   // o comando existe. Se não existir, executa o comando de uma palavra.
   let command = null;
-  if(client.commands.get(args[0] + '_' + args[1])) {
-    command = args.splice(0, 2).join('_').toLowerCase();
+  if(client.commands.get(args[0] + ' ' + args[1])) {
+    command = args.splice(0, 2).join(' ').toLowerCase();
   } else {
     command = args.shift().toLowerCase();
   }
