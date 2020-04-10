@@ -38,13 +38,13 @@ module.exports = class User {
     });
   }
 
-   // Pegar rank de users do server por ordem de level.
-   getUsersRank(guildId, limit = 0) {
+  // Pegar rank de users do server por ordem de level.
+  getUsersRank(guildId, limit = 0) {
     return new Promise((resolve, reject) => {
       let query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp DESC;`;
 
       if (limit) {
-        query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp LIMIT ${limit} DESC;`;
+        query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp DESC LIMIT ${limit};`;
       } 
 
       client.query(query, (err, results) => {
@@ -121,5 +121,4 @@ module.exports = class User {
       });
     });
   }
-
 }
