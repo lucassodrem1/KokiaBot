@@ -16,6 +16,8 @@ exports.run = async (client, message, args) => {
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
 
+      userData.avatar = message.member.user.avatarURL();
+      userData.displayName = message.member.displayName;
       userData.ranking = rankData.findIndex(b => b.user_id == message.author.id) + 1;
       embedRank(Discord, message, userData);
     } catch(err) {
@@ -27,6 +29,8 @@ exports.run = async (client, message, args) => {
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
 
+      userData.avatar = member.user.avatarURL();
+      userData.displayName = member.displayName;
       userData.ranking = rankData.findIndex(b => b.user_id == member.user.id) + 1;
       embedRank(Discord, message, userData);
     } catch(err) {
