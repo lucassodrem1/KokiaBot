@@ -1,18 +1,27 @@
 const Discord = require("discord.js");
 const UserController = require('../controllers/User');
+const GuildController = require('../controllers/Guild');
 
-module.exports = (client, member) => {
-  // Salvar id do membro que entrar que não seja bot e 
-  // já não esteja salvo no db.
+module.exports = async (client, member) => {
   let userController = new UserController();
   
   if (!member.user.bot) {
-    userController.checkIfUserExists(member.guild.id, member.id)
-    .then(result => {
-      if(!result) {
-        userController.addUser(member.guild.id, member.id);
+    try {
+      let result = await userController.checkIfUserExists(member.guild.id, member.id)
+      
+      if(result) {
+        userController.deleteUser(member.guild.id, member.id);
       }
-    })
-    .catch(err => console.error(err));
+
+      // Dar join role, caso houver.
+      let guildController = new GuildController();
+      let guildData = await guildController.getGuild(member.guild.id);
+      if(guildData.join_role !== '0') {
+        let role = member.guild.roles.cache.find(role => role.id === guildData.join_role);
+        member.roles.add(role);
+      }
+    } catch(e) {
+      console.error(e);
+    }
   }
 }

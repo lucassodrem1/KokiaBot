@@ -4,11 +4,13 @@ const { variableReplace } = require('../utils/variableReplace');
 
 module.exports = class User {
   addUser(guildId, userId) {
-    client.query(`INSERT INTO guild_users (guild_id, user_id) VALUES (${guildId}, ${userId});`,
-      err => {
-        if (err) throw err;
-      }
-    );
+    return new Promise((resolve, reject) => {
+      client.query(`INSERT INTO guild_users (guild_id, user_id) VALUES (${guildId}, ${userId});`, err => {
+        if (err) return reject(err);
+
+        return resolve();
+      });
+    });
   }
 
   deleteUser(guildId, userId) {
@@ -39,10 +41,10 @@ module.exports = class User {
    // Pegar rank de users do server por ordem de level.
    getUsersRank(guildId, limit = 0) {
     return new Promise((resolve, reject) => {
-      let query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp;`;
+      let query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp DESC;`;
 
       if (limit) {
-        query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp LIMIT ${limit};`;
+        query = `SELECT * FROM guild_users WHERE guild_id = ${guildId} ORDER BY total_xp LIMIT ${limit} DESC;`;
       } 
 
       client.query(query, (err, results) => {
