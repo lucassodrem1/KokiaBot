@@ -14,7 +14,7 @@ exports.run = async (client, message, args) => {
   }
   
   let guildController = new GuildController();
-  await guildController.updateInfo(message.guild.id, 'joinrole', role.id);
+  await guildController.updateInfo(message.guild.id, 'join_role', role.id);
 
   message.channel.send('Auto role quando usuário entrar definida!');
 }
