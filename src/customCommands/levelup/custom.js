@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const GuildController = require('../controllers/Guild');
+const GuildController = require('../../controllers/Guild');
 
 exports.run = async (client, message, args) => {
   // Verificar se usuário é um administrador.
@@ -7,6 +7,10 @@ exports.run = async (client, message, args) => {
     return message.channel.send('Você precisa ser um administrador para alterar a mensagem!');
   }
   
+  if(!args[0]) {
+    return message.channel.send('Escolha uma mensagem!');
+  }
+
   text = args.join(' ');
   let guildId = message.member.guild.id;
   let guildController = new GuildController();

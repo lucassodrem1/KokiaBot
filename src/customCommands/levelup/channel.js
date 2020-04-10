@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const GuildController = require('../controllers/Guild');
+const GuildController = require('../../controllers/Guild');
 
 exports.run = async (client, message, args) => {
   // Verificar se usuário é um administrador.

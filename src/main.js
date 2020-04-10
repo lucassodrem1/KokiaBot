@@ -28,4 +28,20 @@ fs.readdir("./src/commands/", (err, files) => {
   });
 });
 
+// Lendo comandos de todas as pastas dentro de customCommands.
+fs.readdir("./src/customCommands/", (err, dirs) => {
+  if (err) return console.error(err);
+  dirs.forEach(dir => {
+    fs.readdir(`./src/customCommands/${dir}/`, (err, files) => {
+      files.forEach(file => {
+        if (!file.endsWith(".js")) return;
+        let props = require(`./customCommands/${dir}/${file}`);
+        let commandName = dir + ' ' + file.split(".")[0];
+        console.log(`Attempting to load custom command ${commandName}`);
+        client.commands.set(commandName, props);
+      });
+    });
+  });
+});
+
 client.login(config.token);
