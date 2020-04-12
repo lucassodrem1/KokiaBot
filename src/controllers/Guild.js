@@ -23,8 +23,7 @@ module.exports = class Guild {
     client.query(`DELETE FROM guilds WHERE guild_id = ${guildId}`,
     err => {
       if (err) throw err;
-    }
-    );
+    });
   }
 
   // Trocar um campo da tabela guilds.
@@ -61,6 +60,55 @@ module.exports = class Guild {
   updateSystemLevel(guildId, updateField, value) {
     return new Promise((resolve, reject) => {
       client.query(`UPDATE guild_level_system SET ${updateField} = '${value}' WHERE guild_id = ${guildId};`, err => {
+        if(err) return reject(err);
+
+        return resolve();
+      });
+    });
+  }
+
+  // Adicionar levels customizados do servidor.
+  addCustomLevels(guildId, level, role, lvlMessage) {
+    return new Promise((resolve, reject) => {
+      client.query(`INSERT INTO guild_custom_levels (guild_id, level, role, message) VALUES 
+      (${guildId}, ${level}, ${role}, '${lvlMessage}') ON CONFLICT (guild_id, level) DO UPDATE
+      SET role = ${role}, message = '${lvlMessage}';`, 
+      err => {
+        if(err) return reject(err);
+
+        return resolve();
+      });
+    });
+  }
+
+  // Pegar levels customizados do servidor.
+  getCustomLevels(guildId) {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT * FROM guild_custom_levels WHERE guild_id = ${guildId};`, (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rows);
+      });
+    });
+  }
+
+  // Deletar level customizado do servidor por level passado.
+  deleteCustomLevelsByLevel(guildId, level) {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM guild_custom_levels WHERE guild_id = ${guildId} AND level = ${level};`, (err, results) => {
+        if(err) return reject(err);
+
+        if(!results.rowCount) return resolve(false);
+
+        return resolve(true);
+      });
+    });
+  }
+
+  // Deletar todos os levels customizados do servidor.
+  deleteCustomLevels(guildId) {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM guild_custom_levels WHERE guild_id = ${guildId};`, err => {
         if(err) return reject(err);
 
         return resolve();
