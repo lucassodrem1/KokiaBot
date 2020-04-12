@@ -95,14 +95,42 @@ module.exports = class User {
           // Pegar informações da guild level system.
           let guildData = await guildController.getGuildLevelSystem(message.guild.id);
 
+          let levelUpMessage = variableReplace(userData, message, guildData.level_up_message);
+
+          let guildCustomLevels = await guildController.getCustomLevels(message.guild.id);
+          // Verificar se há um level custom para o level alcançado.
+          let customLevel = guildCustomLevels.find(customLevel => customLevel.level === userData.level + 1);
+          if(customLevel) {
+            let customLevelRole = message.member.guild.roles.cache.find(role => role.id === customLevel.role);
+            
+            // Trocando mensagem para a do level custom se ela existir.
+            if(customLevel.message) {
+              levelUpMessage = variableReplace(userData, message, customLevel.message, customLevelRole.name);
+            }
+
+            // Dando cargo do level custom.
+            message.member.roles.add(customLevelRole);
+
+            let guildInfo = await guildController.getGuild(message.guild.id);
+            // Verificar se é para dar replace nos cargos dados pelo custom levels.
+            if(guildInfo.custom_role_replace) {
+              guildCustomLevels.forEach(actualCustomLevel => {
+                if(actualCustomLevel.level < customLevel.level) {
+                  let role = message.member.guild.roles.cache.find(role => role.id === actualCustomLevel.role);
+                  message.member.roles.remove(role);
+                }
+              });
+            }
+          }
+
           // Verificar canal para mandar mensagem de level up.
           if(guildData.level_up_channel == 0) {
-            message.channel.send(variableReplace(userData, message, guildData.level_up_message));
+            message.channel.send(levelUpMessage);
             return;
           }
 
           let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
-          channelMessage.send(variableReplace(userData, message, guildData.level_up_message));
+          channelMessage.send(levelUpMessage);
         }
       } catch (err) {
         console.error(err);
