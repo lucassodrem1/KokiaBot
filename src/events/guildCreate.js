@@ -18,4 +18,5 @@ module.exports = (client, guild) => {
   let guildController = new GuildController();
   guildController.addGuild(guild.id, client.config.prefix);
   guildController.addGuildLevelSystem(guild.id, client.config);
+  guildController.addGuildWelcome(guild.id, client.config);
 }
