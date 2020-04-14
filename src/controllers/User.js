@@ -124,13 +124,12 @@ module.exports = class User {
           }
 
           // Verificar canal para mandar mensagem de level up.
-          if(guildData.level_up_channel == 0) {
-            message.channel.send(levelUpMessage);
-            return;
+          if(guildData.level_up_channel != 0) {
+            let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
+            if(channelMessage) return channelMessage.send(levelUpMessage);
           }
-
-          let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
-          channelMessage.send(levelUpMessage);
+          
+          message.channel.send(levelUpMessage);
         }
       } catch (err) {
         console.error(err);

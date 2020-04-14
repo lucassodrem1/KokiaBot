@@ -33,7 +33,10 @@ module.exports = async (client, member) => {
       // Identificar canal ao qual será exibidor a mensagem.
       let channel = client.channels.cache.find(channel => channel.type === 'text');
       if(guildWelcomeData.channel !== '0') {
-        channel = client.channels.cache.find(channel => channel.id == guildWelcomeData.channel);
+        let customChannel = client.channels.cache.find(channel => channel.id == guildWelcomeData.channel);
+        if(customChannel) {
+          channel = customChannel;
+        }
       }
       
       // Enviar mensagem de boas-vindas.
