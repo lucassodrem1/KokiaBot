@@ -1,6 +1,9 @@
 {
-  "prefix": ";",
-  "token": "Njk1MjY3ODc3ODkyMjU5ODkw.XoXzCw.-g8Kun4djnBIjFjY4jgtUtTMIuc",
+  "prefix": "k!",
+  "system_level": {
+    "level_up_message": "Parabéns, {user.ping}! Você alcançou o level {level}!",
+    "level_up_channel": 0
+  },
   "activities": {
     "0": {
       "type": "PLAYING",
@@ -8,7 +11,13 @@
     },
     "1": {
       "type": "WATCHING",
-      "quote": "abdominal do sotto" 
+      "quote": "animes da semana" 
     }
+  },
+  "welcome": {
+    "image": "https://i.imgur.com/5nVcA7d.gif",
+    "title": "Bem-vindo(a) ao {server.name}!",
+    "description": "Seja bem-vindo(a), {user.ping}! Divirta-se!",
+    "footer": ""
   }
 }

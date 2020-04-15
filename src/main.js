@@ -44,4 +44,4 @@ fs.readdir("./src/customCommands/", (err, dirs) => {
   });
 });
 
-client.login(config.token);
+client.login(process.env.token);
