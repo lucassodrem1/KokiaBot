@@ -10,10 +10,18 @@ exports.run = async (client, message, args) => {
   if(!args[0]) {
     return message.channel.send('Escolha uma mensagem!');
   }
+  
+  let guildController = new GuildController();
+  let guildId = message.member.guild.id;
+  
+  if(args[0] === 'default') {
+    let text = client.config.system_level.level_up_message;
+    await guildController.updateSystemLevel(guildId, 'level_up_message', text);
+
+    return message.channel.send('Mensagem ao subir de level foi alterada com sucesso!');
+  }
 
   text = args.join(' ');
-  let guildId = message.member.guild.id;
-  let guildController = new GuildController();
   await guildController.updateSystemLevel(guildId, 'level_up_message', text);
   
   message.channel.send('Mensagem ao subir de level foi alterada com sucesso!');
