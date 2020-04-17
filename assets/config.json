@@ -19,5 +19,26 @@
     "title": "Bem-vindo(a) ao {server.name}!",
     "description": "Seja bem-vindo(a), {user.ping}! Divirta-se!",
     "footer": ""
+  },
+  "audios": {
+    "muca": {
+      "1": {
+        "link": "https://cdn.discordapp.com/attachments/693031878290309181/693606414035189840/egril.ogg"
+      },
+      "2": {
+        "link": "https://cdn.discordapp.com/attachments/693031878290309181/693654179339829349/cade_as_mulheres.ogg"
+      },
+      "3": {
+        "link": "https://cdn.discordapp.com/attachments/693031878290309181/693654199522557972/partiusexo.ogg"
+      },
+      "4": {
+        "link": "https://cdn.discordapp.com/attachments/693031878290309181/693664940870860820/que_merda_mlk.ogg"
+      }
+    },
+    "surskity": {
+      "1": {
+        "link": "https://cdn.discordapp.com/attachments/696308312513314836/700781165006815413/CLIMA_TENSO_ENTRE_OS_BROTHER_duo_4LaN.mp3"
+      }
+    }
   }
 }
