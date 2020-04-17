@@ -8,9 +8,6 @@ module.exports = async (client, message) => {
 
   let guildId = message.member.guild.id;
   let userId = message.author.id;
-
-  // Verificar se está em tempo de cooldown.
-  if(talkedRecently.has(message.author.id)) return;
   
   let userController = new UserController();
   try {
@@ -22,16 +19,19 @@ module.exports = async (client, message) => {
   } catch(e) {
     console.error(e);
   }
-
-  // Dar xp ao usuário ao mandar mensagem.
-  userController.earnXp(userId, message);
-
-  // Adicionar user no tempo de cooldown.
-  talkedRecently.add(message.author.id);
-  setTimeout(() => {
-    talkedRecently.delete(message.author.id);
-  }, 60000);
-
+  
+  // Verificar se está em tempo de cooldown.
+  if(!talkedRecently.has(message.author.id)) {
+    // Dar xp ao usuário ao mandar mensagem.
+    userController.earnXp(userId, message);
+    
+    // Adicionar user no tempo de cooldown.
+    talkedRecently.add(message.author.id);
+    
+    setTimeout(() => {
+      talkedRecently.delete(message.author.id);
+    }, 60000);
+  }
 
   // Executar comandos normais.
   let guildController = new GuildController();
