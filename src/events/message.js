@@ -30,7 +30,7 @@ module.exports = async (client, message) => {
   talkedRecently.add(message.author.id);
   setTimeout(() => {
     talkedRecently.delete(message.author.id);
-  }, 500);
+  }, 60000);
 
 
   // Executar comandos normais.
