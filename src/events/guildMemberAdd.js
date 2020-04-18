@@ -31,9 +31,9 @@ module.exports = async (client, member) => {
     // Mostrar mensagem de boas-vindas caso estiver ativada no servidor.
     if(guildWelcomeData.status) {
       // Identificar canal ao qual será exibidor a mensagem.
-      let channel = client.channels.cache.find(channel => channel.type === 'text');
+      let channel = member.guild.channels.cache.find(channel => channel.type === 'text');
       if(guildWelcomeData.channel !== '0') {
-        let customChannel = client.channels.cache.find(channel => channel.id == guildWelcomeData.channel);
+        let customChannel = member.guild.channels.cache.find(channel => channel.id == guildWelcomeData.channel);
         if(customChannel) {
           channel = customChannel;
         }
