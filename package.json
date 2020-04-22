@@ -16,9 +16,12 @@
     "discord.js": "^12.1.1",
     "enmap": "^5.2.4",
     "ffmpeg": "0.0.4",
-    "nodemon": "^2.0.2",
+    "jikan-node": "^1.2.0",
     "pg": "^7.4.3",
     "ytdl-core": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   },
   "engines": {
     "node": "12.16.1",
