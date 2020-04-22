@@ -3,6 +3,11 @@ const GuildController = require('../controllers/Guild');
 
 exports.run = async (client, message, args) => {
   try {
+    // Verificar se usuário é um administrador.
+    if(!message.member.hasPermission('ADMINISTRATOR')) {
+      return message.channel.send('Você precisa ser um administrador para alterar o prefixo!');
+    }
+
     let guildController = new GuildController();
     let guildData = await guildController.getGuild(message.guild.id);
 
