@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 
 exports.run = (client, message, args) => {
   // Verificar se usuário é um administrador.
-  if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar este comando!');
+  if(!message.member.hasPermission('MANAGE_MESSAGES')) {
+    return message.channel.send('Você precisa ter permissão de **gerenciar mensagens** para usar este comando!');
   }
   
   let amount = 11;

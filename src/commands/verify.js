@@ -4,8 +4,8 @@ const GuildController = require('../controllers/Guild');
 exports.run = async (client, message, args) => {
   try {
     // Verificar se usuário é um administrador.
-    if(!message.member.hasPermission('ADMINISTRATOR')) {
-      return message.channel.send('Você precisa ser um administrador para usar este comando!');
+    if(!message.member.hasPermission('MANAGE_ROLES')) {
+      return message.channel.send('Você precisa ter permissão de **gerenciar cargos** para usar este comando!');
     }
 
     let guildController = new GuildController();
