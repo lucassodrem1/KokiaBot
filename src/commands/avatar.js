@@ -10,6 +10,7 @@ exports.run = (client, message, args) => {
     return message.channel.send({embed: embed});
   }
 
+  // Mostrar avatar de outro user.
   let member = message.guild.member(message.mentions.users.first());
 
   let embed = new Discord.MessageEmbed()
