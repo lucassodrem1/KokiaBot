@@ -26,6 +26,11 @@ exports.run = async (client, message, args) => {
     if(!addRole) {
       return message.channel.send('A role definida na verificação não foi encontrada! Defina outra role.');
     }
+
+    // Verificar se usuário já está verificado.
+    if(member.roles.cache.has(guildData.verify_role)) {
+      return message.channel.send('Este usuário já está verificado!');
+    }
     
     // Remover auto role, caso houver.
     if(guildData.join_role !== '0') {
