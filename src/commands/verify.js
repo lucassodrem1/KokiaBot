@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
   try {
     // Verificar se usuário é um administrador.
     if(!message.member.hasPermission('ADMINISTRATOR')) {
-      return message.channel.send('Você precisa ser um administrador para alterar o prefixo!');
+      return message.channel.send('Você precisa ser um administrador para usar este comando!');
     }
 
     let guildController = new GuildController();

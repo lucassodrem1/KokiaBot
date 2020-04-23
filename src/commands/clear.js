@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 exports.run = (client, message, args) => {
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para alterar o prefixo!');
+    return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
   
   let amount = 11;
