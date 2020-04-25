@@ -12,7 +12,7 @@ module.exports.embedLeaderboard = async function(Discord, message) {
             return [`${position}º **${username.displayName}** Level: **${data.level}** ${data.current_xp_level}/${data.nextXpLevel}`];
         });
 
-        let leadOut = leadOutp.join("\n");
+        let leadOut = leadOutp.join("\n\n");
         
         let embed = new Discord.MessageEmbed()
             .setColor(0xf33434)
