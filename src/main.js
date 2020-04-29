@@ -20,11 +20,26 @@ client.commands = new Enmap();
 fs.readdir("./src/commands/", (err, files) => {
   if (err) return console.error(err);
   files.forEach(file => {
+    // Lendo comando da pasta NSFW.
+    if(file == 'nsfw') {
+      fs.readdir(`./src/commands/${file}/`, (err, nsfwFiles) => {
+        if (err) return console.error(err);
+        nsfwFiles.forEach(nsfwFile => {
+          if (!nsfwFile.endsWith(".js")) return;
+          let props = require(`./commands/${file}/${nsfwFile}`);
+          let commandName = nsfwFile.split(".")[0];
+          client.commands.set(commandName, props);
+          console.log(`Attempting to load command ${commandName}`);
+        });
+
+      });
+    }
+
     if (!file.endsWith(".js")) return;
     let props = require(`./commands/${file}`);
     let commandName = file.split(".")[0];
-    console.log(`Attempting to load command ${commandName}`);
     client.commands.set(commandName, props);
+    console.log(`Attempting to load command ${commandName}`);
   });
 });
 
@@ -37,8 +52,8 @@ fs.readdir("./src/customCommands/", (err, dirs) => {
         if (!file.endsWith(".js")) return;
         let props = require(`./customCommands/${dir}/${file}`);
         let commandName = dir + ' ' + file.split(".")[0];
-        console.log(`Attempting to load custom command ${commandName}`);
         client.commands.set(commandName, props);
+        console.log(`Attempting to load custom command ${commandName}`);
       });
     });
   });
