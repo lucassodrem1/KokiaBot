@@ -16,7 +16,6 @@ exports.run = (client, message, args) => {
   let embed = new Discord.MessageEmbed()
   .setColor(0xf33434)
   .setDescription(text)
-  // .attachFiles([obj.results[0].url])
   .setImage(client.config.nsfw.fuck[randomImage]);
 
   message.channel.send({embed: embed});
