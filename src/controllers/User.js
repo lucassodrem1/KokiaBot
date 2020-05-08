@@ -148,4 +148,49 @@ module.exports = class User {
       });
     });
   }
+
+  // Resetar level de todos os usuários.
+  resetAllUsers(guildId) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_users SET current_xp_level = 0, level = 0, total_xp = 0
+      WHERE guild_id = ${guildId};`, err => {
+        if(err) return reject(err);
+  
+        return resolve();
+      });
+    });
+  }
+
+  // Resetar level de um usuário especifico.
+  resetUserById(guildId, userId) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_users SET current_xp_level = 0, level = 0, total_xp = 0
+      WHERE guild_id = ${guildId} AND user_id = ${userId};`, (err, results) => {
+        if(err) return reject(err);
+
+        if(!results.rowCount) return reject(err);
+  
+        return resolve();
+      });
+    });
+  }
+
+  setUserLevelById(guildId, userId, level) {
+    // Calculado total xp.
+    let totalXP = 0;
+    for(let i = 0; i < level; i++) {
+      totalXP += 5 * (Math.pow(i, 2)) + 50 * i + 100;
+    }
+
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_users SET current_xp_level = 0, level = ${level}, total_xp = ${totalXP}
+      WHERE guild_id = ${guildId} AND user_id = ${userId};`, (err, results) => {
+        if(err) return reject(err);
+
+        if(!results.rowCount) return reject(err);
+  
+        return resolve();
+      });
+    });
+  }
 }
