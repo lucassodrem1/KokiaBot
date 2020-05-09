@@ -29,6 +29,8 @@ module.exports.embedGuildInfo = async function(Discord, message) {
       elegantMail = message.guild.channels.cache.find(channel => channel.id === guildData.elegant_mail_channel).name;
     }
 
+    let welcomeFooter = guildWelcomeData.footer ? guildWelcomeData.footer : ' ';
+
     let embed = new Discord.MessageEmbed()
       .setTitle('Configurações no servidor.')
       .addField('**Prefixo**', `\`\`\`${guildData.prefix}\`\`\``, true)
@@ -43,7 +45,7 @@ module.exports.embedGuildInfo = async function(Discord, message) {
       .addField('**Mensagem ao subir de level**', `\`\`\`${guildLevelSystem.level_up_message}\`\`\``, false)
       .addField('**Título da mensagem de boas-vindas**', `\`\`\`${guildWelcomeData.title}\`\`\``, false)
       .addField('**Descrição da mensagem de boas-vindas**', `\`\`\`${guildWelcomeData.description}\`\`\``, false)
-      .addField('**Footer da mensagem de boas-vindas**', `\`\`\`${guildWelcomeData.footer}\`\`\``, false);
+      .addField('**Footer da mensagem de boas-vindas**', `\`\`\`${welcomeFooter}\`\`\``, false);
 
     message.channel.send({embed: embed});
   } catch(e) {
