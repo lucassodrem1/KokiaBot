@@ -16,6 +16,7 @@ module.exports.embedGuildInfo = async function(Discord, message) {
     if(guildLevelSystem.level_up_channel !== '0') {
       levelUpChannel = message.guild.channels.cache.find(channel => channel.id === guildLevelSystem.level_up_channel).name;
     }
+    let rankStatus = guildLevelSystem.status != 0 ? 'ON' : 'OFF';
 
     let guildWelcomeData = await guildController.getGuildWelcome(message.guild.id);
     let welcomeStatus = guildWelcomeData.status ? 'ON' : 'OFF';    
@@ -34,15 +35,16 @@ module.exports.embedGuildInfo = async function(Discord, message) {
     let embed = new Discord.MessageEmbed()
       .setTitle('Configurações no servidor.')
       .addField('**Prefixo**', `\`\`\`${guildData.prefix}\`\`\``, true)
-      .addField('**Auto Role**', `\`\`\`${joinRole}\`\`\``, true)
-      .addField('**Verify Role**', `\`\`\`${verifyRole}\`\`\``, true)
+      .addField('**Sistema de level**', `\`\`\`${rankStatus}\`\`\``, true)
       .addField('**Role Replace**', `\`\`\`${roleReplace}\`\`\``, true)
       .addField('**Canal de aviso de level**', `\`\`\`${levelUpChannel}\`\`\``, true)
+      .addField('**Auto Role**', `\`\`\`${joinRole}\`\`\``, true)
+      .addField('**Verify Role**', `\`\`\`${verifyRole}\`\`\``, true)
       .addField('**Non-XP Role**', `\`\`\`${muteRole}\`\`\``, true)
+      .addField('**Canal correio elegante**', `\`\`\`${elegantMail}\`\`\``, true)      
       .addField('**Boas-vindas**', `\`\`\`${welcomeStatus}\`\`\``, true)
       .addField('**Canal de boas-vindas**', `\`\`\`${welcomeChannel}\`\`\``, true)
-      .addField('**Correio elegante**', `\`\`\`${elegantMail}\`\`\``, true)      
-      .addField('**Mensagem ao subir de level**', `\`\`\`${guildLevelSystem.level_up_message}\`\`\``, false)
+      .addField('**Mensagem ao subir de level**', `\`\`\`${guildLevelSystem.level_up_message}\`\`\``, true)
       .addField('**Título da mensagem de boas-vindas**', `\`\`\`${guildWelcomeData.title}\`\`\``, false)
       .addField('**Descrição da mensagem de boas-vindas**', `\`\`\`${guildWelcomeData.description}\`\`\``, false)
       .addField('**Footer da mensagem de boas-vindas**', `\`\`\`${welcomeFooter}\`\`\``, false);
