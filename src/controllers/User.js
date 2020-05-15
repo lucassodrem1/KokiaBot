@@ -27,7 +27,7 @@ module.exports = class User {
       client.query(`SELECT * FROM guild_users WHERE guild_id = ${message.guild.id} AND user_id = ${userId}`, (err, results) => {
         if(err) return reject(err);
 
-        if(!results.rows[0]) return message.channel.send('Usuário não encontrado!'); 
+        if(!results.rows[0]) return message.channel.send('Usuário não encontrado. Comece a interagir para ganhar XP!'); 
 
         let userData = results.rows[0];
         
