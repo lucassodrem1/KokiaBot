@@ -7,10 +7,41 @@ module.exports = async (client, message) => {
   if (message.author.bot) return;
 
   let guildId = message.member.guild.id;
-  let userId = message.author.id;
-  
   let guildController = new GuildController();
   let guildData = await guildController.getGuild(guildId);
+
+  // Verificar se a guild está no banco de dados.
+  // Se não estiver, criar guilda no banco de dados.
+  if(!guildData) {
+    guildController.addGuild(guildId, client.config.prefix);
+    guildController.addGuildLevelSystem(guildId, client.config);
+    guildController.addGuildWelcome(guildId, client.config);
+
+    guildData = await guildController.getGuild(guildId);
+  }
+
+  // Executar comandos normais.
+	if (message.content.indexOf(guildData.prefix) !== 0) return;
+
+  const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
+  
+  // Verificar se o comando possui uma palavra ou duas.
+  // Pega os dois primeiros argumentos, se formarem o nome de um file,
+  // o comando existe. Se não existir, executa o comando de uma palavra.
+  let command = null;
+  if(client.commands.get(args[0] + ' ' + args[1])) {
+    command = args.splice(0, 2).join(' ').toLowerCase();
+  } else {
+    command = args.shift().toLowerCase();
+  }
+  
+	const cmd = client.commands.get(command);
+
+	if(cmd) return cmd.run(client, message, args);
+  
+  // Sistema de level.
+  let userId = message.author.id;
+  
   let guildLevelSystem = await guildController.getGuildLevelSystem(guildId);
 
   // Verificar se sistema de level está ativado.
@@ -43,25 +74,4 @@ module.exports = async (client, message) => {
       }
     }
   }
-
-  // Executar comandos normais.
-	if (message.content.indexOf(guildData.prefix) !== 0) return;
-
-  const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
-  
-  // Verificar se o comando possui uma palavra ou duas.
-  // Pega os dois primeiros argumentos, se formarem o nome de um file,
-  // o comando existe. Se não existir, executa o comando de uma palavra.
-  let command = null;
-  if(client.commands.get(args[0] + ' ' + args[1])) {
-    command = args.splice(0, 2).join(' ').toLowerCase();
-  } else {
-    command = args.shift().toLowerCase();
-  }
-  
-	const cmd = client.commands.get(command);
-
-	if (!cmd) return;
-
-	cmd.run(client, message, args);
 }
