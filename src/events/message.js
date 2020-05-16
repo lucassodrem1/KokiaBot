@@ -21,23 +21,23 @@ module.exports = async (client, message) => {
   }
 
   // Executar comandos normais.
-	if (message.content.indexOf(guildData.prefix) !== 0) return;
+	if (message.content.indexOf(guildData.prefix) === 0) {
+    const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
+    
+    // Verificar se o comando possui uma palavra ou duas.
+    // Pega os dois primeiros argumentos, se formarem o nome de um file,
+    // o comando existe. Se não existir, executa o comando de uma palavra.
+    let command = null;
+    if(client.commands.get(args[0] + ' ' + args[1])) {
+      command = args.splice(0, 2).join(' ').toLowerCase();
+    } else {
+      command = args.shift().toLowerCase();
+    }
+    
+    const cmd = client.commands.get(command);
 
-  const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
-  
-  // Verificar se o comando possui uma palavra ou duas.
-  // Pega os dois primeiros argumentos, se formarem o nome de um file,
-  // o comando existe. Se não existir, executa o comando de uma palavra.
-  let command = null;
-  if(client.commands.get(args[0] + ' ' + args[1])) {
-    command = args.splice(0, 2).join(' ').toLowerCase();
-  } else {
-    command = args.shift().toLowerCase();
+    if(cmd) return cmd.run(client, message, args);
   }
-  
-	const cmd = client.commands.get(command);
-
-	if(cmd) return cmd.run(client, message, args);
   
   // Sistema de level.
   let userId = message.author.id;
