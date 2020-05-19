@@ -11,6 +11,8 @@ exports.run = async (client, message, args) => {
 
   let member = message.mentions.members.first();
 
+  if(member.user.bot) return message.channel.send('Usuário não pode ser um bot!');
+
   if(!member) return message.channel.send('Especifique um usuário!');
 
   let newLevel = args[1];
@@ -19,7 +21,7 @@ exports.run = async (client, message, args) => {
   try {
     userController.setUserLevelById(message.guild.id, member.id, args[1]);
     
-    return message.channel.send(`Level de **${member.nickname}** foi setado para **${args[1]}**!`);
+    return message.channel.send(`Level de **${member.displayName}** foi setado para **${args[1]}**!`);
   } catch(e) {
     message.channel.send('Usuário é um bot ou não foi encontrado!');
   }
