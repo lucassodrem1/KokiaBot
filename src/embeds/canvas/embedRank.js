@@ -36,7 +36,7 @@ module.exports.embedCanvasRank = async function(Discord, message, user) {
     ctx.beginPath();
     ctx.fillStyle = '#47e36d';
     let xpToUp = user.current_xp_level / user.nextXpLevel;
-    ctx.arc(69, 68, 50.2, 0, (0.5) * (2 * Math.PI));
+    ctx.arc(69, 68, 50.2, 0, (xpToUp) * (2 * Math.PI));
     ctx.fill();
 
     // Desenhar avatar
