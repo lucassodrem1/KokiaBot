@@ -8,10 +8,10 @@ module.exports.embedRank = function(Discord, message, user) {
     }
     
     var embed = new Discord.MessageEmbed()
-        .setTitle(message.member.displayName)
+        .setTitle(user.displayName)
         .setDescription(`**Level:** ${user.level} \n**Exp:** ${user.current_xp_level} / ${user.nextXpLevel}\n**Rank:** ${user.ranking}º`)
         .setColor(0xf33434)
-        .setThumbnail(message.author.displayAvatarURL());
+        .setThumbnail(user.avatar);
 
     message.channel.send({embed: embed});
 }

@@ -15,7 +15,7 @@ module.exports.embedCanvasRank = async function(Discord, message, user) {
     let backgroundPromise = loadImage(backgroundLink).catch(e => { throw Error('Erro ao carregar background:', e); });
     
     // Convertendo avatar para .png
-    let avatarLink = message.author.displayAvatarURL().split('.');
+    let avatarLink = user.avatar.split('.');
     avatarLink[avatarLink.length - 1] = 'png';
     avatarLink = avatarLink.join('.');
 
@@ -56,10 +56,10 @@ module.exports.embedCanvasRank = async function(Discord, message, user) {
 
     // // Desenhar textos
     ctx.beginPath();
-    let fontSize = 30 - (Math.floor(message.member.displayName.length / 10) * 3.6);
+    let fontSize = 30 - (Math.floor(user.displayName.length / 10) * 3.6);
     ctx.font = fontSize+'px Lato-Bold';
     ctx.fillStyle = '#e95378';
-    ctx.fillText(message.member.displayName, 122, 77);
+    ctx.fillText(user.displayName, 122, 77);
     
     ctx.beginPath();
     ctx.font = '23px Lato';
@@ -119,13 +119,11 @@ module.exports.embedCanvasRank = async function(Discord, message, user) {
         });
       })
       .catch(err => {
-        //TODO Ao dar erro, exibir embed padrão de rank.
         embedRank(Discord, message, user);
         console.error('Erro ao mandar mensagem: ', err);
       });
     });
   } catch(e) {
-    //TODO Ao dar erro, exibir embed padrão de rank.
     embedRank(Discord, message, user);
     console.error(e);
   }
