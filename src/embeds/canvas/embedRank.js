@@ -100,29 +100,11 @@ module.exports.embedCanvasRank = async function(Discord, message, user) {
     // ctx.closePath();
     // ctx.fill();
 
-    // Início da montagem do arquivo.
+    // Buffer da imagem.
     let buffer = canvas.toBuffer('image/png');
     
-    // Criando arquivo.
-    fs.writeFile(`./assets/temp/rank${message.author.id}.png`, buffer, err => {
-      if(err) throw err;
-      
-      // Mandando arquivo.
-      message.channel.send({files: [`./assets/temp/rank${message.author.id}.png`]})
-      .then(() => {
-        // Deletando arquivo.
-        fs.unlink(`./assets/temp/rank${message.author.id}.png`, err => {
-          if(err) {
-            console.error('Erro ao apagar arquivo: ', err);
-            embedRank(Discord, message, user);
-          };
-        });
-      })
-      .catch(err => {
-        embedRank(Discord, message, user);
-        console.error('Erro ao mandar mensagem: ', err);
-      });
-    });
+    // Mandando arquivo.
+    message.channel.send({files: [buffer]})
   } catch(e) {
     embedRank(Discord, message, user);
     console.error(e);
