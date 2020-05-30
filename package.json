@@ -14,10 +14,12 @@
   "dependencies": {
     "@discordjs/opus": "^0.1.0",
     "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.3",
     "discord.js": "^12.1.1",
     "enmap": "^5.2.4",
     "ffmpeg": "0.0.4",
     "jikan-node": "^1.2.0",
+    "node-fetch": "^2.6.0",
     "pg": "^7.4.3",
     "ytdl-core": "^2.1.0"
   },
