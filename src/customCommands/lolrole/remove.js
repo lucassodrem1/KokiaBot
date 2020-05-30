@@ -10,15 +10,28 @@ exports.run = async (client, message, args) => {
   let points = args[0];
   
   if(!points) {
-    return message.channel.send('Você precisa definir o mínimo de maestria necessário!');
+    return message.channel.send('Você precisa escolher algo para deletar!');
+  }
+
+  let guildLolController = new GuildLolController(message.guild.id);
+  if(points == 'all') {
+    try {
+      await guildLolController.deleteMaestryRole(); 
+      return message.channel.send(`Todas as roles dadas por maestria foram removidas!`);
+    } catch(e) {
+      console.log(e);
+    }
   }
   
   try{
-    let guildLolController = new GuildLolController(message.guild.id);
-    await guildLolController.removeMaestryRole(points); 
+    let checkDelete = await guildLolController.deleteMaestryRoleByPoints(points); 
+
+    if(!checkDelete) {
+      return message.channel.send(`Não existe uma role ganha com essa quantidade de pontos de maestria!`);
+    }
 
     message.channel.send(`Role dada com **${points}** de maestria foi removida!`);
   } catch(e) {
-    console.error(e);
+    console.log(e);
   }
 }

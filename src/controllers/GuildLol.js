@@ -34,13 +34,24 @@ module.exports = class GuildLol {
     });
   }
 
-  removeMaestryRole(points) {
+  deleteMaestryRoleByPoints(points) {
     return new Promise((resolve, reject) => {
       client.query(`DELETE FROM lol_maestry_roles WHERE points = ${points} AND guild_id = ${this.guildId};`, 
-      err => {
+      (err, results) => {
         if(err) return reject(err);
         
-        return resolve();
+        return resolve(results.rowCount);
+      });
+    });
+  }
+
+  deleteMaestryRole() {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM lol_maestry_roles WHERE guild_id = ${this.guildId};`, 
+      (err, results) => {
+        if(err) return reject(err);
+        
+        return resolve(results.rowCount);
       });
     });
   }
