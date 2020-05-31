@@ -18,6 +18,8 @@ exports.run = async (client, message, args) => {
 
     await guildController.updateInfo(message.guild.id, 'lol_champion_role', champion); 
 
+    if(champion == 'off') return message.channel.send(`Roles dada por maestrias foram desativadas!`);
+
     message.channel.send(`Membros precisarão ter maestria com **${champion}** para ganhar role!`);
   } catch(e) {
     console.error(e);
