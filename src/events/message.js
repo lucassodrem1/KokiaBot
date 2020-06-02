@@ -1,12 +1,36 @@
 const Discord = require("discord.js");
 const UserController = require('../controllers/User');
 const GuildController = require('../controllers/Guild');
+const GuildFilterController = require('../controllers/GuildFilter');
 const { talkedRecently } = require('../main');
 
 module.exports = async (client, message) => {
   if (message.author.bot) return;
-
   let guildId = message.member.guild.id;
+
+  // Ignorar filtro caso a user seja adm.
+  if(message.member.hasPermission('ADMINISTRATOR')) {
+    // Pegar informações de filtro do server.
+    let guildFilterController = new GuildFilterController(guildId);
+    let guildFilter = await guildFilterController.getGuildFilter();
+
+    // Filtar imagens e vídeos.
+    if(guildFilter.filter_attach) {
+      if(message.attachments.size > 0) {
+        message.delete();
+        return;
+      };
+    }
+
+    // Filtrar link.
+    if(guildFilter.filter_link) {
+      if(message.embeds.length > 0) {
+        message.delete();
+        return;
+      }
+    }
+  }
+
   let guildController = new GuildController();
   let guildData = await guildController.getGuild(guildId);
 
