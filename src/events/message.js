@@ -25,7 +25,9 @@ module.exports = async (client, message) => {
 
     // Filtrar link.
     if(guildFilter.filter_link) {
-      if(message.embeds.length > 0) {
+      // Regex para links.
+      let urlRegex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g;
+      if(message.content.match(urlRegex)) {
         message.delete();
         return;
       }
