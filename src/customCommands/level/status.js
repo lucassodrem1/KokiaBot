@@ -16,7 +16,7 @@ exports.run = async (client, message, args) => {
     option = 0;
     successMessage = 'Sistema de level desativado!';
   } else {
-    return message.channel.send('Escolha um opção entre **on** e **off**.');
+    return message.channel.send('Escolha uma opção entre **on** e **off**.');
   }
 
   let guildController = new GuildController();
