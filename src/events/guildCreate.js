@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
 const UserController = require('../controllers/User');
+const GuildFilterController = require('../controllers/GuildFilter');
 
 module.exports = (client, guild) => {
   // Verificar disponibilidade do server.
@@ -19,4 +20,7 @@ module.exports = (client, guild) => {
   guildController.addGuild(guild.id, client.config.prefix);
   guildController.addGuildLevelSystem(guild.id, client.config);
   guildController.addGuildWelcome(guild.id, client.config);
+
+  let guildFilterController = new GuildFilterController(guild.id);
+  guildFilterController.addGuildFilter();
 }
