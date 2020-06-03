@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
   }
   
   let description = args.join(' ');
-  if(description.length > 120) return message.channel.send('A descrição só pode conter até 120 caracteres!');
+  if(description.length > 140) return message.channel.send('A descrição só pode conter até 140 caracteres!');
 
   let guildController = new GuildController();
   try {
