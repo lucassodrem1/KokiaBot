@@ -8,32 +8,6 @@ module.exports = async (client, message) => {
   if (message.author.bot) return;
   let guildId = message.member.guild.id;
 
-  // SISTEMA DE FILTRO 
-  // Filtrar caso não seja adm e tenha algum filtro.
-  if(!message.member.hasPermission('ADMINISTRATOR')) {
-    // Pegar informações de filtro do server.
-    let guildFilterController = new GuildFilterController(guildId);
-    let guildFilter = await guildFilterController.getGuildFilter();
-
-    // Filtar imagens e vídeos.
-    if(guildFilter.filter_attach) {
-      if(message.attachments.size > 0) {
-        message.delete();
-        return;
-      };
-    }
-
-    // Filtrar link.
-    if(guildFilter.filter_link) {
-      // Regex para links.
-      let urlRegex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g;
-      if(message.content.match(urlRegex)) {
-        message.delete();
-        return;
-      }
-    }
-  }
-
   let guildController = new GuildController();
   let guildData = await guildController.getGuild(guildId);
 
@@ -64,6 +38,37 @@ module.exports = async (client, message) => {
     const cmd = client.commands.get(command);
 
     if(cmd) return cmd.run(client, message, args);
+  }
+
+  // SISTEMA DE FILTRO 
+  // Filtrar caso não seja adm e tenha algum filtro.
+  if(message.member.hasPermission('ADMINISTRATOR')) {
+    // Pegar informações de filtro do server.
+    let guildFilterController = new GuildFilterController(guildId);
+    let guildFilter = await guildFilterController.getGuildFilter();
+    let ignoreChannels = await guildFilterController.getIgnoreChannelsByGuildId();
+
+    // Verificar se canal não está na lista de canais ignorados pelo filtro no server.
+    let isIgnoreChannel = ignoreChannels.find(channel => channel.channel_id == message.channel.id);
+    if(!isIgnoreChannel) {
+      // Filtar imagens e vídeos.
+      if(guildFilter.filter_attach) {
+        if(message.attachments.size > 0) {
+          message.delete();
+          return;
+        };
+      }
+
+      // Filtrar link.
+      if(guildFilter.filter_link) {
+        // Regex para links.
+        let urlRegex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g;
+        if(message.content.match(urlRegex)) {
+          message.delete();
+          return;
+        }
+      }
+    }
   }
   
   // Sistema de level.

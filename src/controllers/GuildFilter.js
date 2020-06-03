@@ -37,4 +37,36 @@ module.exports = class GuildFilter {
       });
     });
   }
+
+  addIgnoreChannel(channelId) {
+    return new Promise((resolve, reject) => {
+      client.query(`INSERT INTO guild_filter_ignore_channels (guild_id, channel_id) VALUES (${this.guildId}, ${channelId});`, 
+      err => {
+        if(err) return reject(err);
+
+        return resolve();
+      });
+    });
+  }
+
+  deleteIgnoreChannel(channelId) {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM guild_filter_ignore_channels WHERE guild_id = ${this.guildId} AND channel_id = ${channelId};`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rowCount);
+      });
+    });
+  }
+
+  getIgnoreChannelsByGuildId() {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT channel_id FROM guild_filter_ignore_channels WHERE guild_id = ${this.guildId};`, (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rows);
+      }); 
+    });
+  }
 }
