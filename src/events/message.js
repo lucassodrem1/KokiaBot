@@ -42,7 +42,7 @@ module.exports = async (client, message) => {
 
   // SISTEMA DE FILTRO 
   // Filtrar caso não seja adm e tenha algum filtro.
-  if(message.member.hasPermission('ADMINISTRATOR')) {
+  if(!message.member.hasPermission('ADMINISTRATOR')) {
     // Pegar informações de filtro do server.
     let guildFilterController = new GuildFilterController(guildId);
     let guildFilter = await guildFilterController.getGuildFilter();
