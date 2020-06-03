@@ -15,8 +15,12 @@ exports.run = async (client, message, args) => {
 
   try{
     let guildFilterController = new GuildFilterController(message.guild.id);
-    await guildFilterController.addIgnoreChannel(channel.id); 
+    let ignoreChannels = await guildFilterController.getIgnoreChannelsByGuildId();
+    if(ignoreChannels.length >= 10) {
+      return message.channel.send(`Cada server só pode ter 10 canais na lista de não-filtrados!`);
+    }
 
+    await guildFilterController.addIgnoreChannel(channel.id); 
     message.channel.send(`Canal **${channel.name}** irá ignorar todos os filtros!`);
   } catch(e) {
     message.channel.send('Este canal já está na lista!');
