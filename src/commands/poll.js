@@ -15,6 +15,8 @@ exports.run = (client, message, args) => {
 
   if(duration < 60000) return message.channel.send('Tempo mínimo da votação é de 60 segundos.');
 
+  if(duration > 3600000) return message.channel.send('Tempo máximo da votação é de 3600 segundos.');
+  
   if(options.length < 2) return message.channel.send('Coloque pelo menos 2 opções.');
 
   if(options.length > 5) return message.channel.send('Você só pode colocar até 5 opções.');

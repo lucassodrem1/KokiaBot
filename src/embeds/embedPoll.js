@@ -51,7 +51,8 @@ module.exports.embedPoll = function(Discord, message, duration, question, option
             embedResult.addField('_ _', `${numberIcons[index]} Votos: ${result} (${percentResult}%)`, false);
           });
 
-          msg.channel.send({embed: embedResult})
+          message.channel.send({embed: embedResult})
+          msg.delete();
         }
       });
     });
