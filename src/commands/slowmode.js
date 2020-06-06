@@ -18,6 +18,4 @@ exports.run = (client, message, args) => {
 
     return message.channel.send(`${message.channel.name} está em slow mode (${newChannel.rateLimitPerUser} segundos).`);
   });
-
-
 }
