@@ -21,7 +21,7 @@ exports.run = async (client, message, args) => {
       userData.ranking = rankData.findIndex(b => b.user_id == message.author.id) + 1;
       embedCanvasRank(Discord, message, userData);
     } catch(err) {
-      console.error(err);
+      console.log(`Erro ao mostrar embed.\n Comando: rank.\n Server: ${message.guild.name}\n`, e);
     }
   } else {
     try {
@@ -34,7 +34,7 @@ exports.run = async (client, message, args) => {
       userData.ranking = rankData.findIndex(b => b.user_id == member.user.id) + 1;
       embedCanvasRank(Discord, message, userData);
     } catch(err) {
-      console.error(err);
+      console.log(`Erro ao mostrar embed.\n Comando: rank.\n Server: ${message.guild.name}\n`, e);
     }
   }
 }

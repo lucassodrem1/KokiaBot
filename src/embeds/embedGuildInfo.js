@@ -51,6 +51,6 @@ module.exports.embedGuildInfo = async function(Discord, message) {
 
     message.channel.send({embed: embed});
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao mostrar embed.\n Comando: info.\n Server: ${message.guild.name}\n`, e);
   }
 }

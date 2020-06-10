@@ -8,6 +8,7 @@ exports.run = (client, message, args) => {
   
   let amount = 11;
   if(args[0]) {
+    if(args[0] > 99) return message.channel.send('Você só pode apagar até 99 mensagens de uma vez.') 
     amount = args[0];
     amount++
   } 
@@ -19,11 +20,11 @@ exports.run = (client, message, args) => {
 
   message.channel.messages.fetch({limit: amount})
   .then(messages => message.channel.bulkDelete(messages))
-  .catch(console.error);
+  .catch(e => console.error(`Erro ao apagar mensagem.\n Comando: clear.\n Server: ${message.guild.name}\n`, e));
 
   message.channel.send(`${amount - 1} ${text_response}`)
   .then(message => {
       message.delete({timeout: 3000});
     })
-    .catch(console.error);
+    .catch(e => console.error(`Erro ao mandar mensagem.\n Comando: clear.\n Server: ${message.guild.name}\n`, e));
 };

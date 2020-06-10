@@ -21,6 +21,6 @@ exports.run = (client, message, args) => {
     embedLorDeck(Discord, message, deck);
   } catch(e) {
     message.channel.send('Código do deck não existe.');
-    console.log(e);
+    console.log(`Erro ao mostrar embed.\n Comando: deck.\n Server: ${message.guild.name}\n`, e);
   }
 }

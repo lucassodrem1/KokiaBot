@@ -19,6 +19,6 @@ exports.run = (client, message, args) => {
     embedLorCard(Discord, message, card);
   } catch(e) {
     message.channel.send('Algo de errado aconteceu :( Tente novamente.');
-    console.log(e);
+    console.log(`Erro ao mostrar embed.\n Comando: card.\n Server: ${message.guild.name}\n`, e);
   }
 }

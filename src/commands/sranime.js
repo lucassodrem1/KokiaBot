@@ -30,7 +30,7 @@ exports.run = async (client, message, args) => {
     
     searchingMsg.then(msg => msg.edit('Pesquisa concluída!'));
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao mostrar embed.\n Comando: sranime.\n Server: ${message.guild.name}\n`, e);
     message.channel.send('Ops, Algo deu errado! Pesquise novamente.');
   }
 }

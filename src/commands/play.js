@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
     volume: 6
   };
 
-  if(client.config.audios[name][audio] === undefined) {
+  if(client.config.audios[name] === undefined) {
     return message.channel.send('Ops... Esse áudio não existe!');
   }
 
@@ -30,5 +30,5 @@ exports.run = (client, message, args) => {
       console.log(error);
     });
   })
-  .catch(console.error);      
+  .catch(e => console.error(`Erro ao começar áudio.\n Comando: play.\n Server: ${message.guild.name}\n`, e));      
 };

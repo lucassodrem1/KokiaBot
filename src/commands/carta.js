@@ -54,8 +54,7 @@ exports.run = async (client, message, args) => {
 	    .setFooter('❤️ ❤️ ❤️', client.user.displayAvatarURL());
 
     message.channel.send({embed: embed});
-    // message.channel.send(`Carta para: **<@${member.user.id}>**! \n ${content}`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao mandar carta.\n Comando: carta.\n Server: ${message.guild.name}\n`, e);
   }
 }

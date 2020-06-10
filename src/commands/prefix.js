@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
       
       return message.channel.send(`O meu prefixo é: **${guildData.prefix}**.\n Você pode alterá-lo usando o comando: **${guildData.prefix}prefix <prefixo>**`);
     } catch(err) {
-      console.error(err);
+      console.log(`Erro ao mostrar prefixo atual.\n Comando: prefix.\n Server: ${message.guild.name}\n`, e);
     }
   }
 
@@ -27,6 +27,6 @@ exports.run = async (client, message, args) => {
     await guildController.updateInfo(message.member.guild.id, 'prefix', args[0]);
     message.channel.send(`Prefixo alterado com sucesso!`);
   } catch(err) {
-    console.error(err);
+    console.log(`Erro ao alterar prefixo.\n Comando: prefix.\n Server: ${message.guild.name}\n`, e);
   }
 }

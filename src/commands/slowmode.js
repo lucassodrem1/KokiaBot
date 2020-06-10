@@ -17,5 +17,5 @@ exports.run = (client, message, args) => {
     }
 
     return message.channel.send(`${message.channel.name} está em slow mode (${newChannel.rateLimitPerUser} segundos).`);
-  });
+  }).catch(e => console.log(`Erro ao por slowmode.\n Comando: slowmode.\n Server: ${message.guild.name}\n`, e));
 }

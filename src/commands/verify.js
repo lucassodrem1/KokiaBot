@@ -41,7 +41,6 @@ exports.run = async (client, message, args) => {
     member.roles.add(addRole);
     message.channel.send(`Usuário verificado e agora tem a role **${addRole.name}**!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao dar verify.\n Comando: verify.\n Server: ${message.guild.name}\n`, e);
   }
-  
 }
