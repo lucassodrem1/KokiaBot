@@ -14,6 +14,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send('Mute role removida!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao remover unmute role.\n Comando: level unmuterole.\n Server: ${message.guild.name}\n`, e);
   }
 }

@@ -16,6 +16,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send('Footer da mensagem de boas-vindas foi alterado!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao alterar footer welcome.\n Comando: welcome footer.\n Server: ${message.guild.name}\n`, e);
   }
 }

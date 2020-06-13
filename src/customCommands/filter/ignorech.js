@@ -24,6 +24,6 @@ exports.run = async (client, message, args) => {
     message.channel.send(`Canal **${channel.name}** irá ignorar todos os filtros!`);
   } catch(e) {
     message.channel.send('Este canal já está na lista!');
-    console.error(e);
+    console.log(`Erro ao adicionar canal ignore.\n Comando: filter ignorech.\n Server: ${message.guild.name}\n`, e);
   }
 }

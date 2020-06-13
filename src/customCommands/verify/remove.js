@@ -20,6 +20,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send('Role atribuida ao verificar usuário removida!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao remover verify.\n Comando: verify remove.\n Server: ${message.guild.name}\n`, e);
   }
 }

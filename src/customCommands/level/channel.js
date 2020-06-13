@@ -26,6 +26,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send('Canal alterado com sucesso!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao trocar canal de aviso de up.\n Comando: level channel.\n Server: ${message.guild.name}\n`, e);
   }
 }

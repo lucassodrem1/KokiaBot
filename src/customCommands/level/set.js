@@ -24,5 +24,6 @@ exports.run = async (client, message, args) => {
     return message.channel.send(`Level de **${member.displayName}** foi setado para **${args[1]}**!`);
   } catch(e) {
     message.channel.send('Usuário é um bot ou não foi encontrado!');
+    console.log(`Erro ao setar level de um usuário.\n Comando: level set.\n Server: ${message.guild.name}\n`, e);
   }
 }

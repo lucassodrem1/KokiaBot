@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
       await guildLolController.deleteMaestryRole(); 
       return message.channel.send(`Todas as roles dadas por maestria foram removidas!`);
     } catch(e) {
-      console.log(e);
+      console.log(`Erro ao remover lolrole.\n Comando: lolrole remove.\n Server: ${message.guild.name}\n`, e);
     }
   }
   
@@ -32,6 +32,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Role dada com **${points}** de maestria foi removida!`);
   } catch(e) {
-    console.log(e);
+    console.log(`Erro ao remover lolrole.\n Comando: lolrole remove.\n Server: ${message.guild.name}\n`, e);
   }
 }

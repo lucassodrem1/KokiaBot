@@ -36,6 +36,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Level customizado definido!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao adicionar custom level.\n Comando: customlevel add.\n Server: ${message.guild.name}\n`, e);
   }
 }

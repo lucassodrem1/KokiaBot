@@ -30,6 +30,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Role **${role.name}** será pega com no mínimo **${points}** de maestria!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao adicionar lolrole.\n Comando: lolrole add.\n Server: ${message.guild.name}\n`, e);
   }
 }

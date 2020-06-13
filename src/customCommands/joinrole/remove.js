@@ -20,6 +20,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send('Auto role removida!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao remover join role.\n Comando: joinrole remove.\n Server: ${message.guild.name}\n`, e);
   }
 }

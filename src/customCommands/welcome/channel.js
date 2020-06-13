@@ -25,6 +25,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send(`Mensagem de boas-vindas agora irá aparecer em **${channel.name}**!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao alterar canal welcome.\n Comando: welcome channel.\n Server: ${message.guild.name}\n`, e);
   }
 }

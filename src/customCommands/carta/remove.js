@@ -13,6 +13,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Correio elegante desativado!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao desativar correio eletante.\n Comando: carta remove.\n Server: ${message.guild.name}\n`, e);
   }
 }

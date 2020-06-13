@@ -19,6 +19,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Usuários verificados ganharão a role **${role.name}**!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao setar verify.\n Comando: verify set.\n Server: ${message.guild.name}\n`, e);
   }
 }

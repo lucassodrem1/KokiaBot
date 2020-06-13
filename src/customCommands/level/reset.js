@@ -32,5 +32,6 @@ exports.run = async (client, message, args) => {
     return message.channel.send(`Level de **${member.nickname}** foi resetado!`);
   } catch(e) {
     message.channel.send('Usuário é um bot ou não foi encontrado!');
+    console.log(`Erro ao resetar level do usuario.\n Comando: level reset.\n Server: ${message.guild.name}\n`, e);
   }
 }

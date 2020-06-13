@@ -16,6 +16,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send('Título da mensagem de boas-vindas foi alterado!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao alterar título welcome.\n Comando: welcome title.\n Server: ${message.guild.name}\n`, e);
   }
 }

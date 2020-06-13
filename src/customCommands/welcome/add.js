@@ -22,6 +22,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send(`Imagem **${number}** adicionada à galeria de boas-vindas!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao adicionar imagem welcome.\n Comando: welcome add.\n Server: ${message.guild.name}\n`, e);
   }
 }

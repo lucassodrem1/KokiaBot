@@ -16,6 +16,6 @@ exports.run = async (client, message, args) => {
     
     message.channel.send('Descrição da mensagem de boas-vindas foi alterado!');
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao alterar descrição welcome.\n Comando: welcome desc.\n Server: ${message.guild.name}\n`, e);
   }
 }

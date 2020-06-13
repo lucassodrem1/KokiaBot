@@ -32,6 +32,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Level customizado removido!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao remover custom level.\n Comando: customlevel remove.\n Server: ${message.guild.name}\n`, e);
   }
 }

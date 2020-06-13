@@ -22,6 +22,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Membros precisarão ter maestria com **${champion}** para ganhar role!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao setar lolrole.\n Comando: lolrole set.\n Server: ${message.guild.name}\n`, e);
   }
 }

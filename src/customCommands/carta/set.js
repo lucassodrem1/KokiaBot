@@ -19,6 +19,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Correio elegante setado no canal **${channel.name}**!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao setar correio eletante.\n Comando: carta set.\n Server: ${message.guild.name}\n`, e);
   }
 }

@@ -24,6 +24,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Canal **${channel.name}** foi retirado da lista!`);
   } catch(e) {
-    console.log(e);
+    console.log(`Erro ao remover canal da lista ignorados.\n Comando: filter unignorech.\n Server: ${message.guild.name}\n`, e);
   }
 }

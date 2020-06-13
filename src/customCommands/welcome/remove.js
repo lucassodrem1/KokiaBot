@@ -28,6 +28,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send(`Imagem **${number}** removida da galeria de boas-vindas!`);
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao remover imagem welcome.\n Comando: welcome remove.\n Server: ${message.guild.name}\n`, e);
   }
 }
