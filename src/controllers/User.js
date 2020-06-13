@@ -95,7 +95,8 @@ module.exports = class User {
           // Pegar informações da guild level system.
           let guildData = await guildController.getGuildLevelSystem(message.guild.id);
 
-          let levelUpMessage = variableReplace(userData, message, guildData.level_up_message);
+          let levelUpMessage = variableReplace(userData, message, guildData.level_up_message); // Guardar mensagem para enviar.
+          let channelToSend = message.channel; // Guardar canal para enviar as mensagens.
 
           let guildCustomLevels = await guildController.getCustomLevels(message.guild.id);
           // Verificar se há um level custom para o level alcançado.
@@ -107,9 +108,19 @@ module.exports = class User {
             if(customLevel.message) {
               levelUpMessage = variableReplace(userData, message, customLevel.message, customLevelRole.name);
             }
+            
+            // Verificar canal para mandar mensagem de level up.
+            if(guildData.level_up_channel != 0) {
+              let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
+              if(channelMessage) channelToSend = channelMessage; // Alterar para canal escolhido pelo usuário.
+            }
 
             // Dando cargo do level custom.
-            message.member.roles.add(customLevelRole);
+            message.member.roles.add(customLevelRole)
+            .catch(e => {
+              console.log(`Erro: Não tem permissão pra dar role!\n Momento: Usuário receber role ao upar.\n Server: ${message.guild.name}\n`, e);
+              channelToSend.send(`Kokia não pôde dar a role **${customLevelRole.name}** por falta de permissões!`);
+            });
 
             let guildInfo = await guildController.getGuild(message.guild.id);
             // Verificar se é para dar replace nos cargos dados pelo custom levels.
@@ -117,22 +128,20 @@ module.exports = class User {
               guildCustomLevels.forEach(actualCustomLevel => {
                 if(actualCustomLevel.level < customLevel.level) {
                   let role = message.member.guild.roles.cache.find(role => role.id === actualCustomLevel.role);
-                  message.member.roles.remove(role);
+                  message.member.roles.remove(role)
+                  .catch(e => {
+                    console.log(`Erro: Não tem permissão pra tirar role!\n Momento: Retirar role ao upar.\n Server: ${message.guild.name}\n`, e);
+                    channelToSend.send(`Kokia não pôde retirar a role **${role.name}** por falta de permissões!`);
+                  });
                 }
               });
             }
           }
 
-          // Verificar canal para mandar mensagem de level up.
-          if(guildData.level_up_channel != 0) {
-            let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
-            if(channelMessage) return channelMessage.send(levelUpMessage);
-          }
-          
-          message.channel.send(levelUpMessage);
+          channelToSend.send(levelUpMessage);
         }
-      } catch (err) {
-        console.error(err);
+      } catch(e) {
+        console.log(`Erro ao ganhar XP!\n Server: ${message.guild.name}\n`, e);
       }
     });
   }
