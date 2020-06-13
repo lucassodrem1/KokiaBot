@@ -25,6 +25,6 @@ module.exports = async (client, channel) => {
       await guildController.updateWelcome(channel.guild.id, 'channel', 0);
     }
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao deletar canal.\n Evento: channelDelete.\n Server: ${channel.guild.name}\n`, e);
   }
 }

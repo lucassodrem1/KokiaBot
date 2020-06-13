@@ -23,6 +23,6 @@ module.exports = async (client, role) => {
       await guildController.updateInfo(role.guild.id, 'blacklist_role', 0);
     }
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao deletar role.\n Evento: roleDelete.\n Server: ${role.guild.name}\n`, e);
   }
 }
