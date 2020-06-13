@@ -35,10 +35,19 @@ exports.run = async (client, message, args) => {
     // Remover auto role, caso houver.
     if(guildData.join_role !== '0') {
       let removeRole = member.guild.roles.cache.find(role => role.id === guildData.join_role);
-      member.roles.remove(removeRole);
+      member.roles.remove(removeRole)
+      .catch(e => {
+        console.log(`Erro: Não tem permissão pra retirar role!\n Comando: verify.\n Server: ${message.guild.name}\n`, e);
+        message.channel.send(`Kokia não pôde retirar a role **${removeRole.name}** por falta de permissões!`);
+      });
     }
 
-    member.roles.add(addRole);
+    member.roles.add(addRole)
+    .catch(e => {
+      console.log(`Erro: Não tem permissão pra dar role!\n Comando: verify.\n Server: ${message.guild.name}\n`, e);
+      message.channel.send(`Kokia não pôde dar a role **${addRole.name}** por falta de permissões!`);
+    });
+
     message.channel.send(`Usuário verificado e agora tem a role **${addRole.name}**!`);
   } catch(e) {
     console.log(`Erro ao dar verify.\n Comando: verify.\n Server: ${message.guild.name}\n`, e);
