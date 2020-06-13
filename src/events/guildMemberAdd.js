@@ -7,23 +7,21 @@ module.exports = async (client, member) => {
   let userController = new UserController();
   let guildController = new GuildController();
 
-  if (!member.user.bot) {
-    try {
-      let result = await userController.checkIfUserExists(member.guild.id, member.id)
-      
-      if(result) {
-        userController.deleteUser(member.guild.id, member.id);
-      }
-
-      // Dar join role, caso houver.
-      let guildData = await guildController.getGuild(member.guild.id);
-      if(guildData.join_role !== '0') {
-        let role = member.guild.roles.cache.find(role => role.id === guildData.join_role);
-        member.roles.add(role);
-      }
-    } catch(e) {
-      console.error(e);
+  try {
+    let result = await userController.checkIfUserExists(member.guild.id, member.id)
+    
+    if(result) {
+      userController.deleteUser(member.guild.id, member.id);
     }
+
+    // Dar join role, caso houver.
+    let guildData = await guildController.getGuild(member.guild.id);
+    if(guildData.join_role !== '0') {
+      let role = member.guild.roles.cache.find(role => role.id === guildData.join_role);
+      member.roles.add(role).catch(e => console.log(`Erro: Não tem permissão pra dar role!\n Evento: guildMemberAdd.\n Server: ${member.guild.name}\n`, e));
+    }
+  } catch(e) {
+    console.log(`Erro ao dar auto role.\n Evento: guildMemberAdd.\n Server: ${member.guild.name}\n`, e);
   }
 
   try {
@@ -43,6 +41,6 @@ module.exports = async (client, member) => {
       embedWelcome(Discord, member, channel, guildWelcomeData);
     }
   } catch(e) {
-    console.error(e);
+    console.log(`Erro ao mostrar embed.\n Evento: guildMemberAdd.\n Server: ${member.guild.name}\n`, e);
   }
 }
