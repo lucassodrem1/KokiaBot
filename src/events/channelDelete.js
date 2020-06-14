@@ -1,9 +1,11 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
+const GuildFilterController = require('../controllers/GuildFilter');
 
 // Evento para trocar salas se estiverem setadas no banco de dados para algo.
 module.exports = async (client, channel) => {
   let guildController = new GuildController();
+  let guildFilterController = new GuildFilterController(channel.guild.id);
 
   try {
     let guildData = await guildController.getGuild(channel.guild.id);
@@ -24,6 +26,15 @@ module.exports = async (client, channel) => {
     if(channel.id == guildWelcome.channel) {
       await guildController.updateWelcome(channel.guild.id, 'channel', 0);
     }
+
+    // Verificar se é canal que está na lista de ignorar filtros.
+    let ignoreChannels = await guildFilterController.getIgnoreChannelsByGuildId();
+    let isIgnoreChannel = ignoreChannels.find(ignoreChannel => {
+      return ignoreChannel.channel_id == channel.id;
+    });
+
+    console.log(isIgnoreChannel);
+    if(isIgnoreChannel) await guildFilterController.deleteIgnoreChannel(isIgnoreChannel.channel_id);
   } catch(e) {
     console.log(`Erro ao deletar canal.\n Evento: channelDelete.\n Server: ${channel.guild.name}\n`, e);
   }
