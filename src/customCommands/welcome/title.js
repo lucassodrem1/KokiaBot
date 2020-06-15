@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
   }
   
   let title = args.join(' ');
-  if(title.length > 60) return message.channel.send('O título só pode conter até 60 caracteres!');
+  if(title.length > 200) return message.channel.send('O título só pode conter até 200 caracteres!');
 
   let guildController = new GuildController();
   try {
