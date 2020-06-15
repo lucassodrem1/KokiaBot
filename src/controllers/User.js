@@ -98,6 +98,12 @@ module.exports = class User {
           let levelUpMessage = variableReplace(userData, message, guildData.level_up_message); // Guardar mensagem para enviar.
           let channelToSend = message.channel; // Guardar canal para enviar as mensagens.
 
+          // Verificar canal para mandar mensagem de level up.
+          if(guildData.level_up_channel != 0) {
+            let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
+            if(channelMessage) channelToSend = channelMessage; // Alterar para canal escolhido pelo usuário.
+          }
+
           let guildCustomLevels = await guildController.getCustomLevels(message.guild.id);
           // Verificar se há um level custom para o level alcançado.
           let customLevel = guildCustomLevels.find(customLevel => customLevel.level === userData.level + 1);
@@ -109,12 +115,6 @@ module.exports = class User {
               levelUpMessage = variableReplace(userData, message, customLevel.message, customLevelRole.name);
             }
             
-            // Verificar canal para mandar mensagem de level up.
-            if(guildData.level_up_channel != 0) {
-              let channelMessage = message.member.guild.channels.cache.find(channel => channel.id == guildData.level_up_channel);
-              if(channelMessage) channelToSend = channelMessage; // Alterar para canal escolhido pelo usuário.
-            }
-
             // Dando cargo do level custom.
             message.member.roles.add(customLevelRole)
             .catch(e => {
