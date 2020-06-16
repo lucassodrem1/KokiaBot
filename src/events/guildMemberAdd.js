@@ -24,7 +24,7 @@ module.exports = async (client, member) => {
       }
       
       // Enviar mensagem de boas-vindas.
-      // embedWelcome(Discord, member, channel, guildWelcomeData);
+      embedWelcome(Discord, member, channel, guildWelcomeData);
     }
   } catch(e) {
     console.log(`Erro ao mostrar embed.\n Evento: guildMemberAdd.\n Server: ${member.guild.name}\n`, e);
