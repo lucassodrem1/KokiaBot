@@ -89,7 +89,7 @@ module.exports.embedLorDecken = function(Discord, message, deck) {
 
   embed.addField('Champions', champions, true);
   embed.addField('Units', followers, true);
-  embed.addField('Spell', spells, true);
+  embed.addField('Spells', spells, true);
 
   message.channel.send({embed: embed});
 }
