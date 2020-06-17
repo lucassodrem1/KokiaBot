@@ -11,17 +11,13 @@ exports.run = async (client, message, args) => {
   let role = message.mentions.roles.first();
   let levelMessage = args.splice(2).join(' ');
 
-  if(!level) {
-    return message.channel.send('Você precisa definir um level!');
-  }
+  if(!level) return message.channel.send('Você precisa definir um level!');
 
-  if(!role) {
-    return message.channel.send('Você precisa escolher uma role válida!');
-  }
+  if(level < 0) return message.channel.send('Você precisa definir um level maior que 0!');
 
-  if(levelMessage.length > 120) {
-    return message.channel.send('Mensage só pode conter até 120 caracteres!');
-  }
+  if(!role) return message.channel.send('Você precisa escolher uma role válida!');
+  
+  if(levelMessage.length > 120) return message.channel.send('Mensage só pode conter até 120 caracteres!');
 
   try{
     let guildController = new GuildController();
