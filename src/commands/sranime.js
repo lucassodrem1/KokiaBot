@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { genre } = require('jikan-nodejs');
+require('cross-fetch/polyfill');
 const { embedSearchAnime } = require('../embeds/embedSearchAnime');
 const { formatAnimeGenre } = require('../utils/formatAnimeGenre');
 
@@ -20,7 +20,8 @@ exports.run = async (client, message, args) => {
   try {
     let searchingMsg = message.channel.send(`Pesquisando animes de **${genreName}** com nota mínima à **${score}**...`);
     
-    let animesData = await genre.animesByGenre(genreNumber, {score: score});
+    let requestAnimes = await fetch(`https://api.jikan.moe/v3/search/anime?genre=${genreNumber}&score=${score}`);
+    let animesData = await requestAnimes.json();
     if(!animesData.results.length) return message.channel.send('Nenhum anime encontrado!'); 
 
     shuffleArray(animesData.results);
