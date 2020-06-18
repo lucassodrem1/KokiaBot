@@ -19,6 +19,7 @@
     "enmap": "^5.2.4",
     "ffmpeg": "0.0.4",
     "jikan-node": "^1.2.0",
+    "jikan-nodejs": "0.0.30",
     "moment": "^2.26.0",
     "node-fetch": "^2.6.0",
     "pg": "^7.4.3",
