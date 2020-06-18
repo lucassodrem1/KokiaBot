@@ -20,7 +20,7 @@ exports.run = async (client, message, args) => {
   try {
     let searchingMsg = message.channel.send(`Pesquisando animes de **${genreName}** com nota mínima à **${score}**...`);
     
-    let requestAnimes = await fetch(`https://api.jikan.moe/v3/search/anime?genre=${genreNumber}&score=${score}`);
+    let requestAnimes = await fetch(`https://api.jikan.moe/v3/search/anime?genre=${genreNumber}&score=${score}:4444`);
     let animesData = await requestAnimes.json();
     if(!animesData.results.length) return message.channel.send('Nenhum anime encontrado!'); 
 
