@@ -3,8 +3,8 @@ module.exports.embedSearchAnime = function(Discord, message, animesData) {
   let pages = [];
 
   // Divide 5 animes por página e adiciona em pages.
-  while(animesData.anime.length) {
-    let page = animesData.anime.splice(0, 5);
+  while(animesData.results.length) {
+    let page = animesData.results.splice(0, 5);
     pages.push(page);
   }
 
