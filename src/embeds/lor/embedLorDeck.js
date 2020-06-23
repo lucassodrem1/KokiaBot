@@ -50,10 +50,10 @@ const regionEmojis = {
   }
 };
 
-module.exports.embedLorDeck = function(Discord, message, deck, order = 'amount') {
+module.exports.embedLorDeck = function(Discord, message, deck) {
   let embed = new Discord.MessageEmbed()
     .setColor(0xf33434)
-    .setFooter(`Ordenado por: ${orderPt[order]}.`);
+    .setFooter(`Ordem das cartas: quantidade desc > custo asc > nome asc.`);
 
   let totalCards = 0;
   let regions = [];
@@ -95,35 +95,36 @@ module.exports.embedLorDeck = function(Discord, message, deck, order = 'amount')
     embed.addField('_ _',`⚠️ Deck inválido: não há cartas suficientes (${totalCards}).`);
   }
 
-  // Ordenar em ordem alfabetica, caso o usuário queira.
-  if(order == 'name') {
-    champions.sort((a, b) => {
+  // Ordenar champions.
+  // Ordenação: Número de cartas desc -> custo asc -> nome asc.
+  champions.sort((a, b) => {
+    if((a.count == b.count) && (a.cost == b.cost)) {
       if(a.name < b.name) return -1;
-    });
-  
-    followers.sort((a, b) => {
-      if(a.name < b.name) return -1;
-    });
-  
-    spells.sort((a, b) => {
-      if(a.name < b.name) return -1;
-    });
-  }
+      return 0;
+    }
 
-  // Ordenar em ordem crescente de custo de mana, caso o usuário queira.
-  if(order == 'cost') {
-    champions.sort((a, b) => {
-      if(a.cost < b.cost) return -1;
-    });
-  
-    followers.sort((a, b) => {
-      if(a.cost < b.cost) return -1;
-    });
-  
-    spells.sort((a, b) => {
-      if(a.cost < b.cost) return -1;
-    });
-  }
+    if(a.count == b.count) return a.cost - b.cost;
+  });
+
+  // Ordenarr followers.
+  followers.sort((a, b) => {
+    if((a.count == b.count) && (a.cost == b.cost)) {
+      if(a.name < b.name) return -1;
+      return 0;
+    }
+
+    if(a.count == b.count) return a.cost - b.cost;
+  });
+
+  // Ordenarr spells.
+  spells.sort((a, b) => {
+    if((a.count == b.count) && (a.cost == b.cost)) {
+      if(a.name < b.name) return -1;
+      return 0;
+    }
+
+    if(a.count == b.count) return a.cost - b.cost;
+  });
 
   // Transformando array de objetos em arrays.
   champions = champions.map(champion => {
