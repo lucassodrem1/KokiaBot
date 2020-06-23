@@ -13,6 +13,12 @@ const cardNumberCount = {
   3: '３ ×'
 };
 
+const orderPt = {
+  'amount': 'quantidade',
+  'name': 'nome',
+  'cost': 'custo'
+}
+
 const regionEmojis = {
   "Bilgewater": {
     icon: "<:r3:719621850874904667>",
@@ -44,15 +50,17 @@ const regionEmojis = {
   }
 };
 
-module.exports.embedLorDeck = function(Discord, message, deck) {
+module.exports.embedLorDeck = function(Discord, message, deck, order = 'amount') {
   let embed = new Discord.MessageEmbed()
     .setColor(0xf33434)
+    .setFooter(`Ordenado por: ${orderPt[order]}.`);
 
   let totalCards = 0;
   let regions = [];
-  let champions = '';
-  let followers = '';
-  let spells = '';
+  let champions = [];
+  let followers = [];
+  let spells = [];
+
   deck.forEach(card => {
     let cardInfo = cardsData[card.set - 1].find(cardData => {
       return cardData.cardCode == card.code;
@@ -64,17 +72,17 @@ module.exports.embedLorDeck = function(Discord, message, deck) {
 
     // Adicionando champions. 
     if(cardInfo.type == 'Unidade' && cardInfo.rarity == 'Campeão') {
-      champions += `${cardNumberCount[card.count]} ${regionEmojis[cardInfo.regionRef].color} ${cardInfo.name}\n`;
+      champions.push({count: cardNumberCount[card.count], region: regionEmojis[cardInfo.regionRef].color, name: cardInfo.name, cost: cardInfo.cost});
     }
 
     // Adicionando unidades.
     if(cardInfo.type == 'Unidade') {
-      followers += `${cardNumberCount[card.count]} ${regionEmojis[cardInfo.regionRef].color} ${cardInfo.name}\n`;
+      followers.push({count: cardNumberCount[card.count], region: regionEmojis[cardInfo.regionRef].color, name: cardInfo.name, cost: cardInfo.cost});
     }
 
     // Adicionando spells.
     if(cardInfo.type == 'Feitiço') {
-      spells += `${cardNumberCount[card.count]} ${regionEmojis[cardInfo.regionRef].color} ${cardInfo.name}\n`;
+      spells.push({count: cardNumberCount[card.count], region: regionEmojis[cardInfo.regionRef].color, name: cardInfo.name, cost: cardInfo.cost});
     }
   });
   
@@ -87,9 +95,56 @@ module.exports.embedLorDeck = function(Discord, message, deck) {
     embed.addField('_ _',`⚠️ Deck inválido: não há cartas suficientes (${totalCards}).`);
   }
 
-  embed.addField('Campeões', champions, true);
-  embed.addField('Unidades', followers, true);
-  embed.addField('Feitiços', spells, true);
+  // Ordenar em ordem alfabetica, caso o usuário queira.
+  if(order == 'name') {
+    champions.sort((a, b) => {
+      if(a.name < b.name) return -1;
+    });
+  
+    followers.sort((a, b) => {
+      if(a.name < b.name) return -1;
+    });
+  
+    spells.sort((a, b) => {
+      if(a.name < b.name) return -1;
+    });
+  }
 
-  message.channel.send({embed: embed});
+  // Ordenar em ordem crescente de custo de mana, caso o usuário queira.
+  if(order == 'cost') {
+    champions.sort((a, b) => {
+      if(a.cost < b.cost) return -1;
+    });
+  
+    followers.sort((a, b) => {
+      if(a.cost < b.cost) return -1;
+    });
+  
+    spells.sort((a, b) => {
+      if(a.cost < b.cost) return -1;
+    });
+  }
+
+  // Transformando array de objetos em arrays.
+  champions = champions.map(champion => {
+    return [`${champion.count} ${champion.region} ${champion.name}`]
+  });
+
+  followers = followers.map(follower => {
+    return [`${follower.count} ${follower.region} ${follower.name}`]
+  });
+
+  spells = spells.map(spell => {
+    return [`${spell.count} ${spell.region} ${spell.name}`]
+  });
+
+  embed.addField('Campeões', champions.join('\n'), true);
+  embed.addField('Unidades', followers.join('\n'), true);
+  embed.addField('Feitiços', spells.join('\n'), true);
+
+  message.channel.send({embed: embed})
+  .catch(e => {
+    console.log(`Erro ao mostrar embed.\n Comando: deck pt.\n Server: ${message.guild.name}\n`, e);
+    message.channel.send('Erro ao mostrar embed!');
+  });
 }
