@@ -16,12 +16,12 @@ exports.run = async (client, message, args) => {
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
       
-      userData.avatar = message.author.displayAvatarUR();
+      userData.avatar = message.author.displayAvatarURL();
       userData.displayName = message.member.displayName;
       userData.ranking = rankData.findIndex(b => b.user_id == message.author.id) + 1;
       embedCanvasRank(Discord, message, userData);
     } catch(err) {
-      console.log(`Erro ao mostrar embed.\n Comando: rank.\n Server: ${message.guild.name}\n`, e);
+      console.error;
     }
   } else {
     try {
