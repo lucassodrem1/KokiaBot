@@ -16,7 +16,7 @@ exports.run = async (client, message, args) => {
       const usersRankPromise = userController.getUsersRank(guildId).catch(err => console.error(err));
       const [userData, rankData] = await Promise.all([userInfoPromise, usersRankPromise]);
       
-      userData.avatar = message.author.displayAvatarURL();
+      userData.avatar = message.author.displayAvatarUR();
       userData.displayName = message.member.displayName;
       userData.ranking = rankData.findIndex(b => b.user_id == message.author.id) + 1;
       embedCanvasRank(Discord, message, userData);
