@@ -21,7 +21,7 @@ exports.run = async (client, message, args) => {
       userData.ranking = rankData.findIndex(b => b.user_id == message.author.id) + 1;
       embedCanvasRank(Discord, message, userData);
     } catch(err) {
-      console.log(`Erro ao mostrar embed.\n Comando: rank.\n Server: ${message.guild.name}\n`, err);
+      console.log(`Erro ao mostrar embed.\n Comando: rank..\n Server: ${message.guild.name}\n`, err);
     }
   } else {
     try {
