@@ -13,7 +13,7 @@ module.exports = (client, guild) => {
   
   // Exibir mensagem quando entrar no server.
   textChannel.send(`Oi! Meu prefixo é **${client.config.prefix}**. Digite **${client.config.prefix}help** para me conhecer!`)
-    .catch(console.error);
+    .catch(e => console.error('Error', e));
 
   // Salvar id da guild no db.
   let guildController = new GuildController();
