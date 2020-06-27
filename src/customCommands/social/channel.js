@@ -17,7 +17,7 @@ exports.run = async (client, message, args) => {
   let platform = args[0];
   if(!platform) return message.channel.send('Escolha uma plataforma entre: twitch, youtube e twitter.');
  
-  if(!availablePlat.find(plat => plat == platform)) return message.channel.send('Escolha uma plataforma entre: twitch, youtube e twitter.');
+  if(!availablePlat.find(plat => plat == platform)) return message.channel.send('Escolha uma plataforma entre: twitch, youtube.');
 
   let guildController = new GuildController();
   // Verificar se é pra remover canal.
