@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
   
     let allCommands = [];
     guildCustomCommands.forEach(commands => {
-      allCommands.push(guildData.prefix+''+commands.command);
+      allCommands.push(commands.command);
     });
 
     if(allCommands.length == 0) allCommands.push('Nenhum comando customizado no servidor!');

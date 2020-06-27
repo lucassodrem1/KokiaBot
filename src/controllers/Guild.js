@@ -271,7 +271,7 @@ module.exports = class Guild {
     return new Promise((resolve, reject) => {
       client.query(`INSERT INTO guild_custom_commands (guild_id, command, response) VALUES 
       (${guildId}, '${command}', '${response}') ON CONFLICT (guild_id, command) DO UPDATE
-      SET response = '${response}';`, err => {
+      SET response = '${response}', count = 0;`, err => {
         if(err) return reject(err);
         
         return resolve();
