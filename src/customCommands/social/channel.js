@@ -5,8 +5,7 @@ let parser = new Parser();
 
 const availablePlat = [
   'twitch',
-  'youtube',
-  'twitter'
+  'youtube'
 ];
 
 exports.run = async (client, message, args) => {
