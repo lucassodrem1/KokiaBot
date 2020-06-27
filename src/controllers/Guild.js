@@ -266,4 +266,50 @@ module.exports = class Guild {
       });
     });
   }
+
+  addCustomCommand(guildId, command, response) {
+    return new Promise((resolve, reject) => {
+      client.query(`INSERT INTO guild_custom_commands (guild_id, command, response) VALUES 
+      (${guildId}, '${command}', '${response}') ON CONFLICT (guild_id, command) DO UPDATE
+      SET response = '${response}';`, err => {
+        if(err) return reject(err);
+        
+        return resolve();
+      });
+    });
+  }
+
+  getCustomCommandsByGuild(guildId) {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT * FROM guild_custom_commands WHERE guild_id = ${guildId};`, (err, results) => {
+        if(err) return reject(err);
+        
+        return resolve(results.rows);
+      });
+    });
+  }
+
+  increaseCountCustomCommand(guildId, command) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_custom_commands SET count = count + 1 WHERE guild_id = ${guildId} AND command = '${command}';`, err => {
+        if(err) return reject(err);
+        
+        client.query(`SELECT count FROM guild_custom_commands WHERE guild_id = ${guildId} AND command = '${command}';`,
+        (err, results) => {
+          return resolve(results.rows[0]);
+        });
+      });
+    });
+  }
+
+  removeCustomCommand(guildId, command) {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM guild_custom_commands WHERE guild_id = ${guildId} AND command = '${command}';`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rowCount);
+      });
+    });
+  }
 }

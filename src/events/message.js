@@ -2,11 +2,13 @@ const Discord = require("discord.js");
 const UserController = require('../controllers/User');
 const GuildController = require('../controllers/Guild');
 const GuildFilterController = require('../controllers/GuildFilter');
+const { customCommandReplace } = require('../utils/customCommandReplace');
 const { talkedRecently } = require('../main');
 
 module.exports = async (client, message) => {
   if (message.author.bot) return;
-  let guildId = message.member.guild.id;
+  
+  let guildId = message.guild.id;
 
   let guildController = new GuildController();
   let guildData = await guildController.getGuild(guildId);
@@ -38,6 +40,24 @@ module.exports = async (client, message) => {
     const cmd = client.commands.get(command);
 
     if(cmd) return cmd.run(client, message, args);
+  }
+
+  //Executar comandos customizados criados pelos servidores.
+  if (message.content.indexOf(guildData.prefix) === 0) {
+    let customCommandArgs = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
+    let customCommand = customCommandArgs.shift().toLowerCase();
+
+    // Pegar comandos no servidor.
+    let guildCustomCommands = await guildController.getCustomCommandsByGuild(guildId);
+
+    // Verificar se existe o comando no servidor.
+    let guildCustomCommand = guildCustomCommands.find(customCommands => customCommands.command == customCommand);
+    
+    // Resposta do comando.
+    if(guildCustomCommand) {
+      let response = await customCommandReplace(message, customCommand, guildCustomCommand.response);
+      return message.channel.send(response);
+    }
   }
 
   // SISTEMA DE FILTRO 
@@ -102,7 +122,7 @@ module.exports = async (client, message) => {
         
         setTimeout(() => {
           talkedRecently.delete(message.author.id);
-        }, 60000);
+        }, 500);
       }
     }
   }
