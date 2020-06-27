@@ -197,4 +197,73 @@ module.exports = class Guild {
       }); 
     });
   }
+
+  addGuildSocial(message, username, platform, text) {
+    return new Promise((resolve, reject) => {
+      client.query(`INSERT INTO guild_social_links (guild_id, username, platform, text) VALUES 
+      (${message.guild.id}, '${username}', '${platform}', '${text}');`, err => {
+        if(err) {
+          if(err.code == 23505) message.channel.send('Este usuário já está cadastrado nessa plataforma e nesse servidor!'); 
+          
+          return reject(err);
+        }
+        return resolve();
+      });
+    });
+  }
+
+  removeGuildSocial(guildId, username, platform) {
+    return new Promise((resolve, reject) => {
+      client.query(`DELETE FROM guild_social_links WHERE guild_id = ${guildId} AND username = '${username}' AND 
+      platform = '${platform}';`, (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rowCount);
+      });
+    });
+  }
+
+  getAllGuildSocial() {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT * FROM guild_social_links;`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rows);       
+      }); 
+    });
+  }
+
+  getGuildSocialByGuild(guildId, platform) {
+    return new Promise((resolve, reject) => {
+      client.query(`SELECT * FROM guild_social_links WHERE guild_id = ${guildId} AND platform = '${platform}';`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rows);       
+      }); 
+    });
+  }
+
+  updateGuildSocial(data, updateField, value) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_social_links SET ${updateField} = '${value}' WHERE guild_id = ${data.guild_id} AND username = '${data.username}'
+      AND platform = '${data.platform}';`, err => {
+        if(err) return reject(err);
+
+        return resolve();
+      });
+    });
+  }
+
+  updateGuildSocialText(guildId, platform, text) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_social_links SET text = '${text}' WHERE guild_id = ${guildId} AND platform = '${platform}';`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rowCount);
+      });
+    });
+  }
 }

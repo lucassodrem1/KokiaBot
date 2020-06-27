@@ -27,13 +27,22 @@ module.exports = async (client, channel) => {
       await guildController.updateWelcome(channel.guild.id, 'channel', 0);
     }
 
+    // Verificar se é canal de publicação da twitch.
+    if(channel.id == guildData.twitch_channel) {
+      await guildController.updateInfo(channel.guild.id, 'twitch_channel', 0);
+    }
+
+    // Verificar se é canal de publicação do youtube.
+    if(channel.id == guildData.youtube_channel) {
+      await guildController.updateInfo(channel.guild.id, 'youtube_channel', 0);
+    }
+
     // Verificar se é canal que está na lista de ignorar filtros.
     let ignoreChannels = await guildFilterController.getIgnoreChannelsByGuildId();
     let isIgnoreChannel = ignoreChannels.find(ignoreChannel => {
       return ignoreChannel.channel_id == channel.id;
     });
 
-    console.log(isIgnoreChannel);
     if(isIgnoreChannel) await guildFilterController.deleteIgnoreChannel(isIgnoreChannel.channel_id);
   } catch(e) {
     console.log(`Erro ao deletar canal.\n Evento: channelDelete.\n Server: ${channel.guild.name}\n`, e);
