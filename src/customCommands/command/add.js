@@ -22,7 +22,7 @@ exports.run = async (client, message, args) => {
     // Verificar se já existe esse comando no servidor.
     if(!guildCustomCommands.find(customCommand => customCommand.command == command)) {
       // Verificar se servidor já ultrapassou o limite de custom commands criados.
-      if(guildCustomCommands.length == 20) return message.channel.send('Este servidor já possui 20 comandos customizados.');
+      if(guildCustomCommands.length == 10) return message.channel.send('Este servidor já possui 10 comandos customizados.');
     }
 
     await guildController.addCustomCommand(message.guild.id, command.toLowerCase(), response);
