@@ -27,6 +27,6 @@ exports.run = async (client, message, args) => {
 
     message.channel.send({embed: embed});
   } catch(e) {
-    console.log(`Erro ao mostrar embed.\n Comando: info lol.\n Server: ${message.guild.name}\n`, e);
+    console.log(`Erro ao mostrar embed.\n Comando: lolrole info.\n Server: ${message.guild.name}\n`, e);
   }
 }
