@@ -6,7 +6,7 @@ module.exports = async (client) => {
   console.log(`Ready to serve in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.`);
 
   // Alter status do bot.
-  client.user.setActivity('Kokia: https://bit.ly/kokiabot', {type: 'Watching'})
+  client.user.setActivity('Kokia: bit.ly/kokiabot', { type: 'PLAYING' })
   
   // Verificar social a cada 3 segundos.
   setInterval(async () => {    
