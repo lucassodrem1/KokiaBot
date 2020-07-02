@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
   
   try {
     let guildData = await guildController.getGuild(message.guild.id);
-    let twitchChannel = guildData.twitch_channel ? message.guild.channels.cache.find(channel => channel.id === guildData.twitch_channel).name : 'OFF';
-    let youtubeChannel = guildData.youtube_channel ? message.guild.channels.cache.find(channel => channel.id === guildData.youtube_channel).name : 'OFF';
+    let twitchChannel = guildData.twitch_channel != 0 ? message.guild.channels.cache.find(channel => channel.id === guildData.twitch_channel).name : 'OFF';
+    let youtubeChannel = guildData.youtube_channel != 0 ? message.guild.channels.cache.find(channel => channel.id === guildData.youtube_channel).name : 'OFF';
 
     let  allGuildSocial= [];
     // Pegar socias da twitch do servidor.
