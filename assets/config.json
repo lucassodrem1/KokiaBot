@@ -4,16 +4,6 @@
     "level_up_message": "Parabéns, {user.ping}! Você alcançou o level {level}!",
     "level_up_channel": 0
   },
-  "activities": {
-    "0": {
-      "type": "PLAYING",
-      "quote": "a raba no chão"
-    },
-    "1": {
-      "type": "WATCHING",
-      "quote": "animes da semana" 
-    }
-  },
   "welcome": {
     "image": "https://i.imgur.com/5nVcA7d.gif",
     "title": "Bem-vindo(a) ao {server.name}!",
