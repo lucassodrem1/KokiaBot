@@ -1,0 +1,346 @@
+﻿{
+  "day": { 
+    "1000": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728080169377726574/sunny.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728100578814591066/sunny1.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728100761741033542/sunny2.jpg"
+    ],
+    "1003": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728081088815300684/cloudy.jpg"
+    ],
+    "1006": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728081088815300684/cloudy.jpg"
+    ],
+    "1009": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728081088815300684/cloudy.jpg"
+    ],
+    "1030": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082037692694538/misty.jpeg"
+    ],
+    "1063": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1066": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1069": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1072": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1087": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728086145107492915/Thundery_outbreaks_possible.jpg"
+    ],
+    "1114": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1117": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1135": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082037692694538/misty.jpeg"
+    ],
+    "1147": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082037692694538/misty.jpeg"
+    ],
+    "1150": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1153": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1168": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1171": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1180": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1183": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1186": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1189": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1192": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1195": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1198": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1201": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1204": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1207": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1210": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1213": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1216": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1219": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1222": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1225": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1237": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1240": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1243": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1246": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1249": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1252": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1255": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1258": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1261": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1264": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1273": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082263065231360/Patchy_rain_possible.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728090363180613642/rain1.jpg"
+    ],
+    "1276": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728087677265641572/rain.jpg"
+    ],
+    "1279": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ],
+    "1282": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082560344916068/snow.png"
+    ]
+  },
+  "night": { 
+    "1000": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728084074547118150/clear.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728101760736165908/clear1.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728102579829211166/clear2.jpg"
+    ],
+    "1003": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728080888822497335/cloudy.jpg"
+    ],
+    "1006": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728080888822497335/cloudy.jpg"
+    ],
+    "1009": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728080888822497335/cloudy.jpg"
+    ],
+    "1030": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082131099582564/misty.png"
+    ],
+    "1063": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1066": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1069": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1072": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1087": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728084365451460628/Thundery_outbreaks_possible.jpg"
+    ],
+    "1114": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1117": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1135": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082131099582564/misty.png"
+    ],
+    "1147": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082131099582564/misty.png"
+    ],
+    "1150": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1153": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1168": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1171": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1180": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1183": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1186": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1189": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1192": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1195": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1198": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1201": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1204": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1207": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1210": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1213": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1216": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1219": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1222": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1225": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1237": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1240": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1243": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1246": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1249": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1252": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1255": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1258": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1261": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1264": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1273": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728088643700523028/rain.jpg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728092087936876584/rain1.png",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728108458834001970/rain2.jpg"
+    ],
+    "1276": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091014702825583/heavy_rain.jpeg",
+      "https://cdn.discordapp.com/attachments/712882676880900196/728091357436182668/heavy_rain1.jpg"
+    ],
+    "1279": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ],
+    "1282": [
+      "https://cdn.discordapp.com/attachments/712882676880900196/728082528766001222/snow.jpeg"
+    ]
+  }
+}
