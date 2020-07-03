@@ -13,7 +13,7 @@ exports.run = async (client, message, args) => {
     if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
 
-  if(!args[0]) return message.channel.send('Escolha um opção entre **on** e **off**.');
+  if(!args[0]) return message.channel.send('Escolha uma opção entre **on** e **off**.');
   
   let option = args[0].toLowerCase();
   let successMessage = 'A role será substituída ao ganhar outra quando subir de level!';
@@ -24,7 +24,7 @@ exports.run = async (client, message, args) => {
     option = 0;
     successMessage = 'As roles irão acumular ao ganhar outras quando subir de level!';
   } else {
-    return message.channel.send('Escolha um opção entre **on** e **off**.');
+    return message.channel.send('Escolha uma opção entre **on** e **off**.');
   }
 
   let guildController = new GuildController();
