@@ -20,9 +20,9 @@ exports.run = async (client, message, args) => {
   }
 
   let platform = args[0];
-  if(!platform) return message.channel.send('Escolha uma plataforma entre: twitch, youtube e twitter.');
+  if(!platform) return message.channel.send('Escolha uma plataforma entre: twitch, youtube.');
  
-  if(!availablePlat.find(plat => plat == platform)) return message.channel.send('Escolha uma plataforma entre: twitch, youtube e twitter.');
+  if(!availablePlat.find(plat => plat == platform)) return message.channel.send('Escolha uma plataforma entre: twitch, youtube.');
 
   let username = args[1];
   if(!username) return message.channel.send('Digite seu usuário.');

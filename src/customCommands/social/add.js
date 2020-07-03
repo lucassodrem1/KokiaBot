@@ -53,13 +53,13 @@ exports.run = async (client, message, args) => {
       return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
     }
 
-    await guildController.addGuildSocial(message, username, platform, availablePlat[platform]);
+    await guildController.addGuildSocial(message, username.toLowerCase(), platform, availablePlat[platform]);
 
     // Registrar log se for ação de um usuário privilegiado.
     if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
       AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
     
-    message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
+    message.channel.send(`Conta em **${platform}** de **${username.toLowerCase()}** foi adicionada!`);
   } catch(e) {
     if(e.message == 'feed 404') return;
     
