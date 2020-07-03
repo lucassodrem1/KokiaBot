@@ -1,10 +1,16 @@
 const Discord = require("discord.js");
 const GuildController = require('../../controllers/Guild');
+const AdminController = require('../../controllers/Admin');
 
 exports.run = async (client, message, args) => {
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar este comando!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
 
   let guildController = new GuildController();
@@ -12,6 +18,9 @@ exports.run = async (client, message, args) => {
   if(args[0] === 'all') {
     let checkDelete = await guildController.deleteAllWelcomeImages(message.guild.id);
     if(!checkDelete) return message.channel.send(`Não existe nenhuma imagem na galeria deste servidor!`);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send('Todas as imagens foram removidas da galeria!');
   }
@@ -25,6 +34,9 @@ exports.run = async (client, message, args) => {
   try {
     let checkDelete = await guildController.deleteWelcomeImage(message.guild.id, number);
     if(!checkDelete) return message.channel.send(`Imagem **${number}** não foi encontrada na galeria!`);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Imagem **${number}** removida da galeria de boas-vindas!`);
   } catch(e) {

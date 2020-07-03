@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const GuildController = require('../../controllers/Guild');
-let Parser = require('rss-parser');
-let parser = new Parser();
+const AdminController = require('../../controllers/Admin');
 
 const availablePlat = [
   'twitch',
@@ -9,9 +8,14 @@ const availablePlat = [
 ];
 
 exports.run = async (client, message, args) => {
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar este comando!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
 
   let platform = args[0];
@@ -26,6 +30,9 @@ exports.run = async (client, message, args) => {
   try {
     let updated = await guildController.updateGuildSocialText(message.guild.id, platform, text);
     if(!updated) return message.channel.send(`Ainda não tem anúncios criados de **${platform}** neste servidor.`);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send(`Texto de anúncios de **${platform}** foi atualizado!`);
   } catch(e) {

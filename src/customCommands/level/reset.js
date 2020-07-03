@@ -1,10 +1,16 @@
 const Discord = require("discord.js");
 const UserController = require('../../controllers/User');
+const AdminController = require('../../controllers/Admin');
 
 exports.run = async (client, message, args) => {
-  // Verificar se usuário é um administrador.
-  if(!message.member.hasPermission('OWNER')) {
-    return message.channel.send('Você precisa ser o proprietário do servidor para usar este comando!');
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
+  // Verificar se usuário tem permissão.
+  if(message.author.id !== message.guild.ownerID) {
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser o proprietário do servidor para usar este comando!');
   }
 
   let userController = new UserController();
@@ -12,6 +18,9 @@ exports.run = async (client, message, args) => {
   if(args[0] === 'all') {
     try {
       await userController.resetAllUsers(message.guild.id);
+
+      // Registrar log se for ação de um usuário privilegiado.
+      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
       
       return message.channel.send('Level de todos os usuários foram resetados!');
     } catch(e) {
@@ -28,6 +37,9 @@ exports.run = async (client, message, args) => {
 
   try {
     await userController.resetUserById(message.guild.id, member.id);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send(`Level de **${member.nickname}** foi resetado!`);
   } catch(e) {

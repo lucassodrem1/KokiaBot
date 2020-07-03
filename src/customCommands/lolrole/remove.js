@@ -1,10 +1,16 @@
 const Discord = require("discord.js");
 const GuildLolController = require('../../controllers/GuildLol');
+const AdminController = require('../../controllers/Admin');
 
 exports.run = async (client, message, args) => {
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar este comando!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
 
   let points = args[0];
@@ -17,6 +23,10 @@ exports.run = async (client, message, args) => {
   if(points == 'all') {
     try {
       await guildLolController.deleteMaestryRole(); 
+
+      // Registrar log se for ação de um usuário privilegiado.
+      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+
       return message.channel.send(`Todas as roles dadas por maestria foram removidas!`);
     } catch(e) {
       console.log(`Erro ao remover lolrole.\n Comando: lolrole remove.\n Server: ${message.guild.name}\n`, e);
@@ -29,6 +39,9 @@ exports.run = async (client, message, args) => {
     if(!checkDelete) {
       return message.channel.send(`Não existe uma role ganha com essa quantidade de pontos de maestria!`);
     }
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Role dada com **${points}** de maestria foi removida!`);
   } catch(e) {

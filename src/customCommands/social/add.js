@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const GuildController = require('../../controllers/Guild');
+const AdminController = require('../../controllers/Admin');
 let Parser = require('rss-parser');
 let parser = new Parser();
 
@@ -9,9 +10,14 @@ const availablePlat = {
 };
 
 exports.run = async (client, message, args) => {
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar este comando!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
 
   let platform = args[0];
@@ -39,11 +45,18 @@ exports.run = async (client, message, args) => {
       await guildController.addGuildSocial(message, username, platform, availablePlat[platform]);
       let data = {guild_id: message.guild.id, username: username, platform: platform};
       await guildController.updateGuildSocial(data, 'date', feed.items[0].pubDate);
+
+      // Registrar log se for ação de um usuário privilegiado.
+      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
       
       return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
     }
 
     await guildController.addGuildSocial(message, username, platform, availablePlat[platform]);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    
     message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
   } catch(e) {
     if(e.message == 'feed 404') return;
