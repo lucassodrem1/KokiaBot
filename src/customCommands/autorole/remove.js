@@ -25,8 +25,9 @@ exports.run = async (client, message, args) => {
     await guildController.updateInfo(message.guild.id, 'join_role', 0);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
-    
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+
     message.channel.send('Auto role removida!');
   } catch(e) {
     console.log(`Erro ao remover join role.\n Comando: joinrole remove.\n Server: ${message.guild.name}\n`, e);

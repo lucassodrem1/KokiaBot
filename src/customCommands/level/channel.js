@@ -19,9 +19,10 @@ exports.run = async (client, message, args) => {
 
     if(args[0] === 'default') {
       await guildController.updateSystemLevel(guildId, 'level_up_channel', 0);
-      
+
       // Registrar log se for ação de um usuário privilegiado.
-      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+      if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+        AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
       return message.channel.send('Mensagem agora será mostrada no canal que o usuário estiver!');
     }
@@ -35,7 +36,8 @@ exports.run = async (client, message, args) => {
     await guildController.updateSystemLevel(guildId, 'level_up_channel', channel.id);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
     
     message.channel.send('Canal alterado com sucesso!');
   } catch(e) {

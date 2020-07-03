@@ -34,7 +34,8 @@ exports.run = async (client, message, args) => {
     await guildController.addCustomCommand(message.guild.id, command.toLowerCase(), response);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Comando **${command}** foi adicionado no servidor!`);
   } catch(e) {

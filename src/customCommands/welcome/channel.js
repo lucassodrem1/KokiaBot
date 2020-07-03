@@ -20,7 +20,8 @@ exports.run = async (client, message, args) => {
       await guildController.updateWelcome(message.guild.id, 'channel', 0);
 
       // Registrar log se for ação de um usuário privilegiado.
-      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+      if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+        AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
       
       return message.channel.send('Mensagem de boas-vindas será mostrado no primeiro canal de texto!');
     }
@@ -34,7 +35,8 @@ exports.run = async (client, message, args) => {
     await guildController.updateWelcome(message.guild.id, 'channel', channel.id);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
     
     message.channel.send(`Mensagem de boas-vindas agora irá aparecer em **${channel.name}**!`);
   } catch(e) {

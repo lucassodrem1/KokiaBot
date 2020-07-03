@@ -19,7 +19,8 @@ exports.run = async (client, message, args) => {
 
   message.channel.setRateLimitPerUser(time).then(newChannel => {
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
     
     if(time == 0) {
       return message.channel.send(`**${message.channel.name}** não está em slow mode.`);

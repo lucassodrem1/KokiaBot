@@ -28,7 +28,8 @@ exports.run = async (client, message, args) => {
     userController.setUserLevelById(message.guild.id, member.id, args[1]);
     
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && message.author.id !== message.guild.ownerID) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send(`Level de **${member.displayName}** foi setado para **${args[1]}**!`);
   } catch(e) {

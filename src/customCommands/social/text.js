@@ -32,7 +32,8 @@ exports.run = async (client, message, args) => {
     if(!updated) return message.channel.send(`Ainda não tem anúncios criados de **${platform}** neste servidor.`);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send(`Texto de anúncios de **${platform}** foi atualizado!`);
   } catch(e) {

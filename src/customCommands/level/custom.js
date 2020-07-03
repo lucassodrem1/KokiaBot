@@ -25,7 +25,8 @@ exports.run = async (client, message, args) => {
     await guildController.updateSystemLevel(guildId, 'level_up_message', text);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send('Mensagem ao subir de level foi alterada com sucesso!');
   }
@@ -34,7 +35,8 @@ exports.run = async (client, message, args) => {
   await guildController.updateSystemLevel(guildId, 'level_up_message', text);
 
   // Registrar log se for ação de um usuário privilegiado.
-  if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+  if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+    AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
   
   message.channel.send('Mensagem ao subir de level foi alterada com sucesso!');
 }

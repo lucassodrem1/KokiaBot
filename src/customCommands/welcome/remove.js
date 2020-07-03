@@ -20,7 +20,8 @@ exports.run = async (client, message, args) => {
     if(!checkDelete) return message.channel.send(`Não existe nenhuma imagem na galeria deste servidor!`);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send('Todas as imagens foram removidas da galeria!');
   }
@@ -36,7 +37,8 @@ exports.run = async (client, message, args) => {
     if(!checkDelete) return message.channel.send(`Imagem **${number}** não foi encontrada na galeria!`);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Imagem **${number}** removida da galeria de boas-vindas!`);
   } catch(e) {

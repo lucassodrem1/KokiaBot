@@ -29,7 +29,8 @@ exports.run = async (client, message, args) => {
     message.channel.bulkDelete(messages);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('MANAGE_MESSAGES')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
   })
   .catch(e => console.error(`Erro ao apagar mensagem.\n Comando: clear.\n Server: ${message.guild.name}\n`, e));
 

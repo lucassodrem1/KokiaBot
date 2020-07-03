@@ -24,7 +24,8 @@ exports.run = async (client, message, args) => {
     await guildController.updateInfo(message.guild.id, 'verify_role', role.id); 
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Usuários verificados ganharão a role **${role.name}**!`);
   } catch(e) {

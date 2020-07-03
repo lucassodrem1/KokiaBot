@@ -27,7 +27,8 @@ exports.run = async (client, message, args) => {
     if(champion == 'off') return message.channel.send(`Roles dada por maestrias foram desativadas!`);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Membros precisarão ter maestria com **${champion}** para ganhar role!`);
   } catch(e) {

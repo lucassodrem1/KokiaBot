@@ -37,7 +37,8 @@ exports.run = async (client, message, args) => {
     await guildController.addCustomLevels(message.guild.id, level, role.id, levelMessage); 
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Level customizado definido!`);
   } catch(e) {

@@ -20,7 +20,8 @@ exports.run = async (client, message, args) => {
       await userController.resetAllUsers(message.guild.id);
 
       // Registrar log se for ação de um usuário privilegiado.
-      if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+      if(isPrivilegedUser && message.author.id !== message.guild.ownerID) 
+        AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
       
       return message.channel.send('Level de todos os usuários foram resetados!');
     } catch(e) {
@@ -39,7 +40,8 @@ exports.run = async (client, message, args) => {
     await userController.resetUserById(message.guild.id, member.id);
 
     // Registrar log se for ação de um usuário privilegiado.
-    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    if(isPrivilegedUser && message.author.id !== message.guild.ownerID) 
+      AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     return message.channel.send(`Level de **${member.nickname}** foi resetado!`);
   } catch(e) {
