@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
-const AdminController = require('../../controllers/Admin');
+const AdminController = require('../controllers/Admin');
 
 exports.run = async (client, message, args) => {
   let guildController = new GuildController();

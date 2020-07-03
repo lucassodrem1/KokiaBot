@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
-const AdminController = require('../../controllers/Admin');
+const AdminController = require('../controllers/Admin');
 
-exports.run = (client, message, args) => {
+exports.run = async (client, message, args) => {
   // Pegar usuários privilegiados.
   let privilegedUsers = await AdminController.getPrivilegedUsers();
   let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
