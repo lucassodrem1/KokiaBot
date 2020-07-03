@@ -25,8 +25,9 @@ exports.run = async (client, message, args) => {
   if(!newLevel) return message.channel.send('Especifique um level!');
 
   try {
-    userController.setUserLevelById(message.guild.id, member.id, args[1]);
-    
+    let updatedUser = await userController.setUserLevelById(message.guild.id, member.id, args[1]);
+    if(!updatedUser) return message.channel.send('Usuário não foi encontrado!');
+
     // Registrar log se for ação de um usuário privilegiado.
     if(isPrivilegedUser && message.author.id !== message.guild.ownerID) 
       AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);

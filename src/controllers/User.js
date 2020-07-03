@@ -195,10 +195,8 @@ module.exports = class User {
       client.query(`UPDATE guild_users SET current_xp_level = 0, level = ${level}, total_xp = ${totalXP}
       WHERE guild_id = ${guildId} AND user_id = ${userId};`, (err, results) => {
         if(err) return reject(err);
-
-        if(!results.rowCount) return reject(err);
   
-        return resolve();
+        return resolve(results.rowCount);
       });
     });
   }
