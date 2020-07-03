@@ -12,6 +12,8 @@ exports.run = async (client, message, args) => {
     // Verificar se é usuário privilegiado.
     if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar este comando!');
   }
+
+  if(!args[0]) return message.channel.send('Escolha um opção entre **on** e **off**.');
   
   let option = args[0].toLowerCase();
   let successMessage = 'A role será substituída ao ganhar outra quando subir de level!';
