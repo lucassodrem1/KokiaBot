@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
+const AdminController = require('../../controllers/Admin');
 
 exports.run = async (client, message, args) => {
   let guildController = new GuildController();
@@ -15,9 +16,14 @@ exports.run = async (client, message, args) => {
     }
   }
 
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para alterar o prefixo!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para alterar o prefixo!');
   }
 
   if(args[0].length > 3) return message.channel.send(`O prefixo só pode ter no máximo 3 caracteres.`);
@@ -25,6 +31,10 @@ exports.run = async (client, message, args) => {
   // Alterar prefixo do bot.
   try {
     await guildController.updateInfo(message.member.guild.id, 'prefix', args[0]);
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    
     message.channel.send(`Prefixo alterado com sucesso!`);
   } catch(err) {
     console.log(`Erro ao alterar prefixo.\n Comando: prefix.\n Server: ${message.guild.name}\n`, err);

@@ -1,9 +1,15 @@
 const Discord = require("discord.js");
+const AdminController = require('../../controllers/Admin');
 
 exports.run = (client, message, args) => {
+  // Pegar usuários privilegiados.
+  let privilegedUsers = await AdminController.getPrivilegedUsers();
+  let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+  
   // Verificar se usuário é um administrador.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    return message.channel.send('Você precisa ser um administrador para usar slowmode!');
+    // Verificar se é usuário privilegiado.
+    if(!isPrivilegedUser) return message.channel.send('Você precisa ser um administrador para usar slowmode!');
   }
   
   let time = args[0];
@@ -12,6 +18,9 @@ exports.run = (client, message, args) => {
   if(isNaN(time)) return message.channel.send('Digite um tempo válido.');
 
   message.channel.setRateLimitPerUser(time).then(newChannel => {
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+    
     if(time == 0) {
       return message.channel.send(`**${message.channel.name}** não está em slow mode.`);
     }

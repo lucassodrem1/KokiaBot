@@ -1,11 +1,17 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
+const AdminController = require('../../controllers/Admin');
 
 exports.run = async (client, message, args) => {
   try {
+    // Pegar usuários privilegiados.
+    let privilegedUsers = await AdminController.getPrivilegedUsers();
+    let isPrivilegedUser = privilegedUsers.find(privilegedUser => privilegedUser.user_id == message.author.id);
+
     // Verificar se usuário é um administrador.
     if(!message.member.hasPermission('MANAGE_ROLES')) {
-      return message.channel.send('Você precisa ter permissão de **gerenciar cargos** para usar este comando!');
+      // Verificar se é usuário privilegiado.
+      if(!isPrivilegedUser) return message.channel.send('Você precisa ter permissão de **gerenciar cargos** para usar este comando!');
     }
 
     let guildController = new GuildController();
@@ -47,6 +53,9 @@ exports.run = async (client, message, args) => {
       console.log(`Erro: Não tem permissão pra dar role!\n Comando: verify.\n Server: ${message.guild.name}\n`, e);
       message.channel.send(`Kokia não pôde dar a role **${addRole.name}** por falta de permissões!`);
     });
+
+    // Registrar log se for ação de um usuário privilegiado.
+    if(isPrivilegedUser) AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
     message.channel.send(`Usuário verificado e agora tem a role **${addRole.name}**!`);
   } catch(e) {
