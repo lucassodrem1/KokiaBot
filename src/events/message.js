@@ -122,7 +122,7 @@ module.exports = async (client, message) => {
         
         setTimeout(() => {
           talkedRecently.delete(message.author.id);
-        }, 500);
+        }, 60000);
       }
     }
   }
