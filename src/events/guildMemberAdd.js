@@ -42,7 +42,6 @@ module.exports = async (client, member) => {
     if(guildData.join_role !== '0') {
       let role = member.guild.roles.cache.find(role => role.id === guildData.join_role);
       member.roles.add(role).catch(e => {
-        console.log(`Erro: Não tem permissão pra dar role!\n Evento: guildMemberAdd.\n Server: ${member.guild.name}\n`, e);
         channel.send(`Kokia não pôde dar a autorole **${role.name}** por falta de permissões!`);
       });
     }
