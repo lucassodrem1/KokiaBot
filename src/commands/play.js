@@ -17,6 +17,8 @@ exports.run = (client, message, args) => {
   if (!voiceChannel) 
     return message.channel.send("Você deve estar em um canal de voz!");
 
+  if(!voiceChannel.joinable) return message.channel.send("Kokia não tem permissão para entrar na sala.");
+
   voiceChannel.join()
   .then(connection => {
     const dispatcher = connection.play(client.config.audios[name][audio].link);
