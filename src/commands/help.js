@@ -18,14 +18,15 @@ module.exports = {
         .setTitle('Lista de todos os meus comandos')
         .setDescription(`Você pode usar **${guildData.prefix}help [comando]** para ter informações sobre um comando específico!`)
         .setColor(0xf33434)
-        .setThumbnail(client.user.displayAvatarURL());
+        .setThumbnail(client.user.displayAvatarURL())
+        .setFooter('Bot feito com ❤️.');
 
-      // Pegar comendo da categoria 📜 Informações.
-      let levelingCommands = commands.filter(command => command.category == '📜 Informações');
-      levelingCommands = levelingCommands.map(command => `• ${command.name} ${command.usage || ''}`);
-      embed.addField('📜 Informações', levelingCommands.join('\n'), true);
+      // Pegar comandos da categoria 📜 Informações.
+      let infoCommands = commands.filter(command => command.category == '📜 Informações');
+      infoCommands = infoCommands.map(command => `• ${command.name} ${command.usage || ''}`);
+      embed.addField('📜 Informações', infoCommands.join('\n'), true);
 
-      // Pegar comendo da categoria 🧙 XP & Leveling.
+      // Pegar comandos da categoria 🧙 XP & Leveling.
       let levelingCommands = commands.filter(command => command.category == '🧙 XP & Leveling');
       levelingCommands = levelingCommands.map(command => `• ${command.name} ${command.usage || ''}`);
       embed.addField('🧙 XP & Leveling', levelingCommands.join('\n'), true);
