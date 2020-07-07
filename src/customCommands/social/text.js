@@ -12,6 +12,7 @@ module.exports = {
   description: 'Editar textos exibidos nos anúncios.',
   category: '📱 Divulgação',
   usage: '<plataforma> <texto>',
+  permission: 'Administrador',
   async run(client, message, args) {
     // Pegar usuários privilegiados.
     let privilegedUsers = await AdminController.getPrivilegedUsers();

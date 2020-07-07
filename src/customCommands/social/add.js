@@ -14,6 +14,7 @@ module.exports = {
   description: 'Cadasta um novo usuário.',
   category: '📱 Divulgação',
   usage: '<plataforma> <usuario/ID do canal>',
+  permission: 'Administrador',
   async run(client, message, args) {
     // Pegar usuários privilegiados.
     let privilegedUsers = await AdminController.getPrivilegedUsers();

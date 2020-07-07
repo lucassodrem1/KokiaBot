@@ -14,6 +14,7 @@ module.exports = {
   description: 'Define um canal de anúncio.',
   category: '📱 Divulgação',
   usage: '<plataforma> <channel/off>',
+  permission: 'Administrador',
   async run(client, message, args) {
     // Pegar usuários privilegiados.
     let privilegedUsers = await AdminController.getPrivilegedUsers();
