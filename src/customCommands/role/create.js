@@ -1,11 +1,12 @@
-const Discord = require("discord.js");
 const AdminController = require('../../controllers/Admin');
 
 module.exports = {
   name: 'role create',
   description: 'Cria uma role.',
+  category: '👮‍♀️ Moderação',
   usage: '<nome> #<cor hex>',
   aliases: ['rc'],
+  permission: 'Administrador',
   async run(client, message, args) {
     // Pegar usuários privilegiados.
     let privilegedUsers = await AdminController.getPrivilegedUsers();
