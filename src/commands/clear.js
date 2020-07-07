@@ -43,5 +43,8 @@ exports.run = async (client, message, args) => {
   .then(message => {
     message.delete({timeout: 3000});
   })
-  .catch(e => console.error(`Erro ao mandar mensagem.\n Comando: clear.\n Server: ${message.guild.name}\n`, e));
+  .catch(e => {
+    if(e.message !== 'Missing Permissions')
+      console.error(`Erro ao mandar mensagem.\n Comando: clear.\n Server: ${message.guild.name}\n`, e)
+  });
 };
