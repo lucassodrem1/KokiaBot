@@ -1,9 +1,22 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
 
+const categories = [
+  '📜 Informações',
+  '👋 Boas-vindas',
+  '📱 Divulgação',
+  '🧙 XP & Leveling',
+  '👷‍♀️ Comandos customizados',
+  '👮‍♀️ Moderação',
+  '🎮 Jogos',
+  '😝 4fun',
+  '✍ Auto Role',
+  '💬 Outros Comandos'
+]
+
 module.exports = {
   name: 'help',
-  description: 'Exibe informação dos comandos.',
+  description: 'Exibe informações dos comandos.',
   category: '📜 Informações',
   usage: '[comando]',
   aliases: ['h'],
@@ -19,17 +32,18 @@ module.exports = {
         .setDescription(`Você pode usar **${guildData.prefix}help [comando]** para ter informações sobre um comando específico!`)
         .setColor(0xf33434)
         .setThumbnail(client.user.displayAvatarURL())
-        .setFooter('Bot feito com ❤️.');
+        .setFooter('Bot feito com ❤️');
 
-      // Pegar comandos da categoria 📜 Informações.
-      let infoCommands = commands.filter(command => command.category == '📜 Informações');
-      infoCommands = infoCommands.map(command => `• ${command.name} ${command.usage || ''}`);
-      embed.addField('📜 Informações', infoCommands.join('\n'), true);
+      // Pegar comandos das categorias
+      categories.forEach(category => {
+        let infoCommands = commands.filter(command => command.category == category);
+        infoCommands = infoCommands.map(command => `• ${command.name} ${command.usage || ''}`);
+        embed.addField(category, infoCommands.join('\n'), true);
+      });
 
-      // Pegar comandos da categoria 🧙 XP & Leveling.
-      let levelingCommands = commands.filter(command => command.category == '🧙 XP & Leveling');
-      levelingCommands = levelingCommands.map(command => `• ${command.name} ${command.usage || ''}`);
-      embed.addField('🧙 XP & Leveling', levelingCommands.join('\n'), true);
+      // Informações extras.
+      embed.addField('_ _', `Para ver a documentação completa, veja meu [guia](https://lucassodrem.gitbook.io/kokiabot/)!
+        Dúvidas, sugestões ou feedbacks? Entre no [servidor da Kokia](https://discord.gg/Y4CewPU)!`, false)
 
       return message.channel.send({ embed: embed, split: true })
         .catch(console.error);
