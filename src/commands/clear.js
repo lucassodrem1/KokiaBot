@@ -12,6 +12,11 @@ exports.run = async (client, message, args) => {
     if(!isPrivilegedUser) return message.channel.send('Você precisa ter permissão de **gerenciar mensagens** para usar este comando!');
   }
   
+  // Verificar se Kokia tem permissão.
+  if(!message.guild.me.hasPermission('MANAGE_MESSAGES')) {
+    return message.channel.send('Kokia precisa ter permissão de **gerenciar mensagens** para poder limpar o chat!');
+  }
+
   let amount = 11;
   if(args[0]) {
     if(args[0] > 99) return message.channel.send('Você só pode apagar até 99 mensagens de uma vez.') 
