@@ -1,6 +1,11 @@
 const Discord = require("discord.js");
 const { embedCustomLevel } = require('../../embeds/embedCustomLevel');
 
-exports.run = async (client, message, args) => {
-  embedCustomLevel(Discord, message);
+module.exports = {
+  name: 'customlevel show',
+  description: 'Mostra todos os levels customizados no servidor.',
+  category: '🧙 XP & Leveling',
+  async run(client, message, args) {
+    embedCustomLevel(Discord, message);
+  }
 }
