@@ -1,7 +1,12 @@
 const Discord = require("discord.js");
-const UserController = require('../controllers/User');
 const { embedLeaderboard } = require('../embeds/embedLeaderboard');
 
-exports.run = async (client, message, args) => {
-  embedLeaderboard(Discord, message);
+module.exports = {
+  name: 'leaderboard',
+  description: 'Exibe a classificação dos membros no servidor.',
+  category: '🧙 XP & Leveling',
+  aliases: ['leader'],
+  run(client, message, args) {
+    embedLeaderboard(Discord, message);
+  }
 }
