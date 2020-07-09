@@ -36,7 +36,8 @@ module.exports = {
     let guildController = new GuildController();
     try {
       let successMessage = `Conta em **${platform}** de **${username}** foi adicionada!
-        Ah, não se esqueça de definir um canal de anúncio para ${platform}, fazendo com que os anúncios apareçam!`;
+        Ah, você ainda não definiu um canal de anúncio para ${platform} e seus anúncios não irão aparecer. 
+        Use o comando **social channel ${platform} <channel>** para definir um canal!`;
 
       // Pegar informação de guilda.
       let guildData = await guildController.getGuild(message.guild.id);
@@ -65,7 +66,7 @@ module.exports = {
 
         // Definindo mensagem de sucesso dependendo se o canal de anúncio 
         //já está setado.
-        if(guildData.youtube_channel !== 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
+        if(guildData.youtube_channel != 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
         return message.channel.send(successMessage);
       }
 
@@ -80,8 +81,8 @@ module.exports = {
 
       // Definindo mensagem de sucesso dependendo se o canal de anúncio 
       //já está setado.
-      if(guildData.twitch_channel !== 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
-      
+      if(guildData.twitch_channel != 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
+
       message.channel.send(successMessage);
     } catch(e) {
       if(e.message == 'feed 404') return;
