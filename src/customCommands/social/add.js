@@ -1,4 +1,3 @@
-const Discord = require("discord.js");
 const GuildController = require('../../controllers/Guild');
 const AdminController = require('../../controllers/Admin');
 let Parser = require('rss-parser');
@@ -58,7 +57,7 @@ module.exports = {
         if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
           AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
         
-        return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
+        return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada! Ah, se esqueça de definir um canal de anúncio!`);
       }
 
       // Verificar quantidade de contas da twitch no server.
@@ -70,7 +69,7 @@ module.exports = {
       if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
       
-      message.channel.send(`Conta em **${platform}** de **${username.toLowerCase()}** foi adicionada!`);
+      message.channel.send(`Conta em **${platform}** de **${username.toLowerCase()}** foi adicionada! Ah, se esqueça de definir um canal de anúncio!`);
     } catch(e) {
       if(e.message == 'feed 404') return;
       console.log(`Erro ao adicionar social.\n Comando: social add.\n Server: ${message.guild.name}\n`, e);

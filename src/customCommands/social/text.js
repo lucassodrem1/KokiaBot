@@ -1,4 +1,3 @@
-const Discord = require("discord.js");
 const GuildController = require('../../controllers/Guild');
 const AdminController = require('../../controllers/Admin');
 
@@ -45,7 +44,7 @@ module.exports = {
       if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
-      return message.channel.send(`Texto de anúncio de **${username}** em **${platform}** foi atualizado! Não se esqueça de definir um canal de anúncio!`);
+      return message.channel.send(`Texto de anúncio de **${username}** em **${platform}** foi atualizado!`);
     } catch(e) {
       console.log(`Erro ao editar texto.\n Comando: social text.\n Server: ${message.guild.name}\n`, e);
     }
