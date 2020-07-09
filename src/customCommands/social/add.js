@@ -62,7 +62,7 @@ module.exports = {
       }
 
       // Verificar quantidade de contas da twitch no server.
-      if(checkAmount.length >= 3) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
+      if(checkAmount.length >= 3) return message.channel.send(`O servidor já alcançou o limite de 3 contas em **${platform}**!`);
       
       await guildController.addGuildSocial(message, username.toLowerCase(), platform, availablePlat[platform]);
 
@@ -73,7 +73,6 @@ module.exports = {
       message.channel.send(`Conta em **${platform}** de **${username.toLowerCase()}** foi adicionada!`);
     } catch(e) {
       if(e.message == 'feed 404') return;
-      
       console.log(`Erro ao adicionar social.\n Comando: social add.\n Server: ${message.guild.name}\n`, e);
     }
   }

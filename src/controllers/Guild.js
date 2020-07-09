@@ -203,7 +203,7 @@ module.exports = class Guild {
       client.query(`INSERT INTO guild_social_links (guild_id, username, platform, text) VALUES 
       (${message.guild.id}, '${username}', '${platform}', '${text}');`, err => {
         if(err) {
-          if(err.code == 23505) message.channel.send('Este usuário já está cadastrado nessa plataforma e nesse servidor!'); 
+          if(err.code == 23505) return message.channel.send('Este usuário já está cadastrado nessa plataforma e nesse servidor!'); 
           
           return reject(err);
         }
