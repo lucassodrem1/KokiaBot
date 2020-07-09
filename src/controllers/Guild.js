@@ -256,9 +256,10 @@ module.exports = class Guild {
     });
   }
 
-  updateGuildSocialText(guildId, platform, text) {
+  updateGuildSocialText(guildId, platform, username, text) {
     return new Promise((resolve, reject) => {
-      client.query(`UPDATE guild_social_links SET text = '${text}' WHERE guild_id = ${guildId} AND platform = '${platform}';`, 
+      client.query(`UPDATE guild_social_links SET text = '${text}' WHERE guild_id = ${guildId} AND platform = '${platform}'
+      AND username = '${username}';`, 
       (err, results) => {
         if(err) return reject(err);
 

@@ -36,12 +36,14 @@ module.exports = {
     
     let guildController = new GuildController();
     try {
-      // Verificar se já tem uma conta nessa plataforma nesse servidor.
+      // Pegar quantidade de contar no servidor.
       let checkAmount = await guildController.getGuildSocialByGuild(message.guild.id, platform);
-      if(checkAmount.length) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
-
+      
       // Se for youtube, pegar data do ultimo video e gravar no db.
       if(platform == 'youtube') {
+        // Verificar quantidade de contas do youtube no server.
+        if(checkAmount.length) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
+
         let feed = await parser.parseURL(`https://www.youtube.com/feeds/videos.xml?channel_id=${username}`)
           .catch(e => {
             message.channel.send('ID do canal não foi encontrado.');
@@ -59,6 +61,9 @@ module.exports = {
         return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada!`);
       }
 
+      // Verificar quantidade de contas da twitch no server.
+      if(checkAmount.length >= 3) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
+      
       await guildController.addGuildSocial(message, username.toLowerCase(), platform, availablePlat[platform]);
 
       // Registrar log se for ação de um usuário privilegiado.
