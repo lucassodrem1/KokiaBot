@@ -35,6 +35,12 @@ module.exports = {
     
     let guildController = new GuildController();
     try {
+      let successMessage = `Conta em **${platform}** de **${username}** foi adicionada!
+        Ah, não se esqueça de definir um canal de anúncio para ${platform}, fazendo com que os anúncios apareçam!`;
+
+      // Pegar informação de guilda.
+      let guildData = await guildController.getGuild(message.guild.id);
+
       // Pegar quantidade de contar no servidor.
       let checkAmount = await guildController.getGuildSocialByGuild(message.guild.id, platform);
       
@@ -56,8 +62,11 @@ module.exports = {
         // Registrar log se for ação de um usuário privilegiado.
         if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
           AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
-        
-        return message.channel.send(`Conta em **${platform}** de **${username}** foi adicionada! Ah, não se esqueça de definir um canal de anúncio para **${platform}**!`);
+
+        // Definindo mensagem de sucesso dependendo se o canal de anúncio 
+        //já está setado.
+        if(guildData.youtube_channel) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
+        return message.channel.send(successMessage);
       }
 
       // Verificar quantidade de contas da twitch no server.
@@ -68,8 +77,12 @@ module.exports = {
       // Registrar log se for ação de um usuário privilegiado.
       if(isPrivilegedUser && !message.member.hasPermission('ADMINISTRATOR')) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+
+      // Definindo mensagem de sucesso dependendo se o canal de anúncio 
+      //já está setado.
+      if(guildData.twitch_channel) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
       
-      message.channel.send(`Conta em **${platform}** de **${username.toLowerCase()}** foi adicionada! Ah, não se esqueça de definir um canal de anúncio para **${platform}**!`);
+      message.channel.send(successMessage);
     } catch(e) {
       if(e.message == 'feed 404') return;
       console.log(`Erro ao adicionar social.\n Comando: social add.\n Server: ${message.guild.name}\n`, e);
