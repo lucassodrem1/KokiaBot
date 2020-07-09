@@ -65,7 +65,7 @@ module.exports = {
 
         // Definindo mensagem de sucesso dependendo se o canal de anúncio 
         //já está setado.
-        if(guildData.youtube_channel) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
+        if(guildData.youtube_channel !== 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
         return message.channel.send(successMessage);
       }
 
@@ -80,7 +80,7 @@ module.exports = {
 
       // Definindo mensagem de sucesso dependendo se o canal de anúncio 
       //já está setado.
-      if(guildData.twitch_channel) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
+      if(guildData.twitch_channel !== 0) successMessage = `Conta em **${platform}** de **${username}** foi adicionada!`;
       
       message.channel.send(successMessage);
     } catch(e) {
