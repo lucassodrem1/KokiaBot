@@ -44,6 +44,12 @@ module.exports = async (client, channel) => {
     });
 
     if(isIgnoreChannel) await guildFilterController.deleteIgnoreChannel(isIgnoreChannel.channel_id);
+
+    // Verificar se é canal de log de moderação.
+    let guildFilter = await guildFilterController.getGuildFilter(channel.guild.id);
+    if(channel.id == guildFilter.log_channel) {
+      await guildFilterController.updateInfo('log_channel', 0);
+    }
   } catch(e) {
     console.log(`Erro ao deletar canal.\n Evento: channelDelete.\n Server: ${channel.guild.name}\n`, e);
   }

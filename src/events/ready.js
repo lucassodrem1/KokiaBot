@@ -1,4 +1,5 @@
 const GuildController = require('../controllers/Guild');
+const GuildFilterController = require('../controllers/GuildFilter');
 const { checkStream } = require('../utils/social/checkStream');
 const { checkYoutube } = require('../utils/social/checkYoutube');
 
@@ -6,7 +7,7 @@ module.exports = async (client) => {
   console.log(`Ready to serve in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.`);
 
   // Alter status do bot.
-  client.user.setActivity('Kokia: bit.ly/kokiabot', { type: 'PLAYING' })
+  client.user.setActivity('Kokia: bit.ly/kokiabot', { type: 'PLAYING' });
   
   // Verificar social a cada 3 segundos.
   setInterval(async () => {    
@@ -27,5 +28,10 @@ module.exports = async (client) => {
         checkYoutube(client, guildData, social);
       }
     });
-  }, 5000);
+  }, 30000);
+
+  // Verificar usuários para serem desmutados.
+  setInterval(() => {
+    GuildFilterController.checkToUnmuteUsers(client.guilds.cache);
+  }, 20000);
 }

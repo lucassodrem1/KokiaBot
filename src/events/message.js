@@ -7,6 +7,18 @@ const { talkedRecently } = require('../main');
 
 module.exports = async (client, message) => {
   if (message.author.bot) return;
+
+  // Verificar se é comando no dm channel.
+  if(!message.guild){
+    // Verificar se usuário quer usar help na dm.
+    if(message.content.startsWith('k!help') || message.content.startsWith('k!h')) {
+      const args = message.content.slice(2).trim().split(/ +/g);
+      args.shift();
+      const cmd = client.commands.get('help');
+      return cmd.run(client, message, args);
+    }
+    return message.channel.send('Apenas o comando k!help pode ser usado na DM.');
+  } 
   
   let guildId = message.guild.id;
 
@@ -64,7 +76,7 @@ module.exports = async (client, message) => {
   // SISTEMA DE FILTRO 
   // Filtrar caso não seja adm e tenha algum filtro.
   if(!message.member.hasPermission('ADMINISTRATOR')) {
-    // Pegar informações de filtro do server.
+    // Pegar informações de canais ignorados por filtros no server.
     let guildFilterController = new GuildFilterController(guildId);
     let guildFilter = await guildFilterController.getGuildFilter();
     let ignoreChannels = await guildFilterController.getIgnoreChannelsByGuildId();
@@ -72,6 +84,34 @@ module.exports = async (client, message) => {
     // Verificar se canal não está na lista de canais ignorados pelo filtro no server.
     let isIgnoreChannel = ignoreChannels.find(channel => channel.channel_id == message.channel.id);
     if(!isIgnoreChannel) {
+      
+      // Filtrar termos bloqueados no servidor.
+      if(guildFilter.filter_term) {
+        // Pegar termos.
+        let blockedTerms = await guildFilterController.getBlockedTerm();
+
+        // Verificar se mensagem tem termos bloqueados.
+        let hasBlockedTerm = await guildFilterController.checkMessageTerms(message, blockedTerms);
+        
+        // Apagar mensagem.
+        if(hasBlockedTerm) {
+          // Adicionar pontos de penalização ao usuário.
+          await guildFilterController.addPenaltyPoints(message.author.id, hasBlockedTerm.weight);
+          // Pegar info do usuário de penalidades.
+          let userPenaltyInfo = await guildFilterController.getPenaltyPointsByUser(message.author.id);
+
+          // Mandar log caso tiver channel setado.
+          if(guildFilter.log_channel != 0) {
+            guildFilterController.sendPenaltyLog(message, guildFilter.log_channel, userPenaltyInfo.penalty_points);
+          }
+
+          // Verificar se usuário precisa ser mutado.
+          await guildFilterController.checkIfisToMute(message, guildFilter, userPenaltyInfo);
+
+          return message.delete();
+        }
+      }
+
       // Filtar imagens e vídeos.
       if(guildFilter.filter_attach) {
         if(message.attachments.size > 0) {
