@@ -133,38 +133,38 @@ module.exports = async (client, message) => {
   }
   
   // Sistema de level.
-  let userId = message.author.id;
+  // let userId = message.author.id;
   
-  let guildLevelSystem = await guildController.getGuildLevelSystem(guildId);
+  // let guildLevelSystem = await guildController.getGuildLevelSystem(guildId);
 
-  // Verificar se sistema de level está ativado.
-  if(guildLevelSystem.status != 0) {
-    // Verificar se usuário tem role para não ganhar xp.
-    let haveMuteRole = message.member.roles.cache.find(role => role.id == guildData.blacklist_role);
-    if(!haveMuteRole) {
-      let userController = new UserController();
-      try {
-        // Verificar se user está no db.
-        let userExists = await userController.checkIfUserExists(guildId, userId);
-        if(!userExists) {
-          await userController.addUser(guildId, userId);
-        }
-      } catch(e) {
-        console.error(e);
-      }
+  // // Verificar se sistema de level está ativado.
+  // if(guildLevelSystem.status != 0) {
+  //   // Verificar se usuário tem role para não ganhar xp.
+  //   let haveMuteRole = message.member.roles.cache.find(role => role.id == guildData.blacklist_role);
+  //   if(!haveMuteRole) {
+  //     let userController = new UserController();
+  //     try {
+  //       // Verificar se user está no db.
+  //       let userExists = await userController.checkIfUserExists(guildId, userId);
+  //       if(!userExists) {
+  //         await userController.addUser(guildId, userId);
+  //       }
+  //     } catch(e) {
+  //       console.error(e);
+  //     }
       
-      // Verificar se está em tempo de cooldown.
-      if(!talkedRecently.has(message.author.id)) {
-        // Dar xp ao usuário ao mandar mensagem.
-        userController.earnXp(userId, message);
+  //     // Verificar se está em tempo de cooldown.
+  //     if(!talkedRecently.has(message.author.id)) {
+  //       // Dar xp ao usuário ao mandar mensagem.
+  //       userController.earnXp(userId, message);
         
-        // Adicionar user no tempo de cooldown.
-        talkedRecently.add(message.author.id);
+  //       // Adicionar user no tempo de cooldown.
+  //       talkedRecently.add(message.author.id);
         
-        setTimeout(() => {
-          talkedRecently.delete(message.author.id);
-        }, 60000);
-      }
-    }
-  }
+  //       setTimeout(() => {
+  //         talkedRecently.delete(message.author.id);
+  //       }, 60000);
+  //     }
+  //   }
+  // }
 }
