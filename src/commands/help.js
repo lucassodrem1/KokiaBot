@@ -21,15 +21,13 @@ module.exports = {
   usage: '[comando]',
   aliases: ['h'],
   async run(client, message, args) {
-    const { commands } = client;
-    let guildController = new GuildController();
-    let guildData = await guildController.getGuild(message.guild.id);
+    const { commands } = client;    
 
     if(!args.length) {
       // Mostrar todos os comandos.
       let embed = new Discord.MessageEmbed()
         .setTitle('Lista de todos os meus comandos')
-        .setDescription(`Você pode usar **${guildData.prefix}help [comando]** para ter informações sobre um comando específico!`)
+        .setDescription(`Você pode usar **help [comando]** para ter informações sobre um comando específico!`)
         .setColor(0xf33434)
         .setThumbnail(client.user.displayAvatarURL())
         .setFooter('Bot feito com ❤️');
@@ -62,7 +60,7 @@ module.exports = {
       .setTitle(command.name)
       .setColor(0xf33434)
       .setThumbnail(client.user.displayAvatarURL())
-      .setDescription(`${command.description}\n\nUso: ${guildData.prefix}${command.name} ${command.usage || ''}\n\nAtalho(s): ${aliases}`);
+      .setDescription(`${command.description}\n\nUso: ${command.name} ${command.usage || ''}\n\nAtalho(s): ${aliases}`);
     
       if(command.permission) {
         embed.setFooter(`⚠️ Esse comando requer permissão: ${command.permission}`);
