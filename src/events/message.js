@@ -1,4 +1,3 @@
-const Discord = require("discord.js");
 const UserController = require('../controllers/User');
 const GuildController = require('../controllers/Guild');
 const GuildFilterController = require('../controllers/GuildFilter');
@@ -167,4 +166,8 @@ module.exports = async (client, message) => {
       }
     }
   }
+
+  // Se mencionar o bot.
+  if(message.content == `<@!${client.user.id}>`)
+    message.channel.send(`Oi! Meu prefixo nesse servidor é **${guildData.prefix}**`);
 }
