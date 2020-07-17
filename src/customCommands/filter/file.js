@@ -18,6 +18,8 @@ module.exports = {
         // Verificar se é usuário privilegiado.
         if(!isPrivilegedUser) return await message.channel.send('Você precisa ser um administrador para usar este comando!');
       }
+
+      if(!args[0]) return await message.channel.send('Escolha uma opção entre **on** e **off**.');
       
       let option = args[0].toLowerCase();
       let successMessage = 'Filtro de arquivo ativado!';
