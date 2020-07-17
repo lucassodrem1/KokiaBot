@@ -3,7 +3,6 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const client = new Discord.Client();
 const config = require("../assets/config.json");
-const message = require("./events/message");
 client.config = config;
 module.exports.talkedRecently = new Set();
 

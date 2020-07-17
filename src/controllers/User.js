@@ -161,8 +161,8 @@ module.exports = class User {
   // Resetar level de todos os usuários.
   resetAllUsers(guildId) {
     return new Promise((resolve, reject) => {
-      client.query(`UPDATE guild_users SET current_xp_level = 0, level = 0, total_xp = 0
-      WHERE guild_id = ${guildId};`, err => {
+      client.query(`DELETE FROM guild_users WHERE guild_id = ${guildId};`, 
+      err => {
         if(err) return reject(err);
   
         return resolve();
@@ -173,8 +173,8 @@ module.exports = class User {
   // Resetar level de um usuário especifico.
   resetUserById(guildId, userId) {
     return new Promise((resolve, reject) => {
-      client.query(`UPDATE guild_users SET current_xp_level = 0, level = 0, total_xp = 0
-      WHERE guild_id = ${guildId} AND user_id = ${userId};`, (err, results) => {
+      client.query(`DELETE FROM guild_users WHERE guild_id = ${guildId} AND user_id = ${userId};`, 
+      (err, results) => {
         if(err) return reject(err);
 
         if(!results.rowCount) return reject(err);

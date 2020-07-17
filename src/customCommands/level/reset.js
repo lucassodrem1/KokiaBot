@@ -49,10 +49,11 @@ module.exports = {
       if(isPrivilegedUser && message.author.id !== message.guild.ownerID) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
 
-      return message.channel.send(`Level de **${member.nickname}** foi resetado!`);
+      return message.channel.send(`Level de **${member.displayName}** foi resetado!`);
     } catch(e) {
       message.channel.send('Usuário é um bot ou não foi encontrado!');
-      console.log(`Erro ao resetar level do usuario.\n Comando: level reset.\n Server: ${message.guild.name}\n`, e);
+      if(e !== null)
+        console.log(`Erro ao resetar level do usuario.\n Comando: level reset.\n Server: ${message.guild.name}\n`, e);
     }
   }
 }
