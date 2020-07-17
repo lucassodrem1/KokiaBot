@@ -10,7 +10,7 @@ module.exports = {
       .setColor(0xf33434)
       .setAuthor(client.user.username, client.user.displayAvatarURL())
       .setThumbnail(client.user.displayAvatarURL())
-      .setDescription(`Nos ajude [votando na Kokia!](https://top.gg/bot/695267877892259890)`);
+      .setDescription(`Nos ajude [votando na Kokia!](https://top.gg/bot/695267877892259890/vote)`);
 
       await message.channel.send({embed: embed});
     } catch(e) {
