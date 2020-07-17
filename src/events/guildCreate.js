@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const GuildController = require('../controllers/Guild');
-const UserController = require('../controllers/User');
 const GuildFilterController = require('../controllers/GuildFilter');
+const message = require("./message");
 
 module.exports = (client, guild) => {
   // Verificar disponibilidade do server.
@@ -12,9 +12,13 @@ module.exports = (client, guild) => {
   let textChannel = guild.channels.cache.find(channel => channel.type === 'text');
   
   // Exibir mensagem quando entrar no server.
-  textChannel.send(`Oi! Meu prefixo é **${client.config.prefix}**. Digite **${client.config.prefix}help** para me conhecer! Se gostar, [vote em mim para me ajudar!](https://top.gg/bot/695267877892259890/vote)`)
-    .catch(e => console.error('Error', e));
+  let embed = new Discord.MessageEmbed()
+      .setColor(0xf33434)
+      .setAuthor(client.user.username, client.user.displayAvatarURL())
+      .setThumbnail(client.user.displayAvatarURL())
+      .setDescription(`Oi! Meu prefixo é **${client.config.prefix}**. Digite **${client.config.prefix}help** para me conhecer!\n Se gostar, [vote em mim para me ajudar!](https://top.gg/bot/695267877892259890/vote)`)
 
+  message.channel.send({embed: embed});
   // Salvar id da guild no db.
   let guildController = new GuildController();
   guildController.addGuild(guild.id, client.config.prefix);
