@@ -295,7 +295,7 @@ module.exports = class GuildFilter {
   static async checkToUnmuteUsers(guilds) {
     let now = Date.now();
     let mutedUsers = await this.getAllMutedUsers();
-    mutedUsers.forEach(async mutedUser => {
+    mutedUsers.forEach(mutedUser => {
       // Se horário atual for maior que horario de desmute,
       // desmutar o usuário.
       if(now >= mutedUser.when_unmute) {
@@ -306,17 +306,18 @@ module.exports = class GuildFilter {
         // Remover usuário do banco de dados.
         this.deleteMutedUser(guild.id, mutedUser.user_id);
 
-
         // Pegar usuário na guilda.
-        let member = await guild.members.fetch(mutedUser.user_id);
-        if(!member) return;
-        
-        // Remover role.
-        let muteRole = member.roles.cache.find(role => role.name === 'Muted');
-        if(!muteRole) return;
-        member.roles.remove(muteRole);
-      }
+        let member = guild.members.fetch(mutedUser.user_id)
+        .then(member => {
+          if(!member) return;
 
+            // Remover role.
+            let muteRole = member.roles.cache.find(role => role.name === 'Muted');
+            if(!muteRole) return;
+            member.roles.remove(muteRole);
+          })
+          .catch(e => {return;});
+      }
     });
   }
 }
