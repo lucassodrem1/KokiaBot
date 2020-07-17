@@ -18,7 +18,7 @@ module.exports = (client, guild) => {
       .setThumbnail(client.user.displayAvatarURL())
       .setDescription(`Oi! Meu prefixo é **${client.config.prefix}**. Digite **${client.config.prefix}help** para me conhecer!\n\n Se gostar, [vote em mim para me ajudar!](https://top.gg/bot/695267877892259890/vote)`)
 
-  message.channel.send({embed: embed});
+  textChannel.send({embed: embed});
   // Salvar id da guild no db.
   let guildController = new GuildController();
   guildController.addGuild(guild.id, client.config.prefix);
