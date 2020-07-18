@@ -76,7 +76,7 @@ module.exports = class User {
   // Dar 15 a 25 de xp para o usuário caso ele não esteja no tempo de cooldown.
   async earnXp(userId, message) {
     // Gerar xp.
-    let xpEarnValue = Math.floor(Math.random() * 11) + 15;
+    let xpEarnValue = Math.floor(Math.random() * 11) + 10;
 
     client.query(`UPDATE guild_users SET current_xp_level = current_xp_level + ${xpEarnValue}, total_xp = total_xp + ${xpEarnValue}
     WHERE guild_id = ${message.guild.id} AND user_id = ${userId};`, async err => {
