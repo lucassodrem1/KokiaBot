@@ -182,13 +182,13 @@ module.exports = class GuildFilter {
   }
 
    // Criar mensagem de moderação de log.
-   sendModPenaltyLog(message, target, logChannel, title, reason) {
+   sendModPenaltyLog(message, target, logChannel, title, reason, color = '0x33cc33') {
     let channel = message.guild.channels.cache.find(channel => channel.id == logChannel);
 
     let embed = new Discord.MessageEmbed()
       .setTitle(title)
       .setThumbnail(message.author.displayAvatarURL())
-      .setColor('0x33cc33')
+      .setColor(color)
       .addField('Usuário', `${target}`, true)
       .addField('Moderador', `<@${message.author.id}>`, true)
       .addField('Motivo', reason, false)
