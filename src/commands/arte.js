@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 
 module.exports = {
-  name: 'invite',
-  description: 'Exibe link de invite da Kokia.',
+  name: 'arte',
+  description: 'Exibe informação do artista da Kokia.',
   category: '📜 Informações',
   async run(client, message, args) {
     try {
@@ -10,11 +10,11 @@ module.exports = {
       .setColor(0xf33434)
       .setAuthor(client.user.username, client.user.displayAvatarURL())
       .setThumbnail(client.user.displayAvatarURL())
-      .setDescription(`Chame a Kokia para o seu servidor!\n\n[Convite](https://discordapp.com/oauth2/authorize?client_id=695267877892259890&scope=bot&permissions=1544027248)`);
+      .setDescription(`Siga o artista da Kokia no [twitter!](https://twitter.com/edsanthiago)`);
 
       await message.channel.send({embed: embed});
     } catch(e) {
-      console.log(`Erro ao mostrar invite.\n Comando: invite.\n Server: ${message.guild.name}\n`, e);
+      console.log(`Erro ao mostrar arte.\n Comando: arte.\n Server: ${message.guild.name}\n`, e);
     }
   }
 }

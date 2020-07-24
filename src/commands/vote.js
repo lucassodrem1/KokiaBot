@@ -14,7 +14,6 @@ module.exports = {
 
       await message.channel.send({embed: embed});
     } catch(e) {
-      message.channel.send('Código do deck não existe.');
       console.log(`Erro ao mostrar vote.\n Comando: vote.\n Server: ${message.guild.name}\n`, e);
     }
   }
