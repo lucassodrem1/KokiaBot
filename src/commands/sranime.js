@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-require('cross-fetch/polyfill');
+const https = require('https');
 const { embedSearchAnime } = require('../embeds/embedSearchAnime');
 const { formatAnimeGenre } = require('../utils/formatAnimeGenre');
 
@@ -9,6 +9,7 @@ module.exports = {
   category: '😝 4fun',
   usage: '<gênero> [nota mínima]',
   async run(client, message, args) {
+    return message.channel.send("Desculpe :( O comando está em manutenção.");
     let genreName = args[0];
     let score = args[1];
     
@@ -25,7 +26,23 @@ module.exports = {
     try {
       let searchingMsg = message.channel.send(`Pesquisando animes de **${genreName}** com nota mínima à **${score}**...`);
       
-      let requestAnimes = await fetch(`https://api.jikan.moe/v3/search/anime?genre=${genreNumber}&score=${score}:4444`);
+      https.get(`https://api.jikan.moe/v3/search/anime?genre=${genreNumber}&score=${score}`, res => {
+        let output = '';
+
+        res.on('data', chunck => {
+          output += chunck;
+        })
+
+        res.on('end', () => {
+          console.log(JSON.parse(output));
+        })
+
+        res.on("error", function (error) {
+          console.log(`Erro ao mostrar embed.\n Comando: sranime.\n Server: ${message.guild.name}\n`, e);
+          message.channel.send('Ops, Algo deu errado! Pesquise novamente.');
+        })
+      })
+      return;
       let animesData = await requestAnimes.json();
       if(!animesData.results.length) return message.channel.send('Nenhum anime encontrado!'); 
 
