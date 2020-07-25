@@ -143,7 +143,7 @@ module.exports.embedLorDeck = function(Discord, message, deck) {
   embed.addField('Unidades', followers.join('\n'), true);
   embed.addField('Feitiços', spells.join('\n'), true);
 
-  message.channel.send({embed: embed})
+  message.channel.send({embed: embed, split: true})
   .catch(e => {
     console.log(`Erro ao mostrar embed.\n Comando: deck pt.\n Server: ${message.guild.name}\n`, e);
     message.channel.send('Erro ao mostrar embed!');
