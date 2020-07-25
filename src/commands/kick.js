@@ -29,10 +29,8 @@ module.exports = {
       // Pegar reason.
       let kickReason = args.slice(1).join(' ').length ? args.slice(1).join(' ') : '_ _';
 
-      // Dar ban no usuário.
+      // Dar kick no usuário.
       await guildMember.kick({reason: kickReason});
-
-      message.channel.send(`<@${member.id}> foi expulso do servidor!`);
 
       let guildFilterController = new GuildFilterController(message.guild.id);
       let guildFilter = await guildFilterController.getGuildFilter();
@@ -46,7 +44,7 @@ module.exports = {
         return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Expulsão', kickReason, '0xf33434');
       }
 
-      message.channel.send(`<@${member.id}> foi kickado(a).`);
+      message.channel.send(`<@${member.id}> foi expulso(a)!`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para expulsar este usuário.');

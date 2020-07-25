@@ -32,8 +32,6 @@ module.exports = {
       // Dar ban no usuário.
       await guildMember.ban({reason: banReason});
 
-      message.channel.send(`<@${member.id}> foi banido do servidor!`);
-
       let guildFilterController = new GuildFilterController(message.guild.id);
       let guildFilter = await guildFilterController.getGuildFilter();
       
@@ -46,7 +44,7 @@ module.exports = {
         return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Banimento', banReason, '0xf33434');
       }
 
-      message.channel.send(`<@${member.id}> foi banido(a).`);
+      message.channel.send(`<@${member.id}> foi banido(a)!`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para banir este usuário.');
