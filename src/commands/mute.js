@@ -86,14 +86,16 @@ module.exports = {
       let guildFilter = await guildFilterController.getGuildFilter();
       guildFilterController.addMutedUser(member.id, mutedTime);
 
-      // Exibir mensagem de log caso o channel estiver ativo.
-      if(guildFilter.log_channel != 0) {
-        guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, `Mutado | ${mutedTimeText}`, reason, '0xfac10c');
-      }
-
       // Registrar log se for ação de um usuário privilegiado.
       if(isPrivilegedUser && !message.member.hasPermission('MANAGE_ROLES')) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+      
+      // Exibir mensagem de log caso o channel estiver ativo.
+      if(guildFilter.log_channel != 0) {
+        return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, `Mutado | ${mutedTimeText}`, reason, '0xfac10c');
+      }
+
+      message.channel.send(`<@${member.id}> foi mutado por ${mutedTimeText}.`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para mutar este usuário.');

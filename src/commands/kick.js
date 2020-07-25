@@ -37,14 +37,16 @@ module.exports = {
       let guildFilterController = new GuildFilterController(message.guild.id);
       let guildFilter = await guildFilterController.getGuildFilter();
       
-      // Exibir mensagem de log caso o channel estiver ativo.
-      if(guildFilter.log_channel != 0) {
-        guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Expulsão', kickReason, '0xf33434');
-      }
-
       // Registrar log se for ação de um usuário privilegiado.
       if(isPrivilegedUser && !message.member.hasPermission('KICK_MEMBERS')) 
         AdminController.addPrivilegedUserLog(message.author.id, message.guild.id, message.content);
+
+      // Exibir mensagem de log caso o channel estiver ativo.
+      if(guildFilter.log_channel != 0) {
+        return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Expulsão', kickReason, '0xf33434');
+      }
+
+      message.channel.send(`<@${member.id}> foi kickado.`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para expulsar este usuário.');
