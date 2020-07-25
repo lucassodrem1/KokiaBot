@@ -95,7 +95,7 @@ module.exports = {
         return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, `Mutado | ${mutedTimeText}`, reason, '0xfac10c');
       }
 
-      message.channel.send(`<@${member.id}> foi mutado por ${mutedTimeText}.`);
+      message.channel.send(`<@${member.id}> foi mutado(a) por ${mutedTimeText}.`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para mutar este usuário.');

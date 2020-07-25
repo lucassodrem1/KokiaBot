@@ -46,7 +46,7 @@ module.exports = {
         return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Expulsão', kickReason, '0xf33434');
       }
 
-      message.channel.send(`<@${member.id}> foi kickado.`);
+      message.channel.send(`<@${member.id}> foi kickado(a).`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para expulsar este usuário.');

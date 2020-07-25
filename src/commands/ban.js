@@ -46,7 +46,7 @@ module.exports = {
         return guildFilterController.sendModPenaltyLog(message, `<@${member.id}>`, guildFilter.log_channel, 'Banimento', banReason, '0xf33434');
       }
 
-      message.channel.send(`<@${member.id}> foi banido.`);
+      message.channel.send(`<@${member.id}> foi banido(a).`);
     } catch(e) {
       if(e.message === 'Missing Permissions') 
         return message.channel.send('Não tenho permissão para banir este usuário.');
