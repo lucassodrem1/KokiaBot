@@ -5,11 +5,11 @@ const { checkYoutube } = require('../utils/social/checkYoutube');
 
 module.exports = async (client) => {
   console.log(`Ready to serve in ${client.channels.cache.size} channels on ${client.guilds.cache.size} servers, for a total of ${client.users.cache.size} users.`);
-
+  
   // Alter status do bot.
   client.user.setActivity('Kokia: bit.ly/kokiabot', { type: 'PLAYING' });
   
-  // Verificar social a cada 3 segundos.
+  // Verificar social a cada 1 minuto.
   setInterval(async () => {    
     let guildController = new GuildController();
     let guildSocials = await guildController.getAllGuildSocial();
@@ -28,7 +28,7 @@ module.exports = async (client) => {
         checkYoutube(client, guildData, social);
       }
     });
-  }, 30000);
+  }, 60000);
 
   // Verificar usuários para serem desmutados.
   setInterval(() => {
