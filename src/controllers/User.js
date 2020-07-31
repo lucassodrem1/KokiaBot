@@ -118,8 +118,10 @@ module.exports = class User {
             // Dando cargo do level custom.
             message.member.roles.add(customLevelRole)
             .catch(e => {
+              if(e.message === 'Missing Permissions') 
+                return channelToSend.send(`Kokia não pôde dar a role **${customLevelRole.name}** por falta de permissões!`);
+              
               console.log(`Erro: Não tem permissão pra dar role!\n Momento: Usuário receber role ao upar.\n Server: ${message.guild.name}\n`, e);
-              channelToSend.send(`Kokia não pôde dar a role **${customLevelRole.name}** por falta de permissões!`);
             });
 
             let guildInfo = await guildController.getGuild(message.guild.id);
