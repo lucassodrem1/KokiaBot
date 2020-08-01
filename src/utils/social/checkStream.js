@@ -27,7 +27,7 @@ module.exports.checkStream = async function(client, guildData, social) {
     await guildController.updateGuildSocial(social, 'online', 1);
 
     // Somar em vezes aparecidas e pegar esse valor.
-    let timesAppeared = await guildController.updateGuildSocialAppeared(social);
+    let timesAppeared = await SystemController.updateSystemAdsShown();
     social.appeared = timesAppeared;
 
     // Pegar guilda.
