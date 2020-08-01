@@ -15,7 +15,7 @@ module.exports.embedTwitch = async function(Discord, channel, streamer, social) 
       .setTitle(streamer.title)
       .setURL(`https://twitch.tv/${streamer.user_name.toLowerCase()}`)
       .addField('Jogo', streamer.game_name, false)
-      .setImage(thumbnail_url);
+      .setImage(`${thumbnail_url}?r=${social.appeared}`);
 
     channel.send(social.text, {embed: embed});
   } catch(e) {

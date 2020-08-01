@@ -5,7 +5,6 @@ const Discord = require("discord.js");
 
 module.exports.checkStream = async function(client, guildData, social) {
   let guildController = new GuildController();
-  
   try {
     let requestStreamer = await fetch(`https://api.twitch.tv/helix/streams?user_login=${social.username}`, { 
       headers: { 'Authorization': process.env.TWITCH_TOKEN, 'Client-ID': process.env.TWITCH_CLIENT_ID } 
@@ -26,6 +25,10 @@ module.exports.checkStream = async function(client, guildData, social) {
 
     // Setar online para 1.
     await guildController.updateGuildSocial(social, 'online', 1);
+
+    // Somar em vezes aparecidas e pegar esse valor.
+    let timesAppeared = await guildController.updateGuildSocialAppeared(social);
+    social.appeared = timesAppeared;
 
     // Pegar guilda.
     let guild = client.guilds.cache.find(guild => guild.id == social.guild_id);

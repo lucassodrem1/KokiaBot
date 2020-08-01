@@ -256,6 +256,18 @@ module.exports = class Guild {
     });
   }
 
+  updateGuildSocialAppeared(data) {
+    return new Promise((resolve, reject) => {
+      client.query(`UPDATE guild_social_links SET appeared = appeared + 1 WHERE guild_id = ${data.guild_id} AND username = '${data.username}'
+      AND platform = '${data.platform}' RETURNING appeared;`, 
+      (err, results) => {
+        if(err) return reject(err);
+
+        return resolve(results.rows[0].appeared);
+      });
+    });
+  }
+
   updateGuildSocialText(guildId, platform, username, text) {
     return new Promise((resolve, reject) => {
       client.query(`UPDATE guild_social_links SET text = '${text}' WHERE guild_id = ${guildId} AND platform = '${platform}'
