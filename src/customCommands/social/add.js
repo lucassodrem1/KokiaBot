@@ -48,14 +48,20 @@ module.exports = {
       // Se for youtube, pegar data do ultimo video e gravar no db.
       if(platform == 'youtube') {
         // Verificar quantidade de contas do youtube no server.
-        if(checkAmount.length) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
-
+        // if(checkAmount.length) return message.channel.send(`Já existe uma conta em **${platform}** adicionada nesse servidor!`);
+        
         let feed = await parser.parseURL(`https://www.youtube.com/feeds/videos.xml?channel_id=${username}`)
-          .catch(e => {
-            message.channel.send('ID do canal não foi encontrado.');
-            throw new Error('feed 404');
-          });
-          
+        .catch(e => {
+          message.channel.send('ID do canal não foi encontrado.');
+          throw new Error('feed 404');
+        });
+        
+        // Caso não tiver nenhum video no canal, pegar data atual.
+        if(!feed.items.length) {
+          const time = new Date().toISOString();
+          feed.items[0] = { pubDate: time };
+        }
+
         await guildController.addGuildSocial(message, username, platform, availablePlat[platform]);
         let data = {guild_id: message.guild.id, username: username, platform: platform};
         await guildController.updateGuildSocial(data, 'date', feed.items[0].pubDate);
