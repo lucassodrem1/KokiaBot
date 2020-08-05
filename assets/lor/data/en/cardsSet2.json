@@ -4,8 +4,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ001-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -42,8 +42,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW040.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW040-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW040.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW040-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -80,8 +80,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR009-full.png"
       }
     ],
     "region": "Freljord",
@@ -118,8 +118,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ010-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -154,8 +154,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX001-full.png"
       }
     ],
     "region": "Noxus",
@@ -163,8 +163,8 @@
     "attack": 5,
     "cost": 8,
     "health": 8,
-    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Draw a <link=card.champ1><style=AssociatedCard>Swain</style></link>.\r\n<link=vocab.RoundStart><style=Vocab>Round Start</style></link>: Deal 1 to the enemy Nexus three times.",
-    "descriptionRaw": "Play: Draw a Swain.\r\nRound Start: Deal 1 to the enemy Nexus three times.",
+    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Draw a <link=card.champ1><style=AssociatedCard>Swain</style></link>.\r\n<link=vocab.RoundStart><style=Vocab>Round Start</style></link>: Deal 1 to the enemy Nexus 3 times.",
+    "descriptionRaw": "Play: Draw a Swain.\r\nRound Start: Deal 1 to the enemy Nexus 3 times.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "When the Ionian locals saw it looming on the horizon, they thought it a monster. They were not far from the truth--the steel warship is terrifying, the greatest feat of Noxian naval engineering yet.",
@@ -192,8 +192,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW057.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW057-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW057.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW057-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -232,8 +232,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE003-full.png"
       }
     ],
     "region": "Demacia",
@@ -266,8 +266,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI005-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -275,8 +275,8 @@
     "attack": 0,
     "cost": 3,
     "health": 0,
-    "description": "<link=vocab.Toss><style=Vocab>Toss</style></link> 3.\r\nHeal allies 3.",
-    "descriptionRaw": "Toss 3.\r\nHeal allies 3.",
+    "description": "<link=vocab.Toss><style=Vocab>Toss</style></link> 3.\r\nHeal all allies 3.",
+    "descriptionRaw": "Toss 3.\r\nHeal all allies 3.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"These Isles will be cleansed.\" - Maokai",
@@ -309,8 +309,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -347,8 +347,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW041.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW041-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW041.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW041-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -390,8 +390,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -428,8 +428,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ006-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -466,8 +466,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW013.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW013-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW013.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW013-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -506,8 +506,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI010-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -544,8 +544,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW034T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW034T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW034T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW034T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -584,8 +584,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW056T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW056T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW056T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW056T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -622,8 +622,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW061.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW061-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW061.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW061-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -662,8 +662,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW060.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW060-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW060.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW060-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -699,8 +699,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007T2-full.png"
       }
     ],
     "region": "Noxus",
@@ -740,8 +740,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T3-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -780,8 +780,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW011.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW011-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW011.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW011-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -789,8 +789,8 @@
     "attack": 3,
     "cost": 4,
     "health": 3,
-    "description": "When I'm summoned, create a <link=card.create><style=AssociatedCard>Warning Shot</style></link> in hand.\r\n<link=vocab.Allegiance><style=Vocab>Allegiance</style></link>: Draw a non-champion card from the enemy deck.",
-    "descriptionRaw": "When I'm summoned, create a Warning Shot in hand.\r\nAllegiance: Draw a non-champion card from the enemy deck.",
+    "description": "When I'm summoned, create a <link=card.create><style=AssociatedCard>Warning Shot</style></link> in hand.\r\n<link=vocab.Allegiance><style=Vocab>Allegiance</style></link>: <link=keyword.Nab><style=Keyword>Nab</style></link> 1.",
+    "descriptionRaw": "When I'm summoned, create a Warning Shot in hand.\r\nAllegiance: Nab 1.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Y'know, friends love to help friends out. And you? I like the shine in your eye and the glint on your cutlass! It is a really, really nice cutlass.\"",
@@ -812,15 +812,15 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW022T1",
       "02BW022T4",
+      "02BW022T3",
       "02BW022T2",
-      "02BW022T3"
+      "02BW022T1"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -828,8 +828,8 @@
     "attack": 3,
     "cost": 3,
     "health": 3,
-    "description": "When allies attack, deal 1 to battling enemies and the enemy Nexus.",
-    "descriptionRaw": "When allies attack, deal 1 to battling enemies and the enemy Nexus.",
+    "description": "When allies attack, deal 1 to all battling enemies and the enemy Nexus.",
+    "descriptionRaw": "When allies attack, deal 1 to all battling enemies and the enemy Nexus.",
     "levelupDescription": "I've seen you attack 4 times<style=Variable></style>.",
     "levelupDescriptionRaw": "I've seen you attack 4 times.",
     "flavorText": "\"'Miss' Fortune? Out here, you call me 'Captain'.\"",
@@ -853,8 +853,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -893,8 +893,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR004-full.png"
       }
     ],
     "region": "Freljord",
@@ -931,8 +931,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW019.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW019-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW019.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW019-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -971,8 +971,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW007-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -980,8 +980,8 @@
     "attack": 4,
     "cost": 4,
     "health": 5,
-    "description": "To play me, discard 2.\r\n<link=vocab.Attack><style=Vocab>Attack</style></link>: Draw 2 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
-    "descriptionRaw": "To play me, discard 2.\r\nAttack: Draw 2 Fleeting.",
+    "description": "To play me, discard 2.\r\n<link=vocab.Attack><style=Vocab>Attack</style></link>: Draw 2 and give them <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
+    "descriptionRaw": "To play me, discard 2.\r\nAttack: Draw 2 and give them Fleeting.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Ain't nothing to it, most o' the time. Tables are full of fools too busy singing 'emselves hoarse to focus on the game. Not that I mind none. Coin's coin, and it's better in my pocket than theirs.\"",
@@ -1007,8 +1007,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ004-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -1045,8 +1045,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW014.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW014-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW014.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW014-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1054,8 +1054,8 @@
     "attack": 1,
     "cost": 2,
     "health": 2,
-    "description": "When I'm summoned, create a random 1 cost spell in hand.",
-    "descriptionRaw": "When I'm summoned, create a random 1 cost spell in hand.",
+    "description": "When I'm summoned, create in hand a 1 cost spell from your regions.",
+    "descriptionRaw": "When I'm summoned, create in hand a 1 cost spell from your regions.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "Most shallows teem with all kinds of marine life, but none compare to the reefs of the Azure Way. The Way is a magical, otherworldly place, full of wonder.",
@@ -1083,8 +1083,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX006-full.png"
       }
     ],
     "region": "Noxus",
@@ -1117,8 +1117,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE008-full.png"
       }
     ],
     "region": "Demacia",
@@ -1155,8 +1155,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO008T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO008T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO008T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO008T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -1195,8 +1195,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW024.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW024-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW024.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW024-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1204,8 +1204,8 @@
     "attack": 0,
     "cost": 3,
     "health": 0,
-    "description": "Summon two random 1 cost followers from any region.",
-    "descriptionRaw": "Summon two random 1 cost followers from any region.",
+    "description": "Summon 2 random 1 cost followers.",
+    "descriptionRaw": "Summon 2 random 1 cost followers.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Oi, Gav--ain't that the fella we're after? Looks like he found a friend.\"\n\"Is that... Is that a shark-man, Baz?\"\n\"It's also a bunch more gold, mate. Come on...\" - Baz and Gav, aspiring bounty hunters",
@@ -1233,8 +1233,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW062.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW062-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW062.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW062-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1271,8 +1271,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW055.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW055-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW055.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW055-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1305,8 +1305,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T3-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -1347,8 +1347,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO005T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO005T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO005T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO005T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -1381,8 +1381,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE004-full.png"
       }
     ],
     "region": "Demacia",
@@ -1428,8 +1428,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1472,8 +1472,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T3-full.png"
       }
     ],
     "region": "Demacia",
@@ -1510,8 +1510,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI007-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -1548,8 +1548,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW003-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1586,8 +1586,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW017.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW017-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW017-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1620,8 +1620,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI003-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -1663,8 +1663,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007T1-full.png"
       }
     ],
     "region": "Noxus",
@@ -1705,8 +1705,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1714,8 +1714,8 @@
     "attack": 4,
     "cost": 3,
     "health": 4,
-    "description": "When allies attack, deal 1 three times to battling enemies and the enemy Nexus.",
-    "descriptionRaw": "When allies attack, deal 1 three times to battling enemies and the enemy Nexus.",
+    "description": "When allies attack, deal 1 three times to all battling enemies and the enemy Nexus.",
+    "descriptionRaw": "When allies attack, deal 1 three times to all battling enemies and the enemy Nexus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Most people don't get close enough to see the craftsmanship on these guns. Lucky you.\"",
@@ -1745,8 +1745,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO002T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO002T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO002T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO002T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -1783,8 +1783,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ007-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -1792,8 +1792,8 @@
     "attack": 3,
     "cost": 4,
     "health": 3,
-    "description": "When you play a 2 cost card, draw 1 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
-    "descriptionRaw": "When you play a 2 cost card, draw 1 Fleeting.",
+    "description": "When you play a 2 cost card, draw 1 and give it <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
+    "descriptionRaw": "When you play a 2 cost card, draw 1 and give it Fleeting.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"All detectives respond, but a good detective anticipates, and an exemplary detective prevents.\" - The Warden's Handbook",
@@ -1819,8 +1819,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW056.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW056-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW056.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW056-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1857,15 +1857,15 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW025",
       "02BW046",
       "02BW046T1",
+      "02BW025",
       "02BW046T2"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T3-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1873,16 +1873,20 @@
     "attack": 3,
     "cost": 1,
     "health": 2,
-    "description": "When you cast a spell, give me <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Elusive</style></link> and stop all enemy spells and skills targeting me.\r\n<link=vocab.Nexus Strike><style=Vocab>Nexus Strike</style></link>: Create a <link=card.create><style=AssociatedCard>Chum the Waters</style></link> in hand.",
-    "descriptionRaw": "When you cast a spell, give me Elusive and stop all enemy spells and skills targeting me.\r\nNexus Strike: Create a Chum the Waters in hand.",
+    "description": "When you cast a spell, stop all enemy spells and skills targeting me and give me <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Elusive</style></link> this round.\r\n<link=vocab.Nexus Strike><style=Vocab>Nexus Strike</style></link>: Create a <link=card.create><style=AssociatedCard>Chum the Waters</style></link> in hand.",
+    "descriptionRaw": "When you cast a spell, stop all enemy spells and skills targeting me and give me Elusive this round.\r\nNexus Strike: Create a Chum the Waters in hand.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "...while others insist he's just a playful child who safeguards others on their journeys home.",
     "artistName": "SIXMOREVODKA",
     "name": "Fizz",
     "cardCode": "02BW046T3",
-    "keywords": [],
-    "keywordRefs": [],
+    "keywords": [
+      "Imbue"
+    ],
+    "keywordRefs": [
+      "Imbue"
+    ],
     "spellSpeed": "",
     "spellSpeedRef": "",
     "rarity": "None",
@@ -1898,8 +1902,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T2-full.png"
       }
     ],
     "region": "Demacia",
@@ -1940,8 +1944,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW025.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW025-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW025.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW025-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1978,8 +1982,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T4.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T4-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T4.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T4-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -1987,8 +1991,8 @@
     "attack": 0,
     "cost": 0,
     "health": 0,
-    "description": "Deal 1 three times to battling enemies and the enemy Nexus.",
-    "descriptionRaw": "Deal 1 three times to battling enemies and the enemy Nexus.",
+    "description": "Deal 1 three times to all battling enemies and the enemy Nexus.",
+    "descriptionRaw": "Deal 1 three times to all battling enemies and the enemy Nexus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "Even if you fail to hear the bawdy cries of her crew, there's no way you'll miss her laughter...",
@@ -2018,8 +2022,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE009-full.png"
       }
     ],
     "region": "Demacia",
@@ -2057,13 +2061,13 @@
     "associatedCards": [],
     "associatedCardRefs": [
       "02IO006T3",
-      "02IO006T1",
-      "02IO006T2"
+      "02IO006T2",
+      "02IO006T1"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006-full.png"
       }
     ],
     "region": "Ionia",
@@ -2071,8 +2075,8 @@
     "attack": 3,
     "cost": 6,
     "health": 6,
-    "description": "When you cast a spell, give me <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenger</style></link> this round.\r\nIf you cast another, give me <link=keyword.Barrier><sprite name=Barrier><style=Keyword>Barrier</style></link>.",
-    "descriptionRaw": "When you cast a spell, give me Challenger this round.\r\nIf you cast another, give me Barrier.",
+    "description": "When you cast a spell, give me <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenger</style></link> this round.\r\nIf you cast another, give me <link=keyword.Barrier><sprite name=Barrier><style=Keyword>Barrier</style></link> this round.",
+    "descriptionRaw": "When you cast a spell, give me Challenger this round.\r\nIf you cast another, give me Barrier this round.",
     "levelupDescription": "You've cast 7+ spells<style=Variable></style>.",
     "levelupDescriptionRaw": "You've cast 7+ spells.",
     "flavorText": "\"The Dragon aids the worthy. To the weary, it gives vigor. To the sick, comfort. To the lost, light. To the shaken, balance...\"",
@@ -2100,8 +2104,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW038.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW038-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW038.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW038-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2140,8 +2144,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW021.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW021-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW021.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW021-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2178,8 +2182,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW022T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW022T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2187,8 +2191,8 @@
     "attack": 0,
     "cost": 0,
     "health": 0,
-    "description": "Deal 1 to battling enemies and the enemy Nexus.",
-    "descriptionRaw": "Deal 1 to battling enemies and the enemy Nexus.",
+    "description": "Deal 1 to all battling enemies and the enemy Nexus.",
+    "descriptionRaw": "Deal 1 to all battling enemies and the enemy Nexus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"A little something to remember me by.\" - Miss Fortune",
@@ -2216,8 +2220,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI001-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -2250,8 +2254,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T5.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T5-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T5.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T5-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2288,8 +2292,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2297,8 +2301,8 @@
     "attack": 0,
     "cost": 5,
     "health": 0,
-    "description": "If I'm <link=vocab.Toss><style=Vocab>Tossed</style></link>, draw me instead. Create 5 random cards in hand, they cost 0 and are <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
-    "descriptionRaw": "If I'm Tossed, draw me instead. Create 5 random cards in hand, they cost 0 and are Fleeting.",
+    "description": "Create 5 random cards in hand. They cost 0 and are <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.\r\nIf I'm <link=vocab.Toss><style=Vocab>Tossed</style></link>, draw me instead.",
+    "descriptionRaw": "Create 5 random cards in hand. They cost 0 and are Fleeting.\r\nIf I'm Tossed, draw me instead.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "Captain Finn roared out \"Ye earned this, boys! Told ye the Tithe was nothin' but coward feed!\" Some cheered, but not all. The waters seemed to still, save for the bubbles around the Rancour's hull.",
@@ -2328,8 +2332,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ002-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -2337,8 +2341,8 @@
     "attack": 5,
     "cost": 6,
     "health": 6,
-    "description": "When you draw a card, give it <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link> and create an exact copy of it.",
-    "descriptionRaw": "When you draw a card, give it Fleeting and create an exact copy of it.",
+    "description": "When you draw a card, give it <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link> and create an exact copy of it in hand.",
+    "descriptionRaw": "When you draw a card, give it Fleeting and create an exact copy of it in hand.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "At age five, she made the world's first multi-frequency sonic knife. While not very practical (she mostly used it to slice sandwiches), it set her on her way to the Wardens' elite Armaments Department.",
@@ -2364,8 +2368,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW012.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW012-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW012.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW012-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2400,14 +2404,14 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02SI008",
+      "02SI008T3",
       "02SI008T2",
-      "02SI008T3"
+      "02SI008"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T1-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -2415,8 +2419,8 @@
     "attack": 0,
     "cost": 3,
     "health": 0,
-    "description": "<link=vocab.Toss><style=Vocab>Toss</style></link> 3.\r\nHeal allies 3.\r\nShuffle a <link=card.level1><style=AssociatedCard>Maokai</style></link> into your deck.",
-    "descriptionRaw": "Toss 3.\r\nHeal allies 3.\r\nShuffle a Maokai into your deck.",
+    "description": "<link=vocab.Toss><style=Vocab>Toss</style></link> 3.\r\nHeal all allies 3.\r\nShuffle a <link=card.level1><style=AssociatedCard>Maokai</style></link> into your deck.",
+    "descriptionRaw": "Toss 3.\r\nHeal all allies 3.\r\nShuffle a Maokai into your deck.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"These Isles will be cleansed.\" - Maokai",
@@ -2444,8 +2448,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX002-full.png"
       }
     ],
     "region": "Noxus",
@@ -2478,8 +2482,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE005-full.png"
       }
     ],
     "region": "Demacia",
@@ -2496,13 +2500,13 @@
     "name": "Unyielding Spirit",
     "cardCode": "02DE005",
     "keywords": [
-      "Burst"
+      "Fast"
     ],
     "keywordRefs": [
-      "Burst"
+      "Fast"
     ],
-    "spellSpeed": "Burst",
-    "spellSpeedRef": "Burst",
+    "spellSpeed": "Fast",
+    "spellSpeedRef": "Fast",
     "rarity": "EPIC",
     "rarityRef": "Epic",
     "subtype": "",
@@ -2516,8 +2520,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW035.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW035-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW035.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW035-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2560,8 +2564,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI002-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -2594,8 +2598,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO004-full.png"
       }
     ],
     "region": "Ionia",
@@ -2632,8 +2636,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW058.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW058-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW058.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW058-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2664,16 +2668,16 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW026T2",
-      "02BW026T4",
-      "02BW026T5",
       "02BW026",
-      "02BW026T1"
+      "02BW026T1",
+      "02BW026T5",
+      "02BW026T4",
+      "02BW026T2"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T3-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2681,8 +2685,8 @@
     "attack": 3,
     "cost": 4,
     "health": 3,
-    "description": "The first 3 times I see you play a card each round, I play a Destiny Card.",
-    "descriptionRaw": "The first 3 times I see you play a card each round, I play a Destiny Card.",
+    "description": "Each round, the first 3 times you play a card, I play a Destiny Card.",
+    "descriptionRaw": "Each round, the first 3 times you play a card, I play a Destiny Card.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"...it ain't gamblin' if you can't lose.\"",
@@ -2710,8 +2714,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW028T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW028T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW028T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW028T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2748,8 +2752,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW018.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW018-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW018-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2786,8 +2790,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW037.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW037-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW037.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW037-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2795,8 +2799,8 @@
     "attack": 3,
     "cost": 5,
     "health": 3,
-    "description": "<link=vocab.Nexus Strike><style=Vocab>Nexus Strike</style></link>: Draw a card.\r\n<style=Variable></style>",
-    "descriptionRaw": "Nexus Strike: Draw a card.\r\n",
+    "description": "<link=vocab.Nexus Strike><style=Vocab>Nexus Strike</style></link>: Draw 1.\r\n<style=Variable></style>",
+    "descriptionRaw": "Nexus Strike: Draw 1.\r\n",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Aye aye, they cried, and set off away,\nTo see to trouble in fair Nashramae,\nBut nature, she turned, and many did die,\nAn' the rest are off to see the all-seein' eye!\" - \"The All-Seeing Eye\"",
@@ -2830,8 +2834,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO003T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO003T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO003T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO003T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -2873,8 +2877,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002-full.png"
       }
     ],
     "region": "Freljord",
@@ -2911,8 +2915,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW048.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW048-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW048.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW048-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2920,8 +2924,8 @@
     "attack": 0,
     "cost": 1,
     "health": 0,
-    "description": "Summon a random 1 cost follower from any region.",
-    "descriptionRaw": "Summon a random 1 cost follower from any region.",
+    "description": "Summon a random 1 cost follower.",
+    "descriptionRaw": "Summon a random 1 cost follower.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Whatcha think, Baz? He don't look so tough.\"\n\"Ya sure, Gav? He broke out of prison...\"\n\"Means he's wily, not tough. Come on!\" - Baz and Gav, aspiring bounty hunters",
@@ -2949,8 +2953,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW043.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW043-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW043.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW043-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -2958,8 +2962,8 @@
     "attack": 0,
     "cost": 3,
     "health": 0,
-    "description": "Shuffle a card from hand into your deck to draw 3 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link> at next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>.",
-    "descriptionRaw": "Shuffle a card from hand into your deck to draw 3 Fleeting at next Round Start.",
+    "description": "Shuffle a card from hand into your deck to draw 3 at the next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>. Give them <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
+    "descriptionRaw": "Shuffle a card from hand into your deck to draw 3 at the next Round Start. Give them Fleeting.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"I make my own luck.\" - Twisted Fate",
@@ -2987,8 +2991,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR001-full.png"
       }
     ],
     "region": "Freljord",
@@ -3023,17 +3027,17 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008T02.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008T02-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008T02.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008T02-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 3,
     "cost": 3,
-    "health": 1,
-    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Summon a random 1 cost ally from any region.",
-    "descriptionRaw": "Play: Summon a random 1 cost ally from any region.",
+    "health": 2,
+    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Summon a random 1 cost follower.",
+    "descriptionRaw": "Play: Summon a random 1 cost follower.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "Few things, he learned, could motivate a slacking sailor as promptly as a lit fuse.",
@@ -3044,8 +3048,8 @@
     "keywordRefs": [],
     "spellSpeed": "",
     "spellSpeedRef": "",
-    "rarity": "RARE",
-    "rarityRef": "Rare",
+    "rarity": "None",
+    "rarityRef": "None",
     "subtype": "",
     "subtypes": [],
     "supertype": "",
@@ -3059,15 +3063,15 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008T01.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008T01-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008T01.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008T01-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 3,
     "cost": 3,
-    "health": 1,
+    "health": 2,
     "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Summon a <link=card.summon><style=AssociatedCard>Powder Keg</style></link>.",
     "descriptionRaw": "Play: Summon a Powder Keg.",
     "levelupDescription": "",
@@ -3080,8 +3084,8 @@
     "keywordRefs": [],
     "spellSpeed": "",
     "spellSpeedRef": "",
-    "rarity": "RARE",
-    "rarityRef": "Rare",
+    "rarity": "None",
+    "rarityRef": "None",
     "subtype": "",
     "subtypes": [],
     "supertype": "",
@@ -3093,8 +3097,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW051.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW051-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW051.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW051-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3133,8 +3137,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW054.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW054-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW054.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW054-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3142,8 +3146,8 @@
     "attack": 0,
     "cost": 4,
     "health": 0,
-    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Stun</style></link> an enemy.\r\nShuffle that unit into the enemy deck if there's an ally <link=card.champCheck><style=AssociatedCard>Nautilus</style></link>.",
-    "descriptionRaw": "Stun an enemy.\r\nShuffle that unit into the enemy deck if there's an ally Nautilus.",
+    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Stun</style></link> an enemy.\r\nShuffle that unit into the enemy deck if you have a <link=card.champCheck><style=AssociatedCard>Nautilus</style></link>.",
+    "descriptionRaw": "Stun an enemy.\r\nShuffle that unit into the enemy deck if you have a Nautilus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Drag them down...\" - Nautilus",
@@ -3173,8 +3177,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI004-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -3206,13 +3210,13 @@
     "associatedCards": [],
     "associatedCardRefs": [
       "02IO006T3",
-      "02IO006",
-      "02IO006T2"
+      "02IO006T2",
+      "02IO006"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -3220,8 +3224,8 @@
     "attack": 4,
     "cost": 6,
     "health": 7,
-    "description": "When you cast a spell, give me <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenger</style></link> this round.\r\nIf you cast another, give me <link=keyword.Barrier><sprite name=Barrier><style=Keyword>Barrier</style></link>.\r\nI <link=card.attackSpell><style=AssociatedCard>Dragon's Rage</style></link> enemies that I <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenge</style></link>.",
-    "descriptionRaw": "When you cast a spell, give me Challenger this round.\r\nIf you cast another, give me Barrier.\r\nI Dragon's Rage enemies that I Challenge.",
+    "description": "When you cast a spell, give me <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenger</style></link> this round.\r\nIf you cast another, give me <link=keyword.Barrier><sprite name=Barrier><style=Keyword>Barrier</style></link> this round.\r\nI <link=card.attackSpell><style=AssociatedCard>Dragon's Rage</style></link> enemies that I <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Challenge</style></link>.",
+    "descriptionRaw": "When you cast a spell, give me Challenger this round.\r\nIf you cast another, give me Barrier this round.\r\nI Dragon's Rage enemies that I Challenge.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"...But for the tyrant, the Dragon breathes fire.\"",
@@ -3247,13 +3251,13 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW026",
-      "02BW026T3"
+      "02BW026T3",
+      "02BW026"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3261,8 +3265,8 @@
     "attack": 0,
     "cost": 3,
     "health": 0,
-    "description": "Shuffle a card from hand into your deck to draw 3 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link> at next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>.\r\nShuffle a <link=card.level1><style=AssociatedCard>Twisted Fate</style></link> into your deck.",
-    "descriptionRaw": "Shuffle a card from hand into your deck to draw 3 Fleeting at next Round Start.\r\nShuffle a Twisted Fate into your deck.",
+    "description": "Shuffle a card from hand into your deck to draw 3 at the next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>. Give them <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.\r\nShuffle a <link=card.level1><style=AssociatedCard>Twisted Fate</style></link> into your deck.",
+    "descriptionRaw": "Shuffle a card from hand into your deck to draw 3 at the next Round Start. Give them Fleeting.\r\nShuffle a Twisted Fate into your deck.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"I make my own luck.\" - Twisted Fate",
@@ -3292,8 +3296,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO003-full.png"
       }
     ],
     "region": "Ionia",
@@ -3305,7 +3309,7 @@
     "descriptionRaw": "Round Start: Summon a Dragonling if you cast 2+ spells last round.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
-    "flavorText": "\"A student must think with clarity, for the Dragon draws the sun across our skies, and reveals the world around us.\" - Teachings of the Dragon",
+    "flavorText": "\"A student must think with clarity, for the Dragon draws the sun across our skies, and reveals the world around us.\"\n- Teachings of the Dragon",
     "artistName": "Dao Le",
     "name": "Eye of the Dragon",
     "cardCode": "02IO003",
@@ -3329,13 +3333,12 @@
     "associatedCards": [],
     "associatedCardRefs": [
       "02BW053",
-      "02BW053",
       "02BW053T1"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3343,8 +3346,8 @@
     "attack": 0,
     "cost": 4,
     "health": 0,
-    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Stun</style></link> an enemy.\r\nShuffle that enemy into the enemy deck if you have a <link=card.champCheck><style=AssociatedCard>Nautilus</style></link>.\r\nShuffle a <link=card.level1><style=AssociatedCard>Nautilus</style></link> into your deck.",
-    "descriptionRaw": "Stun an enemy.\r\nShuffle that enemy into the enemy deck if you have a Nautilus.\r\nShuffle a Nautilus into your deck.",
+    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Stun</style></link> an enemy.\r\nShuffle that unit into the enemy deck if you have a <link=card.champCheck><style=AssociatedCard>Nautilus</style></link>.\r\nShuffle a <link=card.level1><style=AssociatedCard>Nautilus</style></link> into your deck.",
+    "descriptionRaw": "Stun an enemy.\r\nShuffle that unit into the enemy deck if you have a Nautilus.\r\nShuffle a Nautilus into your deck.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Drag them down...\" - Nautilus",
@@ -3372,8 +3375,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO001-full.png"
       }
     ],
     "region": "Ionia",
@@ -3404,14 +3407,14 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02SI008T2",
       "02SI008T1",
+      "02SI008T2",
       "02SI008T3"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -3419,8 +3422,8 @@
     "attack": 1,
     "cost": 4,
     "health": 4,
-    "description": "The first time you play another ally each round, <link=vocab.Toss><style=Vocab>Toss</style></link> 2 and summon a <link=card.summon><style=AssociatedCard>Sapling</style></link>.",
-    "descriptionRaw": "The first time you play another ally each round, Toss 2 and summon a Sapling.",
+    "description": "Each round, the first time you play another ally, <link=vocab.Toss><style=Vocab>Toss</style></link> 2 and summon a <link=card.summon><style=AssociatedCard>Sapling</style></link>.",
+    "descriptionRaw": "Each round, the first time you play another ally, Toss 2 and summon a Sapling.",
     "levelupDescription": "Your units have died or your cards have been <link=vocab.Toss><style=Vocab>Tossed</style></link> 25 times.<style=Variable></style>",
     "levelupDescriptionRaw": "Your units have died or your cards have been Tossed 25 times.",
     "flavorText": "These cursed lands would not break Maokai. The treant's commitment ran too deep, and his fury burned too bright, for anything to stand in his way.",
@@ -3448,8 +3451,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -3459,8 +3462,8 @@
     "health": 4,
     "description": "While I'm in play or in hand, grant me +1|+0 when you play another card <style=Parentheses>(max +8|+0)</style>. <style=Variable></style>",
     "descriptionRaw": "While I'm in play or in hand, grant me +1|+0 when you play another card (max +8|+0). ",
-    "levelupDescription": "When I <link=vocab.Strike><style=Vocab>Strike</style></link> for 10 or more.",
-    "levelupDescriptionRaw": "When I Strike for 10 or more.",
+    "levelupDescription": "When I <link=vocab.Strike><style=Vocab>Strike</style></link> for 10+ Damage.",
+    "levelupDescriptionRaw": "When I Strike for 10+ Damage.",
     "flavorText": "\"Enforcer Vi, please! Think of the people! The collateral damage! The PAPERWORK FOR INJURY CLAIMS!\" - Insightful Investigator",
     "artistName": "SIXMOREVODKA",
     "name": "Vi",
@@ -3488,8 +3491,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI006-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -3522,13 +3525,13 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW047.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW047-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW047.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW047-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
-    "attack": 2,
+    "attack": 1,
     "cost": 1,
     "health": 1,
     "description": "When I'm summoned, <link=vocab.Toss><style=Vocab>Toss</style></link> 3.",
@@ -3556,8 +3559,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX009-full.png"
       }
     ],
     "region": "Noxus",
@@ -3596,17 +3599,17 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW008-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 3,
     "cost": 3,
-    "health": 1,
-    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Summon a <link=card.summon><style=AssociatedCard>Powder Keg</style></link>, or a random 1 cost ally from any region.",
-    "descriptionRaw": "Play: Summon a Powder Keg, or a random 1 cost ally from any region.",
+    "health": 2,
+    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Summon a <link=card.summon><style=AssociatedCard>Powder Keg</style></link> or a random 1 cost follower.",
+    "descriptionRaw": "Play: Summon a Powder Keg or a random 1 cost follower.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "Few things, he learned, could motivate a slacking sailor as promptly as a lit fuse.",
@@ -3633,8 +3636,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX007-full.png"
       }
     ],
     "region": "Noxus",
@@ -3674,8 +3677,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3716,8 +3719,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR005T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR005T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR005T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR005T1-full.png"
       }
     ],
     "region": "Freljord",
@@ -3752,15 +3755,15 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW032",
-      "02BW032T2",
       "02BW032T1",
-      "02BW032T4"
+      "02BW032T4",
+      "02BW032",
+      "02BW032T2"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T3-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3768,8 +3771,8 @@
     "attack": 6,
     "cost": 5,
     "health": 6,
-    "description": "When I'm summoned and <link=vocab.RoundStart><style=Vocab>Round Start</style></link>: Summon a <link=card.summon><style=AssociatedCard>Powder Keg</style></link>.\r\n<link=keyword.AttackSkillMark><sprite name=AttackSkillMark><style=Keyword>Attack</style></link>: Deal 1 to all enemies and the enemy Nexus.",
-    "descriptionRaw": "When I'm summoned and Round Start: Summon a Powder Keg.\r\nAttack: Deal 1 to all enemies and the enemy Nexus.",
+    "description": "When I'm summoned or <link=vocab.RoundStart><style=Vocab>Round Start</style></link>: Summon a <link=card.summon><style=AssociatedCard>Powder Keg</style></link>.\r\n<link=keyword.AttackSkillMark><sprite name=AttackSkillMark><style=Keyword>Attack</style></link>: Deal 1 to all enemies and the enemy Nexus.",
+    "descriptionRaw": "When I'm summoned or Round Start: Summon a Powder Keg.\r\nAttack: Deal 1 to all enemies and the enemy Nexus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Seen his eyes enough to know. Ain't nothin' but pure anger there. Someday, the boss'll do to Bilgewater what it did to him.\" - Petty Officer",
@@ -3797,8 +3800,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR010-full.png"
       }
     ],
     "region": "Freljord",
@@ -3837,8 +3840,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW004-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3873,8 +3876,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW002-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3911,8 +3914,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -3920,8 +3923,8 @@
     "attack": 0,
     "cost": 0,
     "health": 1,
-    "description": "Powder Kegs stack.\r\nAll your spells and skills deal <style=Variable>1</style> extra damage.\r\nDestroy me when your spell or skill damages enemies.",
-    "descriptionRaw": "Powder Kegs stack.\r\nAll your spells and skills deal 1 extra damage.\r\nDestroy me when your spell or skill damages enemies.",
+    "description": "Powder Kegs stack.\r\nAll of your spells and skills deal <style=Variable>1</style> extra damage.\r\nDestroy me when your spell or skill damages enemies or the enemy Nexus.",
+    "descriptionRaw": "Powder Kegs stack.\r\nAll of your spells and skills deal 1 extra damage.\r\nDestroy me when your spell or skill damages enemies or the enemy Nexus.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Where there's a keg, there's a way.\" - Bilgewater saying",
@@ -3953,8 +3956,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO005-full.png"
       }
     ],
     "region": "Ionia",
@@ -3993,8 +3996,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX004.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX004-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX004-full.png"
       }
     ],
     "region": "Noxus",
@@ -4027,8 +4030,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW016.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW016-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW016.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW016-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4061,8 +4064,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T4.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T4-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T4.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T4-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4105,8 +4108,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE002-full.png"
       }
     ],
     "region": "Demacia",
@@ -4143,8 +4146,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX003-full.png"
       }
     ],
     "region": "Noxus",
@@ -4184,8 +4187,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR008-full.png"
       }
     ],
     "region": "Freljord",
@@ -4221,8 +4224,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002T1-full.png"
       }
     ],
     "region": "Freljord",
@@ -4259,8 +4262,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T3-full.png"
       }
     ],
     "region": "Ionia",
@@ -4297,8 +4300,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ009-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -4306,8 +4309,8 @@
     "attack": 0,
     "cost": 2,
     "health": 0,
-    "description": "Create a random 2 cost card in hand. It costs 0 this round.",
-    "descriptionRaw": "Create a random 2 cost card in hand. It costs 0 this round.",
+    "description": "Create in hand a 2 cost card from your regions. It costs 0 this round.",
+    "descriptionRaw": "Create in hand a 2 cost card from your regions. It costs 0 this round.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"And thus,\" Officer Harknor announced, \"the trail leads us to...\"",
@@ -4335,15 +4338,15 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE010-full.png"
       }
     ],
     "region": "Demacia",
     "regionRef": "Demacia",
-    "attack": 4,
+    "attack": 5,
     "cost": 6,
-    "health": 4,
+    "health": 5,
     "description": "When I'm summoned, give other allies +1|+1 this round.",
     "descriptionRaw": "When I'm summoned, give other allies +1|+1 this round.",
     "levelupDescription": "",
@@ -4377,8 +4380,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO002.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO002-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO002-full.png"
       }
     ],
     "region": "Ionia",
@@ -4417,8 +4420,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4457,15 +4460,15 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW027.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW027-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW027.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW027-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
-    "attack": 7,
-    "cost": 5,
-    "health": 7,
+    "attack": 6,
+    "cost": 4,
+    "health": 6,
     "description": "When I'm summoned, summon a <link=card.summon><style=AssociatedCard>Golden Narwhal</style></link> for your opponent.",
     "descriptionRaw": "When I'm summoned, summon a Golden Narwhal for your opponent.",
     "levelupDescription": "",
@@ -4494,8 +4497,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR002T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR002T3-full.png"
       }
     ],
     "region": "Freljord",
@@ -4503,8 +4506,8 @@
     "attack": 6,
     "cost": 6,
     "health": 7,
-    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Give an enemy <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>Frostbite</style></link> and <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerable</style></link> this round.\r\nThe first time I see you damage the enemy Nexus each round, <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>Frostbite</style></link> all enemies.",
-    "descriptionRaw": "Play: Give an enemy Frostbite and Vulnerable this round.\r\nThe first time I see you damage the enemy Nexus each round, Frostbite all enemies.",
+    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Give an enemy <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>Frostbite</style></link> and <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerable</style></link> this round.\r\nEach round, the first time you damage the enemy Nexus, <link=keyword.Frostbite><sprite name=Frostbite><style=Keyword>Frostbite</style></link> all enemies.",
+    "descriptionRaw": "Play: Give an enemy Frostbite and Vulnerable this round.\r\nEach round, the first time you damage the enemy Nexus, Frostbite all enemies.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Lay them low! Show them the Freljord belongs to the Winter's Claw!\"",
@@ -4534,8 +4537,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO010-full.png"
       }
     ],
     "region": "Ionia",
@@ -4572,14 +4575,14 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW042.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW042-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW042.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW042-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 0,
-    "cost": 8,
+    "cost": 7,
     "health": 0,
     "description": "This round, set all allies' Power and Health to the number of spells you've played this game. <style=Variable></style>",
     "descriptionRaw": "This round, set all allies' Power and Health to the number of spells you've played this game. ",
@@ -4610,46 +4613,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE007-full.png"
-      }
-    ],
-    "region": "Demacia",
-    "regionRef": "Demacia",
-    "attack": 0,
-    "cost": 1,
-    "health": 0,
-    "description": "Give allies <link=keyword.Tough><sprite name=Tough><style=Keyword>Tough</style></link> this round.",
-    "descriptionRaw": "Give allies Tough this round.",
-    "levelupDescription": "",
-    "levelupDescriptionRaw": "",
-    "flavorText": "\"When the enemy draws near, do not let fear into your hearts, for the trees themselves protect us.\" - Greenfang Warden",
-    "artistName": "Kudos Productions",
-    "name": "Ranger's Resolve",
-    "cardCode": "02DE007",
-    "keywords": [
-      "Burst"
-    ],
-    "keywordRefs": [
-      "Burst"
-    ],
-    "spellSpeed": "Burst",
-    "spellSpeedRef": "Burst",
-    "rarity": "RARE",
-    "rarityRef": "Rare",
-    "subtype": "",
-    "subtypes": [],
-    "supertype": "",
-    "type": "Spell",
-    "collectible": true
-  },
-  {
-    "associatedCards": [],
-    "associatedCardRefs": [],
-    "assets": [
-      {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW059.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW059-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW059.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW059-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4686,8 +4651,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR007-full.png"
       }
     ],
     "region": "Freljord",
@@ -4726,8 +4691,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T4.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW032T4-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T4.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW032T4-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4764,8 +4729,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW050.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW050-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW050.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW050-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4806,8 +4771,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006T1-full.png"
       }
     ],
     "region": "Demacia",
@@ -4846,8 +4811,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW028.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW028-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW028.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW028-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4880,8 +4845,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW023.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW023-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW023.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW023-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -4920,8 +4885,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI009-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -4929,8 +4894,8 @@
     "attack": 0,
     "cost": 1,
     "health": 0,
-    "description": "Summon a <link=card.summon><style=AssociatedCard>Sapling</style></link> next round.",
-    "descriptionRaw": "Summon a Sapling next round.",
+    "description": "Summon a <link=card.summon><style=AssociatedCard>Sapling</style></link> at the next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>.",
+    "descriptionRaw": "Summon a Sapling at the next Round Start.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Wheeeeeeee!\" - Sapling",
@@ -4958,8 +4923,46 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE007-full.png"
+      }
+    ],
+    "region": "Demacia",
+    "regionRef": "Demacia",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Give all allies <link=keyword.Tough><sprite name=Tough><style=Keyword>Tough</style></link> this round.",
+    "descriptionRaw": "Give all allies Tough this round.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"When the enemy draws near, do not let fear into your hearts, for the trees themselves protect us.\" - Greenfang Warden",
+    "artistName": "Kudos Productions",
+    "name": "Ranger's Resolve",
+    "cardCode": "02DE007",
+    "keywords": [
+      "Burst"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Burst",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARE",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Spell",
+    "collectible": true
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ003-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -4996,8 +4999,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW031.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW031-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW031.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW031-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5036,8 +5039,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW034.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW034-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW034.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW034-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5078,8 +5081,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02SI008T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02SI008T2-full.png"
       }
     ],
     "region": "Shadow Isles",
@@ -5116,8 +5119,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX010-full.png"
       }
     ],
     "region": "Noxus",
@@ -5154,8 +5157,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE001-full.png"
       }
     ],
     "region": "Demacia",
@@ -5163,8 +5166,8 @@
     "attack": 0,
     "cost": 5,
     "health": 0,
-    "description": "Pick an enemy. Two allies <link=vocab.Strike><style=Vocab>strike</style></link> it.",
-    "descriptionRaw": "Pick an enemy. Two allies strike it.",
+    "description": "Pick an enemy. 2 allies <link=vocab.Strike><style=Vocab>strike</style></link> it.",
+    "descriptionRaw": "Pick an enemy. 2 allies strike it.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"With me, as one!\" - Greenfang Warden",
@@ -5192,8 +5195,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO007.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO007-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO007-full.png"
       }
     ],
     "region": "Ionia",
@@ -5230,8 +5233,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW029.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW029-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW029.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW029-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5270,8 +5273,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW015.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW015-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW015.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW015-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5308,8 +5311,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW010.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW010-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW010-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5317,8 +5320,8 @@
     "attack": 1,
     "cost": 1,
     "health": 1,
-    "description": "<link=vocab.Plunder><style=Vocab>Plunder</style></link>: Grant me two random keywords.",
-    "descriptionRaw": "Plunder: Grant me two random keywords.",
+    "description": "<link=vocab.Plunder><style=Vocab>Plunder</style></link>: Grant me 2 random keywords.",
+    "descriptionRaw": "Plunder: Grant me 2 random keywords.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"His picture's been on the Bounty Board longer'n most, for he's a greedy, ruthless devil that won't let anyone or anything stand in his way. Worst of all? He's... He's cute, damn it.\" - Gangplank",
@@ -5344,8 +5347,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW009-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5353,8 +5356,8 @@
     "attack": 1,
     "cost": 1,
     "health": 2,
-    "description": "When I'm summoned, draw 1 <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link> at next <link=vocab.RoundStart><style=Vocab>Round Start</style></link>.",
-    "descriptionRaw": "When I'm summoned, draw 1 Fleeting at next Round Start.",
+    "description": "When I'm summoned, draw 1 at the next <link=vocab.RoundStart><style=Vocab>Round Start</style></link> and give it <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fleeting</style></link>.",
+    "descriptionRaw": "When I'm summoned, draw 1 at the next Round Start and give it Fleeting.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"It don't make no sense to me. I was knocking 'em in easy, but the last one just... wouldn't go. Not my day, I s'pose...\" - Brash Gambler",
@@ -5378,8 +5381,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW005-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5410,15 +5413,15 @@
   {
     "associatedCards": [],
     "associatedCardRefs": [
-      "02BW025",
       "02BW046T3",
       "02BW046T1",
+      "02BW025",
       "02BW046T2"
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5434,8 +5437,12 @@
     "artistName": "SIXMOREVODKA",
     "name": "Fizz",
     "cardCode": "02BW046",
-    "keywords": [],
-    "keywordRefs": [],
+    "keywords": [
+      "Imbue"
+    ],
+    "keywordRefs": [
+      "Imbue"
+    ],
     "spellSpeed": "",
     "spellSpeedRef": "",
     "rarity": "Champion",
@@ -5451,17 +5458,17 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW049.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW049-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW049.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW049-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
-    "description": "Draw a non-champion card from the enemy deck.\r\n<link=vocab.Plunder><style=Vocab>Plunder</style></link>: Draw 1 more.",
-    "descriptionRaw": "Draw a non-champion card from the enemy deck.\r\nPlunder: Draw 1 more.",
+    "description": "<link=keyword.Nab><style=Keyword>Nab</style></link> 1.\r\n<link=vocab.Plunder><style=Vocab>Plunder</style></link>: <link=keyword.Nab><style=Keyword>Nab</style></link> 1 more.",
+    "descriptionRaw": "Nab 1.\r\nPlunder: Nab 1 more.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "What's mine is mine, and what's yours is... also mine.",
@@ -5491,8 +5498,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR005-full.png"
       }
     ],
     "region": "Freljord",
@@ -5525,8 +5532,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW039.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW039-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW039.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW039-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5565,8 +5572,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T3.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW030T3-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW030T3-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5605,8 +5612,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW006-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5614,8 +5621,8 @@
     "attack": 2,
     "cost": 4,
     "health": 2,
-    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Transform an ally into a random 5 cost follower from any region.",
-    "descriptionRaw": "Play: Transform an ally into a random 5 cost follower from any region.",
+    "description": "<link=vocab.Play><style=Vocab>Play</style></link>: Transform an ally into a random 5 cost follower.",
+    "descriptionRaw": "Play: Transform an ally into a random 5 cost follower.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Marvolio? Where... Where are my hands?\"\n\"I will-a now make-a them appear! Tadaa! Ahem. Ta... daa...!\"\n\"...WHERE ARE MY HANDS?!\"\n\"OKAY, TIME-A TO GO! THANK-A YOU ALL SO VERY MUCH!\"",
@@ -5639,8 +5646,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5680,8 +5687,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008T2-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -5720,8 +5727,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T2-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5762,8 +5769,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02DE006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02DE006-full.png"
       }
     ],
     "region": "Demacia",
@@ -5800,8 +5807,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW001.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW001-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW001-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5809,8 +5816,8 @@
     "attack": 0,
     "cost": 1,
     "health": 0,
-    "description": "Give an enemy <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerable</style></link> this round. If it dies this round, draw a card.",
-    "descriptionRaw": "Give an enemy Vulnerable this round. If it dies this round, draw a card.",
+    "description": "Give an enemy <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerable</style></link> this round. If it dies this round, draw 1.",
+    "descriptionRaw": "Give an enemy Vulnerable this round. If it dies this round, draw 1.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"Keep yer chin up and yer spirits high, boy! If the cap'n sees ya saggin', he'll hoist ya up, cut y'open, an' feed ya to the gulls. Now, move yer arse!\" - Dreadway deckhand",
@@ -5841,8 +5848,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T2.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO006T2-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO006T2-full.png"
       }
     ],
     "region": "Ionia",
@@ -5879,8 +5886,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO010T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO010T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO010T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO010T1-full.png"
       }
     ],
     "region": "Ionia",
@@ -5919,8 +5926,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T4.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW026T4-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T4.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW026T4-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -5957,8 +5964,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO009.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO009-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO009-full.png"
       }
     ],
     "region": "Ionia",
@@ -5995,8 +6002,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW063.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW063-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW063.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW063-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6033,15 +6040,15 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW036.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW036-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW036.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW036-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 2,
-    "cost": 3,
-    "health": 4,
+    "cost": 2,
+    "health": 3,
     "description": "",
     "descriptionRaw": "",
     "levelupDescription": "",
@@ -6073,8 +6080,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW045.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW045-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW045.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW045-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6111,17 +6118,17 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW033.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW033-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW033.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW033-full.png"
       }
     ],
     "region": "Bilgewater",
     "regionRef": "Bilgewater",
     "attack": 2,
     "cost": 2,
-    "health": 2,
-    "description": "When you draw an enemy card, reduce its cost by 1.\r\n<link=vocab.Plunder><style=Vocab>Plunder</style></link>: Draw a non-champion card from the enemy deck.",
-    "descriptionRaw": "When you draw an enemy card, reduce its cost by 1.\r\nPlunder: Draw a non-champion card from the enemy deck.",
+    "health": 1,
+    "description": "When you draw an enemy card, reduce its cost by 1.\r\n<link=vocab.Plunder><style=Vocab>Plunder</style></link>: <link=keyword.Nab><style=Keyword>Nab</style></link> 1.",
+    "descriptionRaw": "When you draw an enemy card, reduce its cost by 1.\r\nPlunder: Nab 1.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"If you want it, I've got it! Even got some 'special stock'.... Just remember, you didn't get it from me!\"",
@@ -6145,8 +6152,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX004T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX004T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX004T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX004T1-full.png"
       }
     ],
     "region": "Noxus",
@@ -6183,8 +6190,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW060T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW060T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW060T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW060T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6225,8 +6232,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ008T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ008T1-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -6263,8 +6270,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW020.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW020-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW020.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW020-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6301,8 +6308,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX008-full.png"
       }
     ],
     "region": "Noxus",
@@ -6339,8 +6346,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02PZ005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02PZ005-full.png"
       }
     ],
     "region": "Piltover & Zaun",
@@ -6373,8 +6380,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX005.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02NX005-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02NX005-full.png"
       }
     ],
     "region": "Noxus",
@@ -6411,8 +6418,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR006.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR006-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR006-full.png"
       }
     ],
     "region": "Freljord",
@@ -6454,8 +6461,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW046T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW046T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6495,8 +6502,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053T1.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW053T1-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW053T1-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6535,8 +6542,8 @@
     "associatedCardRefs": [],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW044.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02BW044-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW044.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02BW044-full.png"
       }
     ],
     "region": "Bilgewater",
@@ -6575,8 +6582,8 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO008.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02IO008-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02IO008-full.png"
       }
     ],
     "region": "Ionia",
@@ -6615,17 +6622,17 @@
     ],
     "assets": [
       {
-        "gameAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR003.png",
-        "fullAbsolutePath": "http://dd.b.pvp.net/1_2_0/set2/en_us/img/cards/02FR003-full.png"
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_7_0/set2/en_us/img/cards/02FR003-full.png"
       }
     ],
     "region": "Freljord",
     "regionRef": "Freljord",
     "attack": 0,
-    "cost": 7,
+    "cost": 6,
     "health": 0,
-    "description": "Create in hand 2 random Poros and 2 <link=card.snaxRef><style=AssociatedCard>Poro Snax</style></link>.",
-    "descriptionRaw": "Create in hand 2 random Poros and 2 Poro Snax.",
+    "description": "Create 2 random Poros and 2 <link=card.snaxRef><style=AssociatedCard>Poro Snax</style></link> in hand.",
+    "descriptionRaw": "Create 2 random Poros and 2 Poro Snax in hand.",
     "levelupDescription": "",
     "levelupDescriptionRaw": "",
     "flavorText": "\"When you wish upon a poro,\nAn' look at da night sky,\nYou'll see da snax among da stars,\nAll sparkly in our eyes\" - Ingvar the Younger",
