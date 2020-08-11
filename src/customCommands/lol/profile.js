@@ -14,7 +14,7 @@ const eloNames = {
   "bronze": "bronze",
   "prata": "silver",
   "gold": "gold",
-  "platina": "platinium",
+  "platina": "platinum",
   "diamond": "diamond",
   "mestre": "mestre",
   "gm": "grandmaster",
