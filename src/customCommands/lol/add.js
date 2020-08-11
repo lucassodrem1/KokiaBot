@@ -7,6 +7,12 @@ module.exports = {
   category: '🎮 Jogos',
   usage: '<opção> <texto>',
   async run (client, message, args) {
+    if(!args.length) 
+      return message.channel.send('Escolha um campo válido. Se está precisando de ajuda, use o comando **lol help**!');
+
+    if(message.content.includes("'"))
+      return message.channel.send(`<@${message.author.id}>, por favor, não utilize o caractere **'** (aspas simples)`);
+
     let option = args.splice(0, 1)[0].toLowerCase();
 
     let data = {
@@ -131,6 +137,6 @@ module.exports = {
       }
     }
 
-    message.channel.send('Escolha um campo válido. Se está precisando de ajuda, use o comando **lol help**!')
+    message.channel.send('Escolha um campo válido. Se está precisando de ajuda, use o comando **lol help**!');
   }
 }

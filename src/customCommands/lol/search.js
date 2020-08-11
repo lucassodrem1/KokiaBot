@@ -27,6 +27,9 @@ module.exports = {
   category: '🎮 Jogos',
   usage: '<elo> [role] [main]',
   async run (client, message, args) {
+    if(message.content.includes("'"))
+      return message.channel.send(`<@${message.author.id}>, por favor, não utilize o caractere **'** (aspas simples)`);
+
     let elo = args[0];
     if(!elo) return message.channel.send(`<@${message.author.id}>, escolha um elo, caso não tenha uma preferência, use **qualquer**.\nSe está precisando de ajuda, use o comando **lol help**!`);
     
