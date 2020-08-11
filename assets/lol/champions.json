@@ -427,7 +427,7 @@
   {
     "id": "bard",
     "key": "432",
-    "name": "Bard",
+    "name": "Bardo",
     "title": "the Wandering Caretaker",
     "tags": [
       "Support",
@@ -697,7 +697,7 @@
   {
     "id": "chogath",
     "key": "31",
-    "name": "Cho'Gath",
+    "name": "Chogath",
     "title": "the Terror of the Void",
     "tags": [
       "Tank",
@@ -890,7 +890,7 @@
   {
     "id": "drmundo",
     "key": "36",
-    "name": "Dr. Mundo",
+    "name": "Mundo",
     "title": "the Madman of Zaun",
     "tags": [
       "Fighter",
@@ -1862,7 +1862,7 @@
   {
     "id": "kaisa",
     "key": "145",
-    "name": "Kai'Sa",
+    "name": "Kaisa",
     "title": "Daughter of the Void",
     "tags": [
       "Marksman"
@@ -2210,7 +2210,7 @@
   {
     "id": "khazix",
     "key": "121",
-    "name": "Kha'Zix",
+    "name": "Khazix",
     "title": "the Voidreaver",
     "tags": [
       "Assassin"
@@ -2325,7 +2325,7 @@
   {
     "id": "kogmaw",
     "key": "96",
-    "name": "Kog'Maw",
+    "name": "Kogmaw",
     "title": "the Mouth of the Abyss",
     "tags": [
       "Marksman",
@@ -3218,7 +3218,7 @@
   {
     "id": "nunu",
     "key": "20",
-    "name": "Nunu & Willump",
+    "name": "Nunu",
     "title": "the Boy and His Yeti",
     "tags": [
       "Tank",
@@ -3646,7 +3646,7 @@
   {
     "id": "reksai",
     "key": "421",
-    "name": "Rek'Sai",
+    "name": "Reksai",
     "title": "the Void Burrower",
     "tags": [
       "Fighter"
@@ -5082,7 +5082,7 @@
   {
     "id": "velkoz",
     "key": "161",
-    "name": "Vel'Koz",
+    "name": "Velkoz",
     "title": "the Eye of the Void",
     "tags": [
       "Mage"
