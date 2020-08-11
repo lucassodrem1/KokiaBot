@@ -13,7 +13,7 @@ const eloNames = {
   "bronze": "bronze",
   "prata": "silver",
   "gold": "gold",
-  "platina": "platinium",
+  "platina": "platinum",
   "diamond": "diamond",
   "mestre": "mestre",
   "gm": "grandmaster",
@@ -22,7 +22,7 @@ const eloNames = {
 
 module.exports = {
   name: 'lol likeme',
-  description: 'Busca por jogadores de lol que gostam de você Kokia.',
+  description: 'Busca por jogadores de lol que possam gostar de você.',
   category: '🎮 Jogos',
   async run (client, message, args) {
     try {
