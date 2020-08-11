@@ -8,11 +8,18 @@ module.exports = class GuildLol {
   }
 
   static addAccount(data, updateField, value) {
+    const query = {
+      text: `INSERT INTO lol_users (user_id, nick, elo, role, description, main, like_main) 
+        VALUES ($1, $2, $3, $4, $5, $6, $7)
+        ON CONFLICT (user_id) DO UPDATE SET ${updateField} = $8`,
+      values: [
+        data.userId, data.nick, data.elo, data.role, data.description, data.main, 
+        data.like_main, value
+      ]
+    }
+    
     return new Promise((resolve, reject) => {
-      client.query(`INSERT INTO lol_users (user_id, nick, elo, role, description, main, like_main) 
-      VALUES (${data.userId}, '${data.nick}', '${data.elo}', '${data.role}', '${data.description}', '${data.main}', '${data.like_main}')
-      ON CONFLICT (user_id) DO UPDATE SET ${updateField} = '${value}';`,
-      err => {
+      client.query(query, err => {
         if(err) return reject(err);
 
         return resolve();
@@ -25,10 +32,14 @@ module.exports = class GuildLol {
     if(data.role === 'qualquer') data.role = '%';
     if(data.main === 'qualquer') data.main = '%';
 
+    const query = {
+      text: `SELECT * FROM lol_users WHERE elo LIKE $1 AND role LIKE $2
+        AND main LIKE $3 AND user_id != $4`,
+      values: [data.elo, data.role, data.main, data.userId]
+    }
+
     return new Promise((resolve, reject) => {
-      client.query(`SELECT * FROM lol_users WHERE elo LIKE '${data.elo}' AND role LIKE '${data.role}'
-      AND main LIKE '${data.main}' AND user_id != ${data.userId};`,
-      (err, results) => {
+      client.query(query, (err, results) => {
         if(err) return reject(err);
 
         let random = Math.floor(Math.random() * results.rows.length);
@@ -43,10 +54,14 @@ module.exports = class GuildLol {
     if(data.role === 'qualquer') data.role = '%';
     if(data.main === 'qualquer') data.main = '%';
 
+    const query = {
+      text: `SELECT * FROM lol_users WHERE elo LIKE $1 AND role LIKE $2
+        AND main LIKE $3 AND user_id != $4`,
+      values: [data.elo, data.role, data.main, data.userId]
+    }
+
     return new Promise((resolve, reject) => {
-      client.query(`SELECT * FROM lol_users WHERE elo LIKE '${data.elo}' AND role LIKE '${data.role}'
-      AND main LIKE '${data.main}' AND user_id != ${data.userId};`,
-      (err, results) => {
+      client.query(query, (err, results) => {
         if(err) return reject(err);
 
         // Embaralhar array.
