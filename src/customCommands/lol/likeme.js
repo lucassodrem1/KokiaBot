@@ -32,7 +32,7 @@ module.exports = {
 
       let data = {userId: message.author.id, main: account.main};
       let accountThatLikeMe = await GuildLolController.searchAccountByLikeMain(data);
-      if(!accountThatLikeMe) return message.channel.send(`<@${message.author.id}>, nenhum usuário foi encontrado!`);
+      if(!accountThatLikeMe) return message.channel.send(`<@${message.author.id}>, parece que nenhum usuário gosta de você :(`);
 
       accountThatLikeMe.eloImage = accountThatLikeMe.elo !== 'indefinido' ? `https://opgg-static.akamaized.net/images/medals/${eloNames[accountThatLikeMe.elo]}_1.png?image=q_auto&v=1` : 'https://opgg-static.akamaized.net/images/medals/default.png';
 
