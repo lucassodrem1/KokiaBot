@@ -69,11 +69,15 @@ module.exports = class Guild {
 
   // Adicionar levels customizados do servidor.
   addCustomLevels(guildId, level, role, lvlMessage) {
+    const query = {
+      text: `INSERT INTO guild_custom_levels (guild_id, level, role, message) VALUES 
+        ($1, $2, $3, $4) ON CONFLICT (guild_id, level) DO UPDATE
+        SET role = $3, message = $4`,
+      values: [guildId, level, role, lvlMessage]
+    }
+
     return new Promise((resolve, reject) => {
-      client.query(`INSERT INTO guild_custom_levels (guild_id, level, role, message) VALUES 
-      (${guildId}, ${level}, ${role}, '${lvlMessage}') ON CONFLICT (guild_id, level) DO UPDATE
-      SET role = ${role}, message = '${lvlMessage}';`, 
-      err => {
+      client.query(query, err => {
         if(err) return reject(err);
 
         return resolve();
@@ -116,9 +120,12 @@ module.exports = class Guild {
 
   // Adicionar informações padrões na tabela guild_welcome.
   addGuildWelcome(guildId, config) {
-    client.query(`INSERT INTO guild_welcome (guild_id, image, title, description, footer) VALUES 
-    (${guildId}, '${config.welcome.image}', '${config.welcome.title}', '${config.welcome.description}', '${config.welcome.footer}');`, 
-    err => {
+    const query = {
+      text: `INSERT INTO guild_welcome (guild_id, image, title, description, footer) VALUES 
+        ($1, $2, $3, $4, $5)`,
+      values: [guildId, config.welcome.image, config.welcome.title, config.welcome.description, config.welcome.footer]
+    }
+    client.query(query, err => {
       if(err) throw err;
     });
   }
@@ -135,8 +142,12 @@ module.exports = class Guild {
 
   // Mudar alguma informação da tabela guild_welcome.
   updateWelcome(guildId, updateField, value) {
+    const query = {
+      text: `UPDATE guild_welcome SET ${updateField} = $1 WHERE guild_id = $2`,
+      values: [value, guildId]
+    }
     return new Promise((resolve, reject) => {
-      client.query(`UPDATE guild_welcome SET ${updateField} = '${value}' WHERE guild_id = ${guildId};`, err => {
+      client.query(query, err => {
         if(err) return reject(err);
 
         return resolve();
@@ -145,10 +156,14 @@ module.exports = class Guild {
   }
 
   addWelcomeImage(guildId, number, image) {
+    const query = {
+      text: `INSERT INTO guild_welcome_images (guild_id, number, image) VALUES 
+        ($1, $2, $3) ON CONFLICT (guild_id, number) DO
+        UPDATE SET image = $3`,
+      values: [guildId, number, image]
+    }
     return new Promise((resolve, reject) => {
-      client.query(`INSERT INTO guild_welcome_images (guild_id, number, image) VALUES 
-      (${guildId}, ${number}, '${image}') ON CONFLICT (guild_id, number) DO
-      UPDATE SET image = '${image}';`, err => {
+      client.query(query, err => {
         if(err) return reject(err);
 
         return resolve();

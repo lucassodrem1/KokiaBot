@@ -37,6 +37,7 @@ module.exports = {
       
       message.channel.send(`Imagem **${number}** adicionada à galeria de boas-vindas!`);
     } catch(e) {
+      message.channel.send('Não foi possível adicionar o level customizado.\nEntre em contato com a gente para reportar um possível bug!');
       console.log(`Erro ao adicionar imagem welcome.\n Comando: welcome add.\n Server: ${message.guild.name}\n`, e);
     }
   }

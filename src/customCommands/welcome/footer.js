@@ -31,6 +31,7 @@ module.exports = {
       
       message.channel.send('Footer da mensagem de boas-vindas foi alterado!');
     } catch(e) {
+      message.channel.send('Não foi possível adicionar o level customizado.\nEntre em contato com a gente para reportar um possível bug!');
       console.log(`Erro ao alterar footer welcome.\n Comando: welcome footer.\n Server: ${message.guild.name}\n`, e);
     }
   }

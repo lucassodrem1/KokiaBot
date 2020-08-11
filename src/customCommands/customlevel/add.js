@@ -48,6 +48,7 @@ module.exports = {
 
       message.channel.send(`Level customizado definido!`);
     } catch(e) {
+      message.channel.send('Não foi possível adicionar o level customizado.\nEntre em contato com a gente para reportar um possível bug!');
       console.log(`Erro ao adicionar custom level.\n Comando: customlevel add.\n Server: ${message.guild.name}\n`, e);
     }
   }
