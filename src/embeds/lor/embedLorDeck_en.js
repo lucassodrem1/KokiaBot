@@ -133,13 +133,13 @@ module.exports.embedLorDecken = function(Discord, message, deck) {
     return [`${spell.count} ${spell.region} ${spell.name}`]
   });
 
-  embed.addField('Champions', champions.join('\n'), true);
-  embed.addField('Units', followers.join('\n'), true);
-  embed.addField('Spells', spells.join('\n'), true);
+  embed.addField('Champions', champions.join('\n') || '_ _', true);
+  embed.addField('Units', followers.join('\n') || '_ _', true);
+  embed.addField('Spells', spells.join('\n') || '_ _', true);
 
   message.channel.send({embed: embed, split: true})
   .catch(e => {
     console.log(`Erro ao mostrar embed.\n Comando: deck en.\n Server: ${message.guild.name}\n`, e);
-    message.channel.send('Erro ao mostrar embed!');
+    message.channel.send('Erro ao mostrar deck!');
   });
 }
