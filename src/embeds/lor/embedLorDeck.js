@@ -1,10 +1,12 @@
 const cardsData1 = require("../../../assets/lor/data/pt/cardsSet1.json");
 const cardsData2 = require("../../../assets/lor/data/pt/cardsSet2.json");
+const cardsData3 = require("../../../assets/lor/data/pt/cardsSet3.json");
 
 // Array para acessar o json conforme a versão da carta. 
 const cardsData = [
   cardsData1,
-  cardsData2
+  cardsData2,
+  cardsData3
 ];
 
 const cardNumberCount = {
@@ -47,6 +49,10 @@ const regionEmojis = {
   "ShadowIsles": {
     icon: "<:r7:719621851332214806>",
     color: "<:c7:719621850425983039>"
+  },
+  "Targon": {
+    icon: "<:r8:750076190169235556>",
+    color: "<:c8:750076199409025064>"
   }
 };
 
