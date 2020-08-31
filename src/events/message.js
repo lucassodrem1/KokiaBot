@@ -35,7 +35,7 @@ module.exports = async (client, message) => {
   }
 
   // Executar comandos normais.
-	if (message.content.indexOf(guildData.prefix) === 0) {
+	if (message.content.toLowerCase().indexOf(guildData.prefix) === 0) {
     const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
     
     // Verificar se o comando possui uma palavra ou duas.
