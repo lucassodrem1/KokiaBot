@@ -35,7 +35,7 @@ module.exports = async (client, message) => {
   }
 
   // Executar comandos normais.
-	if (message.content.toLowerCase().indexOf(guildData.prefix) === 0) {
+	if (message.content.toLowerCase().indexOf(guildData.prefix.toLowerCase()) === 0) {
     const args = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
     
     // Verificar se o comando possui uma palavra ou duas.
@@ -55,7 +55,7 @@ module.exports = async (client, message) => {
   }
 
   //Executar comandos customizados criados pelos servidores.
-  if (message.content.indexOf(guildData.prefix) === 0) {
+  if (message.content.toLowerCase().indexOf(guildData.prefix.toLowerCase()) === 0) {
     let customCommandArgs = message.content.slice(guildData.prefix.length).trim().split(/ +/g);
     let customCommand = customCommandArgs.shift().toLowerCase();
 
