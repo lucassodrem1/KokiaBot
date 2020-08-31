@@ -1,0 +1,5391 @@
+[
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03BW006T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW006-full.png"
+      }
+    ],
+    "region": "Águas de Sentina",
+    "regionRef": "Bilgewater",
+    "attack": 5,
+    "cost": 5,
+    "health": 6,
+    "description": "<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Crie 1 <link=card.create><style=AssociatedCard>Durma com os Peixinhos</style></link> <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fugaz</style></link> na mão.",
+    "descriptionRaw": "Início de Rodada: Crie 1 Durma com os Peixinhos Fugaz na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Anos no ringue de boxe ensinaram muitas lições valiosas a Jack. Ele aprendeu que, se o oponente pode sangrar, ele pode ter medo. Aprendeu o poder de um olhar silencioso. E o poder da violência sem limites.",
+    "artistName": "JiHun Lee",
+    "name": "Jack, o Vencedor",
+    "cardCode": "03BW006",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI004-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Escolha um seguidor nas 4 cartas no topo do seu deck.\r\nCompre-o, embaralhe o resto no deck, e depois crie 1 cópia <link=keyword.Ephemeral><sprite name=Ephemeral><style=Keyword>Efêmera</style></link> na mão.",
+    "descriptionRaw": "Escolha um seguidor nas 4 cartas no topo do seu deck.\r\nCompre-o, embaralhe o resto no deck, e depois crie 1 cópia Efêmera na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Vão... Cerquem-os...\" – Nocturne",
+    "artistName": "Kudos Productions",
+    "name": "Sombras Perseguidoras",
+    "cardCode": "03SI004",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT018-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "Ao me invocar, compre 1.",
+    "descriptionRaw": "Ao me invocar, compre 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Quando as folhas começam a cair dos galhos secos, a Dama da Primavera envia seu mensageiro para avisar ao Senhor do Inverno da mudança de estação. A voz do mensageiro faz as estrelas se reorganizarem no céu, enquanto seu fiel coração aquece o solo.\"\n– Canção das Estações",
+    "artistName": "Kudos Productions",
+    "name": "O Mensageiro",
+    "cardCode": "03MT018",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT034.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT034-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 0,
+    "health": 1,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"No primeiro equinócio de Targon, o povo da montanha tentou sua primeira trégua. Mas, quando os líderes abaixaram as armas, um deles soltou um repentino grito de dor! Os soldados sacaram as lanças, e qualquer esperança de paz se esvaiu. Eles só não sabiam que o verdadeiro traidor era uma serpente escondida sob seus pés, um sinal perpétuo de tempos violentos.\" \n– Conto popular targonense",
+    "artistName": "Kudos Productions",
+    "name": "A Serpente",
+    "cardCode": "03MT034",
+    "keywords": [
+      "Desafiador"
+    ],
+    "keywordRefs": [
+      "Challenger"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI012.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI012-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "<link=keyword.Obliterate><style=Keyword>Oblitere</style></link> todas as unidades que foram invocadas mas não jogadas nesta rodada.",
+    "descriptionRaw": "Oblitere todas as unidades que foram invocadas mas não jogadas nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"É claro que a morte está presente em Demacia. Ela leva nossos entes queridos e sabemos que, um dia, também virá nos buscar. Mas nestas ilhas... quase dá pra sentir o gosto da morte. Posso senti-la nos pulmões quando respiro, posso escutá-la sussurrar no meu ouvido. Não é apenas uma noção abstrata. Ela está comigo. Agora mesmo. E levará a todos nós.\"\n– Notas de Jens Tommen, historiador",
+    "artistName": "Kudos Productions",
+    "name": "Passagem Imerecida",
+    "cardCode": "03SI012",
+    "keywords": [
+      "Rápido"
+    ],
+    "keywordRefs": [
+      "Fast"
+    ],
+    "spellSpeed": "Rápido",
+    "spellSpeedRef": "Fast",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI014.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI014-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Dê +2|+2 e <link=keyword.Ephemeral><sprite name=Ephemeral><style=Keyword>Efêmero</style></link> a TODOS os aliados no deck e na mão.",
+    "descriptionRaw": "Dê +2|+2 e Efêmero a TODOS os aliados no deck e na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Pela mente ou pelo corpo, temo que os pesadelos das Ilhas das Sombras destruam a tudo e todos, e a insanidade reinará eternamente.\"\n– Notas de Jens Tommen, historiador",
+    "artistName": "Kudos Productions",
+    "name": "Sombras Invasoras",
+    "cardCode": "03SI014",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI007-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Na próxima vez que você invocar um aliado nesta rodada, conceda +1|+0 e <link=keyword.SpellShield><sprite name=SpellShield><style=Keyword>Escudo de Feitiço</style></link> a ele.",
+    "descriptionRaw": "Na próxima vez que você invocar um aliado nesta rodada, conceda +1|+0 e Escudo de Feitiço a ele.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Assim que você botar o pé pra fora do Dente, vai sentir. Pontas de dedos na sua nuca, leves como a chuva. As criaturas nem se mexem quando você chega perto. Não temem minha lâmina nem minha tocha. Nada. São umas coisas horrorosas.\" – Saqueador do Dente de Baleia",
+    "artistName": "Kudos Productions",
+    "name": "Proteção das Trevas",
+    "cardCode": "03SI007",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "01SI014"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI013.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI013-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Invoque 1 <link=card.summon><style=AssociatedCard>Espectro da Névoa</style></link>.",
+    "descriptionRaw": "Invoque 1 Espectro da Névoa.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Espectros da Névoa se movem por planos invisíveis aos mortais, aparecem sem qualquer aviso e causam sofrimento a tudo o que encontram.",
+    "artistName": "Kudos Productions",
+    "name": "Névoas Etéreas",
+    "cardCode": "03SI013",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO017-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 0,
+    "cost": 1,
+    "health": 1,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Conceda +2|+1 ao meu aliado auxiliado nesta rodada.",
+    "descriptionRaw": "Auxiliar: Conceda +2|+1 ao meu aliado auxiliado nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ser amiga do Pix é pra quem tem sorte! Ele é pequenininho, legal e muito forte!\nEle adora gambás e gosta muito de... hããã, blá-blá-blás!\"<br>– Lulu",
+    "artistName": "Dao Le",
+    "name": "Pix!",
+    "cardCode": "03IO017",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03SI005",
+      "03SI005T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005T3-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Drene 1 de qualquer coisa. Embaralhe 1 <link=card.level1><style=AssociatedCard>Nocturne</style></link> no seu deck.\r\n<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Crie uma carta aleatória com <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> na mão.",
+    "descriptionRaw": "Drene 1 de qualquer coisa. Embaralhe 1 Nocturne no seu deck.\r\nAnoitecer: Crie uma carta aleatória com Anoitecer na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Cada dia que passa suga meu espírito, extrai o vigor que me levou a encontrar este lugar. O Dente de Baleia está lotado de sujeitos apáticos, aparentemente desiludidos de tudo, e acho que quanto mais tempo eu ficar por aqui, mais me assemelharei a eles.\"\n– Notas de Jens Tommen, historiador",
+    "artistName": "Kudos Productions",
+    "name": "Horror Indescritível de Nocturne",
+    "cardCode": "03SI005T3",
+    "keywords": [
+      "Rápido"
+    ],
+    "keywordRefs": [
+      "Fast"
+    ],
+    "spellSpeed": "Rápido",
+    "spellSpeedRef": "Fast",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT073T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT073T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "A próxima unidade com <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> que você jogar nesta rodada custa 1 a menos.",
+    "descriptionRaw": "A próxima unidade com Anoitecer que você jogar nesta rodada custa 1 a menos.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "O perfume da pétala noturna é inconfundível. Doce e estranho, porém fugaz e delicado como o próprio luar.",
+    "artistName": "Kudos Productions",
+    "name": "Pólen de Pétala Noturna",
+    "cardCode": "03MT073T1",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03SI006T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI006-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 3,
+    "cost": 3,
+    "health": 2,
+    "description": "<link=keyword.PlaySkillMark><sprite name=PlaySkillMark><style=Keyword></style></link><link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Drene 2 do Nexus inimigo.",
+    "descriptionRaw": "Anoitecer: Drene 2 do Nexus inimigo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os viajantes ficavam mais cansados a cada noite. O sono deles era agitado e os sonhos, vívidos demais. Dormir não trazia descanso, apenas exaustão, como se as vidas fossem sugadas pouco a pouco.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Assombrofera",
+    "cardCode": "03SI006",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT083.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT083-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 6,
+    "cost": 8,
+    "health": 5,
+    "description": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. <style=Variable></style>\r\nNa primeira vez em que eu morreria, eu me curo completamente.",
+    "descriptionRaw": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. \r\nNa primeira vez em que eu morreria, eu me curo completamente.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Por muitas eras, a Chama Imortal voou solitária. Um dia, ela se deparou com um jovem pássaro de asas douradas como chamas, similares às dela. A Chama Imortal ficou feliz, pois nunca havia encontrado outro ser como ela. Mas, com o passar dos anos, o jovem pássaro foi envelhecendo e minguando. A Chama Imortal, que até então desconhecia a morte, chorou faíscas e suspirou labaredas... até que ressurgiu, fisicamente renovada, mas carregando o fardo do conhecimento.\" – Conto popular shurimane",
+    "artistName": "Kudos Productions",
+    "name": "A Chama Imortal",
+    "cardCode": "03MT083",
+    "keywords": [
+      "Elusivo",
+      "Suspiro Final"
+    ],
+    "keywordRefs": [
+      "Elusive",
+      "LastBreath"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT004-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Reduza em 1 o custo de uma carta na mão.",
+    "descriptionRaw": "Reduza em 1 o custo de uma carta na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Cada lua cheia banha nosso mundo com a luz prateada d'Ela... revelando caminhos ainda não percorridos e histórias ainda não contadas.\" – Sacerdotisa Lunari",
+    "artistName": "Kudos Productions",
+    "name": "Prata Lunar",
+    "cardCode": "03MT004",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT037.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT037-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 10,
+    "cost": 10,
+    "health": 10,
+    "description": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. <style=Variable></style>\r\n<link=vocab.Attack><style=Vocab>Atacar</style></link>: Conceda +2|+2 e <link=keyword.Overwhelm><sprite name=Overwhelm><style=Keyword>Sobrepujar</style></link> a outros aliados nesta rodada.",
+    "descriptionRaw": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. \r\nAtacar: Conceda +2|+2 e Sobrepujar a outros aliados nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "As lendas falam de um Flagelo que se esconde nos confins mais remotos do Reino Celestial. Lá, ele aguarda a hora do fim dos tempos, quando exercerá o poder das estrelas para estraçalhar os pilares do mundo.",
+    "artistName": "Kudos Productions",
+    "name": "O Flagelo",
+    "cardCode": "03MT037",
+    "keywords": [
+      "Desafiador"
+    ],
+    "keywordRefs": [
+      "Challenger"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT060.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT060-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 4,
+    "health": 7,
+    "description": "<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Cure seu Nexus em 3. Cause dano a mim equivalente ao valor da cura.",
+    "descriptionRaw": "Início de Rodada: Cure seu Nexus em 3. Cause dano a mim equivalente ao valor da cura.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ninguém conhece os caminhos de Targon como eu, então acabo tendo que cuidar de uns estrelacórnios mais teimosos. Mas que bom que eles têm a mim!\" ",
+    "artistName": "SIXMOREVODKA",
+    "name": "Protetor Vigoroso",
+    "cardCode": "03MT060",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT033.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT033-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 8,
+    "cost": 8,
+    "health": 4,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Dê +0|+4 a um aliado.",
+    "descriptionRaw": "Jogar: Dê +0|+4 a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Escute, Osu. Está ouvindo? Sinos! O vovô está de volta!\"<br>– Illi, Pastora de Estrelas",
+    "artistName": "Polar Engine",
+    "name": "Vovô Rumul",
+    "cardCode": "03MT033",
+    "keywords": [
+      "Sobrepujar",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Overwhelm",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03DE006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03DE006-full.png"
+      }
+    ],
+    "region": "Demacia",
+    "regionRef": "Demacia",
+    "attack": 4,
+    "cost": 5,
+    "health": 5,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Todas as criaturas protegem seus filhotes com unhas e dentes, mas poucas são tão bem equipadas para lidar com possíveis ameaças quanto um dragão.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Dragão Furioso",
+    "cardCode": "03DE006",
+    "keywords": [
+      "Desafiador",
+      "Fúria"
+    ],
+    "keywordRefs": [
+      "Challenger",
+      "Fury"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR007-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 1,
+    "cost": 2,
+    "health": 3,
+    "description": "Ao me invocar, se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta com 8+ de custo, eu ganho +3|+0.",
+    "descriptionRaw": "Ao me invocar, se você Contemplar uma carta com 8+ de custo, eu ganho +3|+0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "O patrulheiro se ajoelhou junto a um trapo de pano enterrado na neve. Apesar do ar gelado, o cheiro de suor humano e de fumaça persistia.\nEle soltou o tecido e viu, em uma das extremidades, um talismã pendurado, opaco sob o céu nublado. Avarosiano. ",
+    "artistName": "Wild Blue Studio",
+    "name": "Troll Catador",
+    "cardCode": "03FR007",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO008T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO008T1-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 1,
+    "cost": 1,
+    "health": 1,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Um brilho cintilante o atirou no chão! Com uma audição repentinamente aguçada, ouviu ao longe a gargalhada de uma yordle. Ele olhou para baixo e se deparou com patas peludas... presas a braços peludos...",
+    "artistName": "Dao Le",
+    "name": "Esquilo",
+    "cardCode": "03IO008T1",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT021.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT021-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 8,
+    "cost": 8,
+    "health": 8,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Escolha 2 inimigos.\r\n<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: <link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link>-os.",
+    "descriptionRaw": "Jogar: Escolha 2 inimigos.\r\nInício de Rodada: Atordoe-os.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Dizem que os viajantes que encaram a criatura nos olhos são atingidos por um conhecimento tão profundo, uma perspectiva tão impressionante, que suas mentes acabam por se desfazer.",
+    "artistName": "SIXMOREVODKA",
+    "name": "O Dividemente Infinito",
+    "cardCode": "03MT021",
+    "keywords": [
+      "Fúria"
+    ],
+    "keywordRefs": [
+      "Fury"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT059T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT059.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT059-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 6,
+    "health": 3,
+    "description": "Ao me invocar, invoque <link=card.create><style=AssociatedCard>A Irmã Prateada</style></link>.",
+    "descriptionRaw": "Ao me invocar, invoque A Irmã Prateada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Da imensidão dos céus\nDuas entidades foram geradas:\nUma coberta por um brilho prateado,\nA outra, envolta em chamas douradas...\"\n– Hino das Horas",
+    "artistName": "Kudos Productions",
+    "name": "A Irmã Dourada",
+    "cardCode": "03MT059",
+    "keywords": [
+      "Roubo de Vida"
+    ],
+    "keywordRefs": [
+      "Lifesteal"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT056T2",
+      "03MT056"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 2,
+    "health": 3,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> ou quando você ativar outra carta com <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Me conceda +2|+0 e <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Desafiador</style></link> nesta rodada.",
+    "descriptionRaw": "Anoitecer ou quando você ativar outra carta com Anoitecer: Me conceda +2|+0 e Desafiador nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Apressada, Diana desceu a montanha, com a espada desembainhada e coberta de pólen de pétala noturna. Ela sabia que Leona a encontraria. Fazia parte de seu plano. Seu coração acelerou de ansiedade, e ela respirou profundamente para acalmá-lo. Neste encontro, ela teria a vantagem. Desta vez, ela enfrentaria sua velha amiga de frente.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Diana",
+    "cardCode": "03MT056T1",
+    "keywords": [
+      "Ataque Rápido"
+    ],
+    "keywordRefs": [
+      "QuickStrike"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT092T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT092.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT092-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 2,
+    "health": 1,
+    "description": "<link=vocab.Strike><style=Vocab>Golpear</style></link>: Crie 1 <link=card.create><style=AssociatedCard>Gema</style></link> na mão.",
+    "descriptionRaw": "Golpear: Crie 1 Gema na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "As cabras do Monte Targon são ainda mais perigosas do que as outras, pois as gemas em seus chifres liberam fragmentos afiados no momento do impacto. ",
+    "artistName": "Polar Engine",
+    "name": "Cabra da Montanha",
+    "cardCode": "03MT092",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO001.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO001-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 1,
+    "cost": 1,
+    "health": 2,
+    "description": "Quando me auxiliarem, eu ganho +2|+0.",
+    "descriptionRaw": "Quando me auxiliarem, eu ganho +2|+0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Todos querem um mascote fiel, mas ninguém está preparado para a responsabilidade. Tem que levar para passear, oferecer uma dieta balanceada, adaptar a casa... Dá muito trabalho.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Florzinha de Estimação",
+    "cardCode": "03IO001",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03SI005T3",
+      "03SI005"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005T1-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 6,
+    "cost": 4,
+    "health": 4,
+    "description": "Outros aliados têm <link=keyword.Fearsome><sprite name=Fearsome><style=Keyword>Assustador</style></link>.\r\nAo jogar uma unidade, conceda <nobr>-1|-0</nobr> aos inimigos nesta rodada.",
+    "descriptionRaw": "Outros aliados têm Assustador.\r\nAo jogar uma unidade, conceda -1|-0 aos inimigos nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Meus sonhos se tornam mais reais a cada noite. Vejo uma criatura maligna se contorcendo no escuro, ziguezagueando em minha direção. Embora eu devesse ficar aqui por mais uma semana, vou para o Monte da Vala esta noite. Eu simplesmente não suporto este lugar.\"<br>– Notas de Jens Tommen, historiador",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nocturne",
+    "cardCode": "03SI005T1",
+    "keywords": [
+      "Assustador"
+    ],
+    "keywordRefs": [
+      "Fearsome"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT092T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT048.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT048-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 1,
+    "health": 2,
+    "description": "Ao me invocar, crie 1 <link=card.create><style=AssociatedCard>Gema</style></link> na mão.",
+    "descriptionRaw": "Ao me invocar, crie 1 Gema na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Dizem que o Protetor abençoou as gemas. Se usá-las, o espírito dele acompanhará você.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Doadora de Dádivas",
+    "cardCode": "03MT048",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR004.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR004-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 7,
+    "health": 0,
+    "description": "Escolha uma unidade na sua mão para revelar. Cure seu Nexus com o Poder dela.\r\n<link=keyword.Enlightened><style=Keyword>Iluminado</style></link>: Reduza o custo dela a 0.",
+    "descriptionRaw": "Escolha uma unidade na sua mão para revelar. Cure seu Nexus com o Poder dela.\r\nIluminado: Reduza o custo dela a 0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Os trolls adultos têm pele grossa e ossos densos que se recuperam rapidamente, o que faz deles terríveis inimigos. O abate deve ser rápido, ou eles se recuperam e voltam a lutar.\" – Atirador Avarosiano",
+    "artistName": "Kudos Productions",
+    "name": "Rugido Revigorante",
+    "cardCode": "03FR004",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT063.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT063-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 5,
+    "health": 5,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: <link=keyword.Invoke><style=Keyword>Evocar</style></link>.",
+    "descriptionRaw": "Jogar: Evocar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Olha só todas as nossas amigas no céu hoje! Tá vendo aquela estrela mais brilhante? É o olho do Mensageiro observando a gente! E aquele grupo escuro ali... é o Trapaceiro se escondendo atrás das nuvens! E aquela ali... QUIETO, KULUN! Você não pode sair derrubando as coisas...!\"",
+    "artistName": "Aron Elekes",
+    "name": "Sonhaluna",
+    "cardCode": "03MT063",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "02BW034T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW014.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW014-full.png"
+      }
+    ],
+    "region": "Águas de Sentina",
+    "regionRef": "Bilgewater",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Invoque 1 <link=card.summon><style=AssociatedCard>Miquinho Explosivo</style></link>.\r\n<link=vocab.Plunder><style=Vocab>Saquear</style></link>: Invoque mais 1 <link=card.summon><style=AssociatedCard>Miquinho Explosivo</style></link> na próxima rodada.",
+    "descriptionRaw": "Invoque 1 Miquinho Explosivo.\r\nSaquear: Invoque mais 1 Miquinho Explosivo na próxima rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ah... você acha eles fofinhos? POIS ELES NÃO SÃO. Eles se enfiam em tudo que é canto, fazem mais sujeira que um marujo nauseado e NUNCA CALAM A BOCA. EU NÃO QUERO MACACOS NO NAVIO. E PONTO FINAL.\"<br>– Suboficial",
+    "artistName": "Kudos Productions",
+    "name": "Macacos me Mordam",
+    "cardCode": "03BW014",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT006-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 5,
+    "cost": 6,
+    "health": 6,
+    "description": "A cada rodada, quando um aliado com <link=keyword.Fury><sprite name=Fury><style=Keyword>Fúria</style></link> abater um inimigo pela primeira vez, crie um Dragão aleatório na mão.",
+    "descriptionRaw": "A cada rodada, quando um aliado com Fúria abater um inimigo pela primeira vez, crie um Dragão aleatório na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Olhe para os céus e veja o que eu vejo! Primeiro os sinais, pois, à noite, eles brilham. Depois a fúria, pois, de dia, tudo queima. Você vai ver! Todos nós vamos ver!\" – Arauta dos Dragões",
+    "artistName": "SIXMOREVODKA",
+    "name": "Inviolus Vox",
+    "cardCode": "03MT006",
+    "keywords": [
+      "Fúria"
+    ],
+    "keywordRefs": [
+      "Fury"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO019.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO019-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 0,
+    "cost": 10,
+    "health": 0,
+    "description": "Escolha um aliado. <link=keyword.Recall><style=Keyword>Retorne</style></link> TODAS as outras unidades.",
+    "descriptionRaw": "Escolha um aliado. Retorne TODAS as outras unidades.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Eu percorro meu caminho sozinha.\" – Monja Solitária",
+    "artistName": "Kudos Productions",
+    "name": "Determinação Individual",
+    "cardCode": "03IO019",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT053.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT053-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Dê +0|+2 e <link=keyword.SpellShield><sprite name=SpellShield><style=Keyword>Escudo de Feitiço</style></link> a um aliado.",
+    "descriptionRaw": "Dê +0|+2 e Escudo de Feitiço a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Banhe-se no gentil resplendor e receba a bênção d'Ela.\"<br>– Sacerdotisa Lunari",
+    "artistName": "Kudos Productions",
+    "name": "Resplendor Lunar",
+    "cardCode": "03MT053",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR017-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 5,
+    "cost": 6,
+    "health": 5,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta com 8+ de custo, dê <link=keyword.Overwhelm><sprite name=Overwhelm><style=Keyword>Sobrepujar</style></link> e <link=keyword.Regeneration><sprite name=Regeneration><style=Keyword>Regeneração</style></link> a um aliado.",
+    "descriptionRaw": "Jogar: Se você Contemplar uma carta com 8+ de custo, dê Sobrepujar e Regeneração a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Dizem que pouquíssimos trolls sabem os cânticos dos Ancestrais, mas que aqueles que os conhecem podem invocar seus antepassados para conceder força e resistência excepcionais a todos os companheiros.",
+    "artistName": "Kudos Productions",
+    "name": "Presságio dos Ancestrais",
+    "cardCode": "03FR017",
+    "keywords": [
+      "Sobrepujar",
+      "Regeneração"
+    ],
+    "keywordRefs": [
+      "Overwhelm",
+      "Regeneration"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT054",
+      "03MT054T1",
+      "03MT054"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T2-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Conceda +2|+2 a aliados nesta rodada. Embaralhe 1 <link=card.level1><style=AssociatedCard>Leona</style></link> no seu deck.\r\n<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Ative todos os efeitos de <link=keyword.Daybreak><style=Keyword>Amanhecer</style></link> dos aliados de uma só vez.",
+    "descriptionRaw": "Conceda +2|+2 a aliados nesta rodada. Embaralhe 1 Leona no seu deck.\r\nAmanhecer: Ative todos os efeitos de Amanhecer dos aliados de uma só vez.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ela é nossa líder inabalável nos céus, o clarão ofuscante de nossas armas ao meio-dia e o fogo inextinguível que queima em nossos corações.\" \n– Sacerdotisa Solari",
+    "artistName": "Kudos Productions",
+    "name": "Luz Matinal de Leona",
+    "cardCode": "03MT054T2",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT014.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT014-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 2,
+    "health": 1,
+    "description": "Aliados Dragões custam 1 a menos.",
+    "descriptionRaw": "Aliados Dragões custam 1 a menos.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "As nuvens rodopiavam em torno de suas formas gigantescas, e até o céu parecia tremer com seus lamentos. Ela sabia o que estava por vir, mas, em vez de medo, sentia o reconfortante abraço do destino.",
+    "artistName": "Polar Engine",
+    "name": "Arauta dos Dragões",
+    "cardCode": "03MT014",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT058T2",
+      "03MT058T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 4,
+    "health": 4,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Conceda <link=keyword.Tough><sprite name=Tough><style=Keyword>Robusto</style></link> a mim e ao meu aliado auxiliado nesta rodada. Copie neste aliado o último feitiço que você conjurou apenas em mim nesta rodada <style=Parentheses>(não é possível copiar de novo)</style>.",
+    "descriptionRaw": "Auxiliar: Conceda Robusto a mim e ao meu aliado auxiliado nesta rodada. Copie neste aliado o último feitiço que você conjurou apenas em mim nesta rodada (não é possível copiar de novo).",
+    "levelupDescription": "Vi você alvejar ou <link=vocab.Support><style=Vocab>auxiliar</style></link> aliados 7+ vezes<style=Variable></style>.",
+    "levelupDescriptionRaw": "Vi você alvejar ou auxiliar aliados 7+ vezes.",
+    "flavorText": "\"A amável gentileza de Taric é uma inspiração para todos que o conhecem, estimulando-os a encontrar a chama interior para suportar as noites mais frias.\" – Vidente da Montanha",
+    "artistName": "SIXMOREVODKA",
+    "name": "Taric",
+    "cardCode": "03MT058",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT032.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT032-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Compre um Campeão. Reduza o custo dele em 1 e dê +2|+2 a ele.",
+    "descriptionRaw": "Compre um Campeão. Reduza o custo dele em 1 e dê +2|+2 a ele.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"A vastidão do céu noturno representa o abismo entre a humanidade abaixo e o divino acima. Mas alguns mortais buscam alcançar um propósito mais elevado... e, se a montanha os considerar dignos, eles podem ascender e se unir às estrelas.\" – Vidente da Montanha",
+    "artistName": "Kudos Productions",
+    "name": "Escrito nas Estrelas",
+    "cardCode": "03MT032",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT098.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT098-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Dê +0|+2 a um aliado.",
+    "descriptionRaw": "Dê +0|+2 a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Nosso escudo é nossa convicção, nossa determinação, nossa fé na luz!\" – Escudeira Solari",
+    "artistName": "Kudos Productions",
+    "name": "Vigor Solar",
+    "cardCode": "03MT098",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT024.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT024-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 9,
+    "health": 0,
+    "description": "Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta Celestial, <link=keyword.Obliterate><style=Keyword>Oblitere</style></link> 2 inimigos.",
+    "descriptionRaw": "Se você Contemplar uma carta Celestial, Oblitere 2 inimigos.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Quando estão perto de morrer, as estrelas criam explosões tão brilhantes que até as outras estrelas, ainda ativas e ardentes, são ofuscadas.  ",
+    "artistName": "Kudos Productions",
+    "name": "Supernova",
+    "cardCode": "03MT024",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT066.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT066-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 7,
+    "health": 0,
+    "description": "Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta Celestial, dê +2|+2 a aliados <link=vocab.Everywhere><style=Vocab>globalmente</style></link>. Recarregue seu Mana de Feitiço.",
+    "descriptionRaw": "Se você Contemplar uma carta Celestial, dê +2|+2 a aliados globalmente. Recarregue seu Mana de Feitiço.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Olhe para o céu noturno. Admire o brilho das estrelas e deixe-se envolver por sua luz revigorante.\" – Soraka",
+    "artistName": "Kudos Productions",
+    "name": "Inspiração Cósmica",
+    "cardCode": "03MT066",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT085"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT085.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT085-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "<link=vocab.Silence><style=Vocab>Silencie</style></link> uma unidade nesta rodada. Crie 1 <link=card.me><style=AssociatedCard>Quietude</style></link> <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fugaz</style></link> na mão.",
+    "descriptionRaw": "Silencie uma unidade nesta rodada. Crie 1 Quietude Fugaz na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Eles conhecerão a serenidade.\" – Soraka",
+    "artistName": "Kudos Productions",
+    "name": "Quietude",
+    "cardCode": "03MT085",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT054T3",
+      "03MT054T2",
+      "03MT054T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "<link=keyword.PlaySkillMark><sprite name=PlaySkillMark><style=Keyword></style></link><link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: <link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link> o inimigo <link=vocab.Strongest><style=Vocab>Mais Forte</style></link>.",
+    "descriptionRaw": "Amanhecer: Atordoe o inimigo Mais Forte.",
+    "levelupDescription": "Você ativou <link=keyword.Daybreak><style=Keyword>Amanhecer</style></link> 4+ vezes<style=Variable></style>.",
+    "levelupDescriptionRaw": "Você ativou Amanhecer 4+ vezes.",
+    "flavorText": "Entre eles, preparando-se para a batalha, ali estava ela. Irradiando luz, adornada em vermelho e dourado. Seus olhos brilhavam como brasas. Quando o sol raiou e iluminou sua cabeça como uma coroa, todos os Solari ali presentes baixaram os olhos, não por vergonha, mas em reverência à sua líder iluminada.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Leona",
+    "cardCode": "03MT054",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03FR006T1",
+      "03FR006T3",
+      "03FR006"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T2-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 5,
+    "cost": 5,
+    "health": 7,
+    "description": "Ao me invocar, crie 1 <link=card.create><style=AssociatedCard>Pilar de Gelo</style></link> na mão.\r\n<link=vocab.Attack><style=Vocab>Atacar</style></link>: Eu ganho +1|+0 por cada carta com 8+ de custo que você <link=vocab.Behold><style=Vocab>Contemplar</style></link>.",
+    "descriptionRaw": "Ao me invocar, crie 1 Pilar de Gelo na mão.\r\nAtacar: Eu ganho +1|+0 por cada carta com 8+ de custo que você Contemplar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os avarosianos não se renderam. Trundle gesticulou e, como uma avalanche, os trolls avançaram com tanto ímpeto que continuaram por quilômetros, adentrando as tribos avarosianas, golpeando e devastando tudo pelo caminho.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Trundle",
+    "cardCode": "03FR006T2",
+    "keywords": [
+      "Sobrepujar",
+      "Regeneração"
+    ],
+    "keywordRefs": [
+      "Overwhelm",
+      "Regeneration"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT075.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT075-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 3,
+    "health": 1,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: <link=keyword.Invoke><style=Keyword>Evocar</style></link>.",
+    "descriptionRaw": "Anoitecer: Evocar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ah, estrelas do céu, que viajam como muitos peregrinos pela noite. Fiquem conosco um instante, contem-nos o que viram.\" – O Hino da Noite",
+    "artistName": "Kudos Productions",
+    "name": "Sacerdotisa Lunari",
+    "cardCode": "03MT075",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T4.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T4-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Conceda <link=keyword.Barrier><sprite name=Barrier><style=Keyword>Barreira</style></link> a um aliado ou <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerável</style></link> a um inimigo nesta rodada.\r\nNão pode ser conjurada em combate nem em reação a feitiços.",
+    "descriptionRaw": "Conceda Barreira a um aliado ou Vulnerável a um inimigo nesta rodada.\r\nNão pode ser conjurada em combate nem em reação a feitiços.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Pix protege... ou Pix ataca...? ",
+    "artistName": "Kudos Productions",
+    "name": "Socorro, Pix!",
+    "cardCode": "03IO002T4",
+    "keywords": [
+      "Súbito",
+      "Fugaz"
+    ],
+    "keywordRefs": [
+      "Burst",
+      "Fleeting"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT020.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT020-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 5,
+    "health": 5,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Cure um aliado e o seu Nexus em 3.",
+    "descriptionRaw": "Jogar: Cure um aliado e o seu Nexus em 3.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Está vendo aquela estrela se movendo no céu escuro? É um estrelacórnio adulto. Enquanto os jovens nos emprestam sua magia de cura até poderem retornar aos céus, os adultos dominam esse poder por conta própria. Dizem que ver um e saber do que se trata dá muita sorte. Mais sorte ainda é poder cuidar de um.\" – Lidari, Guardiã das Estrelas",
+    "artistName": "SIXMOREVODKA",
+    "name": "Estrelacórnio Resplandecente",
+    "cardCode": "03MT020",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT071.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT071-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Dê +0|+2 ao meu aliado auxiliado.",
+    "descriptionRaw": "Auxiliar: Dê +0|+2 ao meu aliado auxiliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Quando viaja, você deve se entregar à jornada, que inevitavelmente mudará quem você é. Quando viaja, você acaba voltando com algo novo... e deixando para trás parte do seu antigo eu. ",
+    "artistName": "SIXMOREVODKA",
+    "name": "Viajante Tyari",
+    "cardCode": "03MT071",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "01NX038"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX018-full.png"
+      }
+    ],
+    "region": "Noxus",
+    "regionRef": "Noxus",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link> um inimigo.\r\nSe você tiver 1 <link=card.champ1><style=AssociatedCard>Darius</style></link>, <link=vocab.Rally><style=Vocab>Mobilize</style></link>.",
+    "descriptionRaw": "Atordoe um inimigo.\r\nSe você tiver 1 Darius, Mobilize.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Eu mesmo cuido disso.\" – Darius",
+    "artistName": "Kudos Productions",
+    "name": "Apreender",
+    "cardCode": "03NX018",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR008-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 8,
+    "health": 0,
+    "description": "Conceda -3|-0 a TODAS as unidades nesta rodada. Cause 3 de dano a TODAS as unidades.",
+    "descriptionRaw": "Conceda -3|-0 a TODAS as unidades nesta rodada. Cause 3 de dano a TODAS as unidades.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Enterrem eles vivos!\" – Trundle",
+    "artistName": "Kudos Productions",
+    "name": "Terremoto Glacial",
+    "cardCode": "03FR008",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT077.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT077-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 10,
+    "health": 0,
+    "description": "Encha sua mão com cartas Celestiais <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fugazes</style></link> aleatórias. Recarregue seu Mana.",
+    "descriptionRaw": "Encha sua mão com cartas Celestiais Fugazes aleatórias. Recarregue seu Mana.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Dizem que algumas constelações já foram pessoas mortais, cujas incríveis façanhas lhes garantiram um lugar entre as estrelas.\" – Vidente da Montanha",
+    "artistName": "Kudos Productions",
+    "name": "Lendas Vivas",
+    "cardCode": "03MT077",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT002-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 15,
+    "health": 0,
+    "description": "Cause 15 de dano a todos os inimigos.\r\nCusta 2 a menos por cada aliado Dragão ou Celestial que você tiver.",
+    "descriptionRaw": "Cause 15 de dano a todos os inimigos.\r\nCusta 2 a menos por cada aliado Dragão ou Celestial que você tiver.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Quando chegar a hora, acho que vou usar Runeterra como exemplo. Talvez eu arraste sua carcaça chamuscada comigo por toda a eternidade. Como um brinquedo velho e sem valor. Não sei. Não pensei tanto nisso.\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "Os Céus Caem",
+    "cardCode": "03MT002",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03IO008T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO008.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO008-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Transforme um seguidor em 1 <link=card.summon><style=AssociatedCard>Esquilo</style></link> com 1|1 e <link=vocab.Silence><style=Vocab>Silenciar</style></link> nesta rodada.",
+    "descriptionRaw": "Transforme um seguidor em 1 Esquilo com 1|1 e Silenciar nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Adoribus!\" – Lulu",
+    "artistName": "Kudos Productions",
+    "name": "Caprichos!",
+    "cardCode": "03IO008",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT010-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 7,
+    "cost": 7,
+    "health": 7,
+    "description": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. <style=Variable></style>",
+    "descriptionRaw": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. ",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Para proteger os espaços entre o céu e a terra, um guardião com chifres foi colocado nas estrelas sobre as montanhas. Ágil e poderoso, ele vigia o céu noturno em busca de intrusos e, ao detectá-los, saúda-os com um estrondo que faz tremer toda e qualquer coisa.\" – As Histórias do Minotauro",
+    "artistName": "Kudos Productions",
+    "name": "O Destruidor",
+    "cardCode": "03MT010",
+    "keywords": [
+      "Sobrepujar",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Overwhelm",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT086.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT086-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 1,
+    "health": 1,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Descarte uma carta para <link=keyword.Invoke><style=Keyword>Evocar</style></link> uma carta Celestial com 3 ou menos de custo.",
+    "descriptionRaw": "Jogar: Descarte uma carta para Evocar uma carta Celestial com 3 ou menos de custo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Este é o meu favorito! Eu chamo de 'Identidade Metafísica da Psique Consciente'. Mas se você inclinar a assim... fica parecendo duas colheres.\"",
+    "artistName": "Dao Le",
+    "name": "Artista Sonhadora",
+    "cardCode": "03MT086",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT087T2",
+      "03MT087"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 11,
+    "cost": 10,
+    "health": 11,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: <link=keyword.Invoke><style=Keyword>Evoque</style></link> uma carta Celestial com 7 ou mais de custo.\r\n<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Crie uma carta Celestial aleatória na mão.\r\nSuas cartas Celestiais custam 0.",
+    "descriptionRaw": "Jogar: Evoque uma carta Celestial com 7 ou mais de custo.\r\nInício de Rodada: Crie uma carta Celestial aleatória na mão.\r\nSuas cartas Celestiais custam 0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Aurelion Sol é lindo. E magnífico. E também muitíssimo inteligente.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Aurelion Sol",
+    "cardCode": "03MT087T1",
+    "keywords": [
+      "Fúria",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Fury",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT070.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT070-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 4,
+    "health": 4,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: <link=keyword.Invoke><style=Keyword>Evocar</style></link>.",
+    "descriptionRaw": "Jogar: Evocar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Sempre fomos um só e o mesmo. Separados apenas pela montanha, pela jornada e por um mar de estrelas.\"",
+    "artistName": "Kudos Productions",
+    "name": "Viajante",
+    "cardCode": "03MT070",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT019.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT019-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Conceda <link=keyword.SpellShield><sprite name=SpellShield><style=Keyword>Escudo de Feitiço</style></link> a um aliado nesta rodada.",
+    "descriptionRaw": "Conceda Escudo de Feitiço a um aliado nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Honre a montanha.\" – Taric",
+    "artistName": "Kudos Productions",
+    "name": "Bastião",
+    "cardCode": "03MT019",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03IO002T1",
+      "03IO002T5",
+      "03IO008T1",
+      "03IO002T4"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 2,
+    "cost": 3,
+    "health": 3,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Meu aliado auxiliado fica com 4|4 nesta rodada.",
+    "descriptionRaw": "Auxiliar: Meu aliado auxiliado fica com 4|4 nesta rodada.",
+    "levelupDescription": "Nossos aliados foram <link=vocab.Support><style=Vocab>auxiliados</style></link> 3+ vezes<style=Variable></style>.",
+    "levelupDescriptionRaw": "Nossos aliados foram auxiliados 3+ vezes.",
+    "flavorText": "\"Não se preocupa, Pix! A gente vai sair da Clareira e deixar TUDO bem adoribus! Tá pronto?!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lulu",
+    "cardCode": "03IO002",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO011.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO011-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 3,
+    "cost": 4,
+    "health": 4,
+    "description": "<link=vocab.Strike><style=Vocab>Golpear</style></link>: Dobre meu Poder.",
+    "descriptionRaw": "Golpear: Dobre meu Poder.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "O segredo dele é vitamina de nozes, quatro vezes ao dia.",
+    "artistName": "Dao Le",
+    "name": "Esquilo Bombado",
+    "cardCode": "03IO011",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO009.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO009-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 4,
+    "cost": 3,
+    "health": 2,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Energia: 104 kJ (25 kcal), Carboidratos: 5,88g, Açúcares: 3,53g, Fibras: 3g, Gorduras: 0,18g, Proteína: 0,98g, Água: 92g...",
+    "artistName": "Dao Le",
+    "name": "Silfo Saboroso",
+    "cardCode": "03IO009",
+    "keywords": [
+      "Roubo de Vida"
+    ],
+    "keywordRefs": [
+      "Lifesteal"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT023.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT023-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 6,
+    "health": 0,
+    "description": "Cause 6 de dano a uma unidade.\r\n<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Em vez disso, <link=vocab.Silence><style=Vocab>Silencie-a</style></link> nesta rodada e cause 6 de dano a ela.",
+    "descriptionRaw": "Cause 6 de dano a uma unidade.\r\nAmanhecer: Em vez disso, Silencie-a nesta rodada e cause 6 de dano a ela.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Poucas coisas sobrevivem a um olhar tão impassível quanto o do Sol.",
+    "artistName": "Kudos Productions",
+    "name": "Clarão Solar",
+    "cardCode": "03MT023",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO003-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 3,
+    "cost": 4,
+    "health": 3,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Dê <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Elusivo</style></link> a um aliado.",
+    "descriptionRaw": "Jogar: Dê Elusivo a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Shh! Por aqui! Vamos fazer uma curva fechada à esquerda depois da casa na árvore e passar direto pelas flores falantes. Lu, tá me ouvindo? Lu? Lu! LULU! NÃO dê comida a elas. Não pode.\"",
+    "artistName": "Dao Le",
+    "name": "Guia Feérico",
+    "cardCode": "03IO003",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT096.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT096-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 3,
+    "health": 2,
+    "description": "<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: <link=keyword.Invoke><style=Keyword>Evoque</style></link> uma carta Celestial com custo 4, 5 ou 6.\r\n",
+    "descriptionRaw": "Amanhecer: Evoque uma carta Celestial com custo 4, 5 ou 6.\r\n",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Assim como qualquer outro targonense, os Solari também buscam orientação nas estrelas, pois o Sol é a estrela mais adorada em sua fé.",
+    "artistName": "Grafit Studio",
+    "name": "Sacerdotisa Solari",
+    "cardCode": "03MT096",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW006T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03BW006T1-full.png"
+      }
+    ],
+    "region": "Águas de Sentina",
+    "regionRef": "Bilgewater",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Cause 2 de dano a um aliado para causar 2 de dano ao Nexus inimigo.",
+    "descriptionRaw": "Cause 2 de dano a um aliado para causar 2 de dano ao Nexus inimigo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Encharque-os com seu sangue e depois solte os tubarões.\"<br>– Jack, o Vencedor",
+    "artistName": "Kudos Productions",
+    "name": "Durma com os Peixinhos",
+    "cardCode": "03BW006T1",
+    "keywords": [
+      "Lento",
+      "Fugaz"
+    ],
+    "keywordRefs": [
+      "Slow",
+      "Fleeting"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT049.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT049-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Cause 4 de dano a um inimigo e 1 de dano a outro.",
+    "descriptionRaw": "Cause 4 de dano a um inimigo e 1 de dano a outro.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Forjar estrelas dá bastante trabalho. Nunca se sabe onde aquelas pedrinhas vão cair. Eu sinto muito, muito mesmo, se por acaso elas caírem em cima de você. E te esmagarem. Completamente.\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "Chuva de Meteoros",
+    "cardCode": "03MT049",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03IO008T1",
+      "03IO002",
+      "03IO002T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T5.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T5-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Transforme um seguidor em 1 <link=card.summon><style=AssociatedCard>Esquilo</style></link> com 1|1 e <link=vocab.Silence><style=Vocab>Silenciar</style></link> nesta rodada. Embaralhe 1 <link=card.level1><style=AssociatedCard>Lulu</style></link> no seu deck.",
+    "descriptionRaw": "Transforme um seguidor em 1 Esquilo com 1|1 e Silenciar nesta rodada. Embaralhe 1 Lulu no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Adoribus!\" – Lulu",
+    "artistName": "Kudos Productions",
+    "name": "Caprichos da Lulu!",
+    "cardCode": "03IO002T5",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT044.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT044-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 6,
+    "health": 3,
+    "description": "<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Me conceda +4|+4 nesta rodada.",
+    "descriptionRaw": "Amanhecer: Me conceda +4|+4 nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Guardiã reluzente, sua ira queima como o sol do meio-dia. Venha e castigue aqueles que se atreveriam a invadir este lugar sagrado.\" – Inscrição da Guardiã do Sol",
+    "artistName": "SIXMOREVODKA",
+    "name": "Guardião do Sol",
+    "cardCode": "03MT044",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR002-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Conceda +0|+2 a um aliado para conceder -2|-0 a um inimigo nesta rodada.",
+    "descriptionRaw": "Conceda +0|+2 a um aliado para conceder -2|-0 a um inimigo nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os cânticos dos trolls variam muito. Eles diferem de grupo para grupo e costumam ser incompreensíveis. Mas uma coisa eles têm em comum: todos são aterrorizantes. ",
+    "artistName": "Kudos Productions",
+    "name": "Cântico dos Trolls",
+    "cardCode": "03FR002",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX016.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX016-full.png"
+      }
+    ],
+    "region": "Noxus",
+    "regionRef": "Noxus",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Cause 1 de dano a um aliado e a um inimigo 4 vezes.",
+    "descriptionRaw": "Cause 1 de dano a um aliado e a um inimigo 4 vezes.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Não é com o alcance das garras que você precisa se preocupar, e sim com o apetite da fera.\" – Treinador de Basilisco",
+    "artistName": "Kudos Productions",
+    "name": "Laceração",
+    "cardCode": "03NX016",
+    "keywords": [
+      "Habilidade"
+    ],
+    "keywordRefs": [
+      "Skill"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Habilidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO010-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 1,
+    "cost": 2,
+    "health": 1,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Conceda <link=keyword.Quick Strike><sprite name=QuickStrike><style=Keyword>Ataque Rápido</style></link> e +1|+0 ao meu aliado auxiliado nesta rodada.",
+    "descriptionRaw": "Auxiliar: Conceda Ataque Rápido e +1|+0 ao meu aliado auxiliado nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Sir Ribery Montague partiu em busca de uma grande jornada ou de uma família nobre para bajular. Mas o destino o levou a um Bandobosque escondido, onde a jovem Bri logo o transformou em sapo e saiu arrastando o coitado a todas as aventuras DELA. Pobre Rib!",
+    "artistName": "Dao Le",
+    "name": "Jovem Bruxa",
+    "cardCode": "03IO010",
+    "keywords": [
+      "Elusivo"
+    ],
+    "keywordRefs": [
+      "Elusive"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT092T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT041.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT041-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 3,
+    "health": 1,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Dê +2|+2 ao meu aliado auxiliado.\r\n<link=keyword.Last Breath><sprite name=LastBreath><style=Keyword>Suspiro Final</style></link>: Crie 3 <link=card.create><style=AssociatedCard>Gemas</style></link> na mão.",
+    "descriptionRaw": "Auxiliar: Dê +2|+2 ao meu aliado auxiliado.\r\nSuspiro Final: Crie 3 Gemas na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Você entendeu alguma coisa do que ele disse?\"\n\"Nada. Mas ele parecia legal, né?\"\n– Emir e Haley, Peregrinos da Montanha",
+    "artistName": "SIXMOREVODKA",
+    "name": "Mentor das Pedras",
+    "cardCode": "03MT041",
+    "keywords": [
+      "Suspiro Final"
+    ],
+    "keywordRefs": [
+      "LastBreath"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT043.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT043-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 6,
+    "health": 0,
+    "description": "<link=keyword.Obliterate><style=Keyword>Oblitere</style></link> um inimigo.",
+    "descriptionRaw": "Oblitere um inimigo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Vou usar as próprias estrelas para destruir este lugar insuportável. Será GLORIOSO!\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "Cometa Cadente",
+    "cardCode": "03MT043",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT028.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT028-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 2,
+    "health": 2,
+    "description": "<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Me conceda +0|+4 nesta rodada.",
+    "descriptionRaw": "Amanhecer: Me conceda +0|+4 nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Tolos são os que não vivem sob o manto da noite\". A escudeira se endireitou e ordenou: \"Abaixe as armas e entregue-se pacificamente\".\nA Lunari se agachou em silêncio, preparando as lâminas curvas mais uma vez. \nQue assim seja. \nA Solari também se preparou, levantando o escudo para refletir os raios do sol nascente. ",
+    "artistName": "Kudos Productions",
+    "name": "Escudeira Solari",
+    "cardCode": "03MT028",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT022.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT022-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 8,
+    "cost": 9,
+    "health": 8,
+    "description": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. <style=Variable></style>\r\nEu sou um Dragão.",
+    "descriptionRaw": "Ao me invocar, eu ganho +1|+0 por cada carta Celestial que você tiver jogado nesta partida. \r\nEu sou um Dragão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Ah, minha constelação favorita. Gosto de pensar que ela será a primeira a cair sobre essa montanha esquecida.\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "O Grande Além",
+    "cardCode": "03MT022",
+    "keywords": [
+      "Elusivo",
+      "Fúria",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Elusive",
+      "Fury",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL",
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT072.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT072-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 5,
+    "cost": 5,
+    "health": 5,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Inúmeros desafios esperam quem escala o Monte Targon. Alguns deles, como a subida interminável, sugam suas forças lentamente. Já outros são bem mais imediatos.",
+    "artistName": "Jihun Lee",
+    "name": "Marcabrasa Derretida",
+    "cardCode": "03MT072",
+    "keywords": [
+      "Fúria",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Fury",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT092T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT025.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT025-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Encha sua mão de <link=card.create><style=AssociatedCard>Gemas</style></link>.",
+    "descriptionRaw": "Encha sua mão de Gemas.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Bastar virar um pouco a gema para vê-la brilhar sob a luz. Como as vidas dos mortais, cada uma tem sua chama interior.\" – Taric",
+    "artistName": "Kudos Productions",
+    "name": "Fragmentos da Montanha",
+    "cardCode": "03MT025",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT018"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT017-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Embaralhe 5 <link=card.shuffle><style=AssociatedCard>Os Mensageiros</style></link> no seu deck.",
+    "descriptionRaw": "Embaralhe 5 Os Mensageiros no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"O tempo passa, o céu se desloca; a Serpente se afasta e o Mensageiro assume seu lugar. Uma estação de abundância se aproxima...\" – Sacerdotisa Lunari",
+    "artistName": "Max Grecke",
+    "name": "Marca do Mensageiro",
+    "cardCode": "03MT017",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT051.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT051-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Cure um aliado ou o seu Nexus em 2. Compre 1.",
+    "descriptionRaw": "Cure um aliado ou o seu Nexus em 2. Compre 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os estrelacórnios brilham mais quando estão felizes.",
+    "artistName": "Kudos Productions",
+    "name": "Toque Conselheiro",
+    "cardCode": "03MT051",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT012.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT012-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 6,
+    "cost": 10,
+    "health": 6,
+    "description": "Reduza meu custo em 1 por cada vez que você tiver alvejado ou auxiliado aliados nesta partida.",
+    "descriptionRaw": "Reduza meu custo em 1 por cada vez que você tiver alvejado ou auxiliado aliados nesta partida.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "O Árbitro é o teste final da montanha, pois somente o guardião pode ver além das façanhas do alpinista e enxergar seu espírito.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Árbitro do Pico",
+    "cardCode": "03MT012",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR011.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR011-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 7,
+    "cost": 8,
+    "health": 7,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Antes que pudessem ouvir, eles sentiram o chão tremer. Tudo logo se tornou audível, como um trovão distante se aproximando.\nMeyrick levantou a cabeça e arregalou os olhos, ouvindo atentamente.\n\"O que é isso?\", sussurrou Anya, sacando seu arco. Mas Meyrick já estava correndo em direção à trilha. \n\"FUJAM!\"",
+    "artistName": "MAR Studio",
+    "name": "Uzgar, o Ancião",
+    "cardCode": "03FR011",
+    "keywords": [
+      "Desafiador",
+      "Regeneração"
+    ],
+    "keywordRefs": [
+      "Challenger",
+      "Regeneration"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT094.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT094-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 2,
+    "health": 3,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Eu ganho <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Elusivo</style></link>.",
+    "descriptionRaw": "Anoitecer: Eu ganho Elusivo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Voltemos nossos olhos para os céus, para o Sol, para nossa dama... Espere... O quê...? O que é aquilo...?\" – Sacerdote Solari",
+    "artistName": "Kudos Productions",
+    "name": "Lunari Espreitadora",
+    "cardCode": "03MT094",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T3-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link> o inimigo <link=vocab.Strongest><style=Vocab>Mais Forte</style></link>.",
+    "descriptionRaw": "Atordoe o inimigo Mais Forte.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Quanto mais eles tentam se aproximar dos céus, mais o sol os queima.\" – Leona\n",
+    "artistName": "Kudos Production",
+    "name": "Labareda Solar",
+    "cardCode": "03MT054T3",
+    "keywords": [
+      "Habilidade"
+    ],
+    "keywordRefs": [
+      "Skill"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Habilidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT076.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT076-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 4,
+    "health": 3,
+    "description": "Suas cartas Celestiais custam 1 a menos.\r\n<link=vocab.Allegiance><style=Vocab>Lealdade</style></link>: <link=keyword.Invoke><style=Keyword>Evocar</style></link>.",
+    "descriptionRaw": "Suas cartas Celestiais custam 1 a menos.\r\nLealdade: Evocar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"As estrelas têm muito que ensinar e orientar. Para nós, elas são uma constante, uma forma de traçar nosso caminho.\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Vidente da Montanha",
+    "cardCode": "03MT076",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR005-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "Ao me invocar, se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta com 8+ de custo, eu ganho <link=keyword.Regeneration><sprite name=Regeneration><style=Keyword>Regeneração</style></link>.",
+    "descriptionRaw": "Ao me invocar, se você Contemplar uma carta com 8+ de custo, eu ganho Regeneração.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Quando chegaram às cabanas avarosianas, eles convocaram Hgar. Com uma gargalhada, ela ergueu Quebração, sua arma, ansiosa para estraçalhar todas aquelas casinhas de madeira.",
+    "artistName": "MAR Studio",
+    "name": "Troll Devastadora",
+    "cardCode": "03FR005",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03SI005T3",
+      "03SI005T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI005-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 5,
+    "cost": 4,
+    "health": 3,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Dê <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerável</style></link> a um inimigo e conceda <nobr>-1|-0</nobr> aos inimigos nesta rodada.",
+    "descriptionRaw": "Anoitecer: Dê Vulnerável a um inimigo e conceda -1|-0 aos inimigos nesta rodada.",
+    "levelupDescription": "Você atacou com 5+ aliados com <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link><style=Variable></style>.",
+    "levelupDescriptionRaw": "Você atacou com 5+ aliados com Anoitecer.",
+    "flavorText": "\"Parece que, depois de abalar almas suficientes, a criatura invade nosso mundo. Só a esperança pode mandar este monstro de volta ao reino dele... mas a esperança já morreu há muito tempo por aqui, com o último suspiro de uma rainha e o grito eterno de um rei.\"\n– Notas de Jens Tommen, historiador",
+    "artistName": "SIXMOREVODKA",
+    "name": "Nocturne",
+    "cardCode": "03SI005",
+    "keywords": [
+      "Assustador"
+    ],
+    "keywordRefs": [
+      "Fearsome"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03IO002T5",
+      "03IO002",
+      "03IO008T1",
+      "03IO002T4"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO002T1-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 3,
+    "cost": 3,
+    "health": 4,
+    "description": "<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Crie 1 <link=card.create><style=AssociatedCard>Socorro, Pix!</style></link> <link=keyword.Fleeting><sprite name=Fleeting><style=Keyword>Fugaz</style></link> na mão.\r\n<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Meu aliado auxiliado fica com 5|5 nesta rodada.",
+    "descriptionRaw": "Início de Rodada: Crie 1 Socorro, Pix! Fugaz na mão.\r\nAuxiliar: Meu aliado auxiliado fica com 5|5 nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Uau! Olha só isso, Pix! Esse mundo é totalmente diferente! Vamos deixar tudo bem colorido!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Lulu",
+    "cardCode": "03IO002T1",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR018-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Nas 4 cartas no topo do seu deck, compre os Yetis, Poros e Elnuks. Depois, embaralhe o resto no seu deck.",
+    "descriptionRaw": "Nas 4 cartas no topo do seu deck, compre os Yetis, Poros e Elnuks. Depois, embaralhe o resto no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"...de repente, um ELNUK GIGANTESCO saiu VOANDO das árvores com um Porinho minúsculo nas costas, aí um SIMPÁTICO YETI veio também, pois queria brincar com seus amigos, e todos correram montanha abaixo gritando RAAAAAWRRRRR, e depois...\" – Ingvar, o Jovem",
+    "artistName": "Kudos Productions",
+    "name": "Convocando a Natureza",
+    "cardCode": "03FR018",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT087T2",
+      "03MT087T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 10,
+    "cost": 10,
+    "health": 10,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: <link=keyword.Invoke><style=Keyword>Evoque</style></link> uma carta Celestial com 7 ou mais de custo.\r\n<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Crie uma carta Celestial aleatória na mão.",
+    "descriptionRaw": "Jogar: Evoque uma carta Celestial com 7 ou mais de custo.\r\nInício de Rodada: Crie uma carta Celestial aleatória na mão.",
+    "levelupDescription": "<link=vocab.RoundEnd><style=Vocab>Fim de Rodada</style></link>: Seus aliados têm 20+ de Poder total<style=Variable></style>.",
+    "levelupDescriptionRaw": "Fim de Rodada: Seus aliados têm 20+ de Poder total.",
+    "flavorText": "\"Pode escrever o que quiser sobre mim, criatura medíocre! Só não esqueça de dizer que sou lindo, magnífico e muitíssimo inteligente. Quer que eu soletre?\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Aurelion Sol",
+    "cardCode": "03MT087",
+    "keywords": [
+      "Fúria",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Fury",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT058T2",
+      "03MT058"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 4,
+    "health": 5,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Eu e meu aliado auxiliado não podemos sofrer dano nem morrer nesta rodada. Copie neste aliado o último feitiço que foi conjurado por você apenas em mim nesta rodada <style=Parentheses>(não é possível copiar de novo)</style>.",
+    "descriptionRaw": "Auxiliar: Eu e meu aliado auxiliado não podemos sofrer dano nem morrer nesta rodada. Copie neste aliado o último feitiço que foi conjurado por você apenas em mim nesta rodada (não é possível copiar de novo).",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Por que Taric ajuda o próximo? Bem, ele chegou a Targon desnorteado, com a intenção de escalar a montanha para expiar seus pecados... e conseguiu. Melhor do que ninguém, ele sabe que qualquer coisa pode voltar a ser bela.\" – Vidente da Montanha",
+    "artistName": "SIXMOREVODKA",
+    "name": "Taric",
+    "cardCode": "03MT058T1",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT029.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT029-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 1,
+    "health": 3,
+    "description": "Quando você cura um aliado que sofreu dano, eu ganho +2|+0.",
+    "descriptionRaw": "Quando você cura um aliado que sofreu dano, eu ganho +2|+0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Desde que vi um deles cruzar o céu noturno, me apaixonei pelos estrelacórnios. Na época, eu nem imaginava que conheceria tantos!\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Pastora de Estrelas",
+    "cardCode": "03MT029",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR010-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 2,
+    "health": 2,
+    "description": "<link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta com 8+ de custo, ganhe uma gema de Mana adicional nesta rodada.",
+    "descriptionRaw": "Início de Rodada: Se você Contemplar uma carta com 8+ de custo, ganhe uma gema de Mana adicional nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Venham, Ancestrais, venham,\nRompam os céus com mãos de gelo.\nVenham, Ancestrais, venham,\nTragam-nos força, e a eles, desespero.\"\n– Cântico dos Trolls",
+    "artistName": "Wild Blue Studio",
+    "name": "Rostos dos Ancestrais",
+    "cardCode": "03FR010",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT078.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT078-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 8,
+    "health": 0,
+    "description": "Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta Celestial, <link=keyword.Obliterate><style=Keyword>Oblitere</style></link> os inimigos com 3 ou menos de Poder.",
+    "descriptionRaw": "Se você Contemplar uma carta Celestial, Oblitere os inimigos com 3 ou menos de Poder.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Na escuridão do início, uma faísca de criação serpenteou pelo universo. O som que emitiu, o brilho que fulgurou, nós jamais saberemos, pois ainda não existiam palavras para descrevê-los, tampouco olhos e ouvidos para compreendê-los. ",
+    "artistName": "Kudos Productions",
+    "name": "Raios Cósmicos",
+    "cardCode": "03MT078",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT092T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT092T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "Cure um aliado em 1 e dê +1|+0 a ele.\r\nNão pode ser conjurada em combate nem em reação a feitiços.",
+    "descriptionRaw": "Cure um aliado em 1 e dê +1|+0 a ele.\r\nNão pode ser conjurada em combate nem em reação a feitiços.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Você não precisa ver para crer... basta ter um pouco de fé.\" – Viajante Tyari",
+    "artistName": "Kudos Productions",
+    "name": "Gema",
+    "cardCode": "03MT092T1",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT062.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT062-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 3,
+    "health": 2,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Se você <link=vocab.Behold><style=Vocab>Contemplar</style></link> uma carta Celestial, dê +1|+1 e <link=keyword.SpellShield><sprite name=SpellShield><style=Keyword>Escudo de Feitiço</style></link> a um aliado.",
+    "descriptionRaw": "Jogar: Se você Contemplar uma carta Celestial, dê +1|+1 e Escudo de Feitiço a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"... e aí a brilhoboleta é igualzinha poeira estelar que cai no chão e depois voa de volta e elas são tão incríveis e eu vi uma tão linda ontem à noite e eu tô com fome e ela voou até as ESTRELAS e depois... \"",
+    "artistName": "Dao Le",
+    "name": "Faiscóloga Avoada",
+    "cardCode": "03MT062",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT082.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT082-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Conceda +2|+2 aos aliados nesta rodada.\r\n<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Ative todos os efeitos de <link=keyword.Daybreak><style=Keyword>Amanhecer</style></link> dos aliados de uma só vez.",
+    "descriptionRaw": "Conceda +2|+2 aos aliados nesta rodada.\r\nAmanhecer: Ative todos os efeitos de Amanhecer dos aliados de uma só vez.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Levantamos com o alvorecer! E marchamos para a luz!\"<br>– Leona",
+    "artistName": "Kudos Productions",
+    "name": "Luz Matinal",
+    "cardCode": "03MT082",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT065.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT065-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 1,
+    "health": 0,
+    "description": "<link=vocab.Silence><style=Vocab>Silencie</style></link> um seguidor.",
+    "descriptionRaw": "Silencie um seguidor.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "No espaço entre as estrelas, o silêncio é absoluto.",
+    "artistName": "Max Grecke",
+    "name": "Equinócio",
+    "cardCode": "03MT065",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT047.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT047-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 6,
+    "health": 2,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Conceda <link=keyword.Elusive><sprite name=Elusive><style=Keyword>Elusivo</style></link> a um aliado e a mim nesta rodada.",
+    "descriptionRaw": "Anoitecer: Conceda Elusivo a um aliado e a mim nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os Lunari esperaram o anoitecer e a segurança que ele trazia. O caminho parecia deserto, mas Cygnus sabia que o acampamento dos Solari estava logo adiante. Ele gesticulou, e os outros formaram uma fila atrás dele.",
+    "artistName": "JiHun Lee",
+    "name": "Cygnus, o Caçador da Lua",
+    "cardCode": "03MT047",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT038.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT038-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 4,
+    "health": 4,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "As crianças de Targon foram as primeiras a fazerem amizade com os dragões mais jovens e pacíficos. Essas criaturas mais novas podem ter sentido a curiosidade inocente das crianças e preferiram, em vez de machucá-las, oferecer proteção. ",
+    "artistName": "Aron Elekes",
+    "name": "Protetor Chamabranca",
+    "cardCode": "03MT038",
+    "keywords": [
+      "Fúria"
+    ],
+    "keywordRefs": [
+      "Fury"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "DRAGÃO",
+    "subtypes": [
+      "DRAGÃO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT050.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT050-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 5,
+    "cost": 5,
+    "health": 5,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Dizem que a estrela mais brilhante no céu noturno é a do guerreiro. Um ser ancestral e imortal, que desce das estrelas para provar seu valor em combate. Ele nunca foi derrotado, mas toda história tem um fim, e toda estrela deve morrer.",
+    "artistName": "Kudos Productions",
+    "name": "O Guerreiro",
+    "cardCode": "03MT050",
+    "keywords": [
+      "Desafiador"
+    ],
+    "keywordRefs": [
+      "Challenger"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT087",
+      "03MT087T1",
+      "03MT087"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT087T2-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 15,
+    "health": 0,
+    "description": "Cause 15 de dano a todos os inimigos.\r\nCusta 2 a menos por cada aliado Dragão ou Celestial que você tiver.\r\nEmbaralhe 1 <link=card.level1><style=AssociatedCard>Aurelion Sol</style></link> no seu deck.",
+    "descriptionRaw": "Cause 15 de dano a todos os inimigos.\r\nCusta 2 a menos por cada aliado Dragão ou Celestial que você tiver.\r\nEmbaralhe 1 Aurelion Sol no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Quando chegar a hora, acho que vou usar Runeterra como exemplo. Talvez eu arraste sua carcaça chamuscada comigo por toda a eternidade. Como um brinquedo velho e sem valor. Não sei. Não pensei tanto nisso.\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "Os Céus Caem de Aurelion Sol",
+    "cardCode": "03MT087T2",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT081.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT081-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 5,
+    "health": 5,
+    "description": "<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Dê +2|+2 ao meu aliado auxiliado. Se ele tiver <link=vocab.Support><style=Vocab>Auxiliar</style></link>, dê +2|+2 ao aliado auxiliado dele e assim sucessivamente para cada aliado auxiliado.",
+    "descriptionRaw": "Auxiliar: Dê +2|+2 ao meu aliado auxiliado. Se ele tiver Auxiliar, dê +2|+2 ao aliado auxiliado dele e assim sucessivamente para cada aliado auxiliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Todos que se aventuram no Monte Targon têm seus motivos. Alguns querem provar algo a alguém, outros querem provar algo a si mesmos.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Peregrinos da Montanha",
+    "cardCode": "03MT081",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03PZ017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03PZ017-full.png"
+      }
+    ],
+    "region": "Piltover e Zaun",
+    "regionRef": "PiltoverZaun",
+    "attack": 0,
+    "cost": 4,
+    "health": 0,
+    "description": "Cause 1 de dano a uma unidade. Invoque uma unidade aleatória com <style=Variable>1</style> de custo. Enquanto eu estiver na mão, quando você jogar uma carta com 3 de custo, aumente o dano e o custo da unidade invocada em 1.",
+    "descriptionRaw": "Cause 1 de dano a uma unidade. Invoque uma unidade aleatória com 1 de custo. Enquanto eu estiver na mão, quando você jogar uma carta com 3 de custo, aumente o dano e o custo da unidade invocada em 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"E em um, dois, TRÊS!!! Oh. Oh, minha nossa... Mais um resultado imprevisto?!\" – Heimerdinger",
+    "artistName": "Kudos Productions",
+    "name": "Improbulador Trivolt",
+    "cardCode": "03PZ017",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT007.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT007-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 3,
+    "health": 2,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Como qualquer iniciante, um dia os jovens estrelacórnios precisam fazer seu primeiro voo. Nesse aspecto, eles são como qualquer outra estrela no céu, pois caem com a mesma facilidade. Felizmente, estamos aqui para segurá-los e, no momento certo, devolvê-los.\" – Lidari, Guardiã das Estrelas",
+    "artistName": "SIXMOREVODKA",
+    "name": "Estrelacórnio Inexperiente",
+    "cardCode": "03MT007",
+    "keywords": [
+      "Roubo de Vida",
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "Lifesteal",
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT015.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT015-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "<link=keyword.Invoke><style=Keyword>Evocar</style></link>.",
+    "descriptionRaw": "Evocar.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os céus pairam sobre você, como uma tapeçaria escura cravejada de estrelas brilhantes. Você sente pequenez e modéstia diante de tamanha imensidão. Para onde você olhará primeiro?",
+    "artistName": "Kudos Productions",
+    "name": "Contemple o Infinito",
+    "cardCode": "03MT015",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI006T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI006T1-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Drene 2 do Nexus inimigo.",
+    "descriptionRaw": "Drene 2 do Nexus inimigo.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "O que lhe conhece melhor do que sua própria mente? O que pode lhe atormentar mais do que seus próprios sonhos?",
+    "artistName": "Kudos Productions",
+    "name": "Suplício",
+    "cardCode": "03SI006T1",
+    "keywords": [
+      "Habilidade"
+    ],
+    "keywordRefs": [
+      "Skill"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Habilidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT058",
+      "03MT058T1",
+      "03MT058"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT058T2-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Dê +3|+3 a um aliado.\r\nEmbaralhe 1 <link=card.level1><style=AssociatedCard>Taric</style></link> no seu deck.",
+    "descriptionRaw": "Dê +3|+3 a um aliado.\r\nEmbaralhe 1 Taric no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Uma lembrancinha de Targon.\" – Taric",
+    "artistName": "Max Grecke",
+    "name": "Bênção Targonense de Taric",
+    "cardCode": "03MT058T2",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03FR006T1",
+      "03FR006T3",
+      "03FR006T2"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 4,
+    "cost": 5,
+    "health": 6,
+    "description": "Ao me invocar, crie 1 <link=card.create><style=AssociatedCard>Pilar de Gelo</style></link> na mão.",
+    "descriptionRaw": "Ao me invocar, crie 1 Pilar de Gelo na mão.",
+    "levelupDescription": "Eu vi você jogar <link=card.create><style=AssociatedCard>Pilar de Gelo</style></link>.",
+    "levelupDescriptionRaw": "Eu vi você jogar Pilar de Gelo.",
+    "flavorText": "Uma a uma, tochas se acenderam ao longo do desfiladeiro, revelando o cenário. Eram dezenas de trolls, talvez centenas, todos enormes, fortes e letais.\n\"Vou perguntar mais uma vez\", rosnou Trundle, erguendo o Treme-ossos sobre o ombro. \"Você vão desistir ou vou ter que esmagar seus crânios?\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Trundle",
+    "cardCode": "03FR006",
+    "keywords": [
+      "Regeneração"
+    ],
+    "keywordRefs": [
+      "Regeneration"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT054T3",
+      "03MT054T2",
+      "03MT054"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT054T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 4,
+    "health": 6,
+    "description": "<link=keyword.PlaySkillMark><sprite name=PlaySkillMark><style=Keyword></style></link><link=keyword.Daybreak><style=Keyword>Amanhecer</style></link> ou quando você ativar outra carta com <link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: <link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link> o inimigo <link=vocab.Strongest><style=Vocab>Mais Forte</style></link>.",
+    "descriptionRaw": "Amanhecer ou quando você ativar outra carta com Amanhecer: Atordoe o inimigo Mais Forte.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Era para isso que Leona havia se preparado. Ela sabia que encontraria Diana descendo a montanha, recuando antes que o sol raiasse. Ela respirou fundo para acalmar o coração acelerado, silenciando-o com sua determinação melancólica. Neste encontro, ela teria a vantagem. Desta vez, ela enfrentaria sua velha amiga de frente.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Leona",
+    "cardCode": "03MT054T1",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI003-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 2,
+    "cost": 1,
+    "health": 1,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Me conceda +2|+0 e <link=keyword.Fearsome><sprite name=Fearsome><style=Keyword>Assustador</style></link> nesta rodada.",
+    "descriptionRaw": "Anoitecer: Me conceda +2|+0 e Assustador nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "À medida que o sol dá lugar à escuridão, os terrores deste lugar acordam, observam e esperam.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Observadora Estígia",
+    "cardCode": "03SI003",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03NX016"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX017.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03NX017-full.png"
+      }
+    ],
+    "region": "Noxus",
+    "regionRef": "Noxus",
+    "attack": 7,
+    "cost": 7,
+    "health": 4,
+    "description": "<link=keyword.PlaySkillMark><sprite name=PlaySkillMark><style=Keyword>Jogar</style></link>: Cause 1 de dano a um aliado e a um inimigo 4 vezes.",
+    "descriptionRaw": "Jogar: Cause 1 de dano a um aliado e a um inimigo 4 vezes.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os treinadores de basilisco deixam as feras sem comer nos dias que antecedem à batalha. Quando as criaturas são soltas, ficam absolutamente indomáveis, incapazes de distinguir aliados de inimigos.",
+    "artistName": "Kudos Productions",
+    "name": "Basilisqueiro Sanguinário",
+    "cardCode": "03NX017",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT026.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT026-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 5,
+    "cost": 5,
+    "health": 5,
+    "description": "<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Crie uma carta aleatória com <link=keyword.Daybreak><style=Keyword>Amanhecer</style></link> na mão.\r\nÉ sempre Dia para nós.",
+    "descriptionRaw": "Amanhecer: Crie uma carta aleatória com Amanhecer na mão.\r\nÉ sempre Dia para nós.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Mantenham a fé, Ra-Horak, e nossa luz nunca se apagará!\"",
+    "artistName": "JiHun Lee",
+    "name": "Rahvun, a Lança da Alvorada",
+    "cardCode": "03MT026",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI002.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI002-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Drene 1 de qualquer coisa.\r\n<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Crie uma carta aleatória com <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> na mão.",
+    "descriptionRaw": "Drene 1 de qualquer coisa.\r\nAnoitecer: Crie uma carta aleatória com Anoitecer na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Cada dia que passa suga meu espírito, extrai o vigor que me levou a encontrar este lugar. O Dente de Baleia está lotado de sujeitos apáticos, aparentemente desiludidos de tudo, e acho que quanto mais tempo eu ficar por aqui, mais me assemelharei a eles.\"\n– Notas de Jens Tommen, historiador",
+    "artistName": "Kudos Productions",
+    "name": "Horror Indescritível",
+    "cardCode": "03SI002",
+    "keywords": [
+      "Rápido"
+    ],
+    "keywordRefs": [
+      "Fast"
+    ],
+    "spellSpeed": "Rápido",
+    "spellSpeedRef": "Fast",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "01PZ020"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03PZ018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03PZ018-full.png"
+      }
+    ],
+    "region": "Piltover e Zaun",
+    "regionRef": "PiltoverZaun",
+    "attack": 0,
+    "cost": 0,
+    "health": 0,
+    "description": "Para jogar, descarte 1.\r\nCrie 2 <link=card.create><style=AssociatedCard>Poros Audaciosos</style></link> na mão.",
+    "descriptionRaw": "Para jogar, descarte 1.\r\nCrie 2 Poros Audaciosos na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Duas formas felpudas caem graciosamente sobre a multidão, deixando uma nuvem de pelos macios e um leve aroma de pão quentinho saindo do forno.",
+    "artistName": "Kudos Productions",
+    "name": "Canhão de Poros",
+    "cardCode": "03PZ018",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Compre 2 Dragões diferentes ou dê +1|+1 a aliados Dragões.",
+    "descriptionRaw": "Compre 2 Dragões diferentes ou dê +1|+1 a aliados Dragões.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"O grito deles é estridente como o de um gato. Se ouvi-lo em algum lugar, ponha o rabinho entre as pernas e se proteja. Entendeu? Porque onde há ovos de dragão, há dragões.\"<br>– Explorador targonense",
+    "artistName": "Kudos Productions",
+    "name": "Garra do Dragão",
+    "cardCode": "03MT003",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT011.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT011-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "<link=keyword.Stun><sprite name=Stunned><style=Keyword>Atordoe</style></link> 2 inimigos.",
+    "descriptionRaw": "Atordoe 2 inimigos.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Até o brilho da lua pode ofuscar.\" – Diana\n\n",
+    "artistName": "Kudos Productions",
+    "name": "Golpe Crescente",
+    "cardCode": "03MT011",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT088.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT088-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 1,
+    "health": 2,
+    "description": "<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Me conceda +1|+1 nesta rodada.",
+    "descriptionRaw": "Amanhecer: Me conceda +1|+1 nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Sob o calor do sol, ele vigiava a prisão da herege, ignorando os suaves apelos que logo se transformaram num silêncio amargo.",
+    "artistName": "Wild Blue Studio",
+    "name": "Soldado Solari",
+    "cardCode": "03MT088",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT089.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT089-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Eu ganho +2|+0.",
+    "descriptionRaw": "Anoitecer: Eu ganho +2|+0.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Guardiã estoica, o toque gentil da lua cheia restaura sua força. Desperte e nos proteja dos que se atreveriam a invadir este lugar sagrado.\" – Inscrição da Guardiã Crescente",
+    "artistName": "Aron Elekes",
+    "name": "Guardiã Crescente",
+    "cardCode": "03MT089",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "01DE016"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03DE012.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03DE012-full.png"
+      }
+    ],
+    "region": "Demacia",
+    "regionRef": "Demacia",
+    "attack": 0,
+    "cost": 8,
+    "health": 0,
+    "description": "Ao invocar uma carta Elite, reduza meu custo em 1.\r\nPara cada aliado morto nesta rodada, invoque 1 <link=card.summon><style=AssociatedCard>Vanguarda Destemida</style></link>.",
+    "descriptionRaw": "Ao invocar uma carta Elite, reduza meu custo em 1.\r\nPara cada aliado morto nesta rodada, invoque 1 Vanguarda Destemida.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Se um soldado cair, outro deve tomar seu lugar. Nossa bandeira jamais será derrubada.\" – Garen",
+    "artistName": "Kudos Productions",
+    "name": "Por Aqueles Que Caíram",
+    "cardCode": "03DE012",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "ÉPICA",
+    "rarityRef": "Epic",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT056T2",
+      "03MT056T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Me conceda <link=keyword.Challenger><sprite name=Challenger><style=Keyword>Desafiador</style></link> nesta rodada.",
+    "descriptionRaw": "Anoitecer: Me conceda Desafiador nesta rodada.",
+    "levelupDescription": "Você ativou <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> 4+ vezes<style=Variable></style>.",
+    "levelupDescriptionRaw": "Você ativou Anoitecer 4+ vezes.",
+    "flavorText": "Entre eles, preparando-se para a batalha, ali estava ela. Irradiando luz, adornada em prata e azul. Seus olhos brilhavam como estrelas. Quando a lua se ergueu e a iluminou, todos os Lunari ali reunidos fecharam os olhos. Em silenciosa oração, rogaram pela segurança dela e agradeceram por sua presença.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Diana",
+    "cardCode": "03MT056",
+    "keywords": [
+      "Ataque Rápido"
+    ],
+    "keywordRefs": [
+      "QuickStrike"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Campeão",
+    "rarityRef": "Champion",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT073T1"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT073.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT073-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 1,
+    "health": 1,
+    "description": "Ao me invocar, crie 1 <link=card.create><style=AssociatedCard>Pólen de Pétala Noturna</style></link> na mão.",
+    "descriptionRaw": "Ao me invocar, crie 1 Pólen de Pétala Noturna na mão.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"As pétalas noturnas florescem à noite e apenas na lua cheia. Símbolo do orgulho Lunari, seu pólen é usado há séculos, pois apenas nós sabemos como colhê-las de forma segura.\"",
+    "artistName": "JiHun Lee",
+    "name": "Lunari Portadora do Anoitecer",
+    "cardCode": "03MT073",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03FR006T1",
+      "03FR006",
+      "03FR006T2"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T3.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T3-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 8,
+    "health": 0,
+    "description": "Conceda -3|-0 a TODAS as unidades nesta rodada. Cause 3 de dano a TODAS as unidades.\r\nEmbaralhe 1 <link=card.level1><style=AssociatedCard>Trundle</style></link> no seu deck.",
+    "descriptionRaw": "Conceda -3|-0 a TODAS as unidades nesta rodada. Cause 3 de dano a TODAS as unidades.\r\nEmbaralhe 1 Trundle no seu deck.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Enterrem eles vivos!\" – Trundle",
+    "artistName": "Kudos Productions",
+    "name": "Terremoto Glacial de Trundle",
+    "cardCode": "03FR006T3",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT095.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT095-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 3,
+    "cost": 3,
+    "health": 3,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Eu tava lá tranquilo, cuidando da minha vida, quando me aparece um sujeito todo trabalhado no ouro. Alvo fácil, né? Eu chego junto, jogo um charme e aumento o preço. Só depois, quando vou guardar as moedas, é que eu reparo... que o safado pagou usando o MEU PRÓPRIO DINHEIRO! O Trapaceiro só podia estar brilhando mais forte naquela noite.\" – Yordle Vigarista",
+    "artistName": "Kudos Productions",
+    "name": "O Trapaceiro",
+    "cardCode": "03MT095",
+    "keywords": [
+      "Elusivo"
+    ],
+    "keywordRefs": [
+      "Elusive"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT027.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT027-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Dê +1|+2 e <link=keyword.Overwhelm><sprite name=Overwhelm><style=Keyword>Sobrepujar</style></link> a um aliado.\r\n<link=keyword.Daybreak><style=Keyword>Amanhecer</style></link>: Compre 1 <link=card.me><style=AssociatedCard>Lâmina Zênite</style></link>.",
+    "descriptionRaw": "Dê +1|+2 e Sobrepujar a um aliado.\r\nAmanhecer: Compre 1 Lâmina Zênite.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Deixem que o Sol conceda-lhes a força d'Ela!\" – Sacerdote Solari",
+    "artistName": "Kudos Productions",
+    "name": "Lâmina Zênite",
+    "cardCode": "03MT027",
+    "keywords": [
+      "Lento"
+    ],
+    "keywordRefs": [
+      "Slow"
+    ],
+    "spellSpeed": "Lento",
+    "spellSpeedRef": "Slow",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT084.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT084-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "<link=keyword.Invoke><style=Keyword>Evoque</style></link> uma carta Celestial com 7 ou mais de custo e, depois, cure um aliado ou o seu Nexus em 5.",
+    "descriptionRaw": "Evoque uma carta Celestial com 7 ou mais de custo e, depois, cure um aliado ou o seu Nexus em 5.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Olhe para as estrelas. Se você tiver sorte, eu olharei de volta.\" – Aurelion Sol",
+    "artistName": "Kudos Productions",
+    "name": "Formando Estrelas",
+    "cardCode": "03MT084",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT016.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT016-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 2,
+    "cost": 2,
+    "health": 3,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Puxa, o grande Esmagador tá com medo de passar pelo portalzinho? Tudo bem, vamos fazer o seguinte... HAHAHAHA, brincadeira, VAI NA FÉ!\" – Zoe",
+    "artistName": "SIXMOREVODKA",
+    "name": "Esmagador Assustado",
+    "cardCode": "03MT016",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03FR006T1-full.png"
+      }
+    ],
+    "region": "Freljord",
+    "regionRef": "Freljord",
+    "attack": 0,
+    "cost": 8,
+    "health": 8,
+    "description": "<link=vocab.Play><style=Vocab>Jogar</style></link>: Recarregue 8 de Mana.\r\n<link=vocab.Play><style=Vocab>Jogar</style></link> e <link=vocab.RoundStart><style=Vocab>Início de Rodada</style></link>: Conceda <link=keyword.Vulnerable><sprite name=Vulnerable><style=Keyword>Vulnerável</style></link> ao inimigo <link=vocab.Strongest><style=Vocab>Mais Forte</style></link> nesta rodada.",
+    "descriptionRaw": "Jogar: Recarregue 8 de Mana.\r\nJogar e Início de Rodada: Conceda Vulnerável ao inimigo Mais Forte nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Haha! Por essa você não esperava!\" – Trundle",
+    "artistName": "Kudos Productions",
+    "name": "Pilar de Gelo",
+    "cardCode": "03FR006T1",
+    "keywords": [
+      "Vulnerável"
+    ],
+    "keywordRefs": [
+      "Vulnerable"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT059"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT059T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT059T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 6,
+    "health": 3,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"... Da mesma luz cósmica elas surgiram,\nMas, por tantas semelhanças, sempre discutiam\nEntão, resolveram separar a noite do dia,\nPara que cada uma vivesse como queria...\"\n– Hino das Horas",
+    "artistName": "Kudos Productions",
+    "name": "A Irmã Prateada",
+    "cardCode": "03MT059T1",
+    "keywords": [
+      "Elusivo"
+    ],
+    "keywordRefs": [
+      "Elusive"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [
+      "03MT056",
+      "03MT056T1",
+      "03MT056"
+    ],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT056T2-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Conceda +2|+1 a um aliado nesta rodada. Embaralhe 1 <link=card.level1><style=AssociatedCard>Diana</style></link> no seu deck.\r\n<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Compre 1.",
+    "descriptionRaw": "Conceda +2|+1 a um aliado nesta rodada. Embaralhe 1 Diana no seu deck.\r\nAnoitecer: Compre 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Sob o manto da noite, guardada por uma lua pálida.\"<br>– Diana",
+    "artistName": "Kudos Productions",
+    "name": "Cascata Lívida de Diana",
+    "cardCode": "03MT056T2",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "Campeão",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT035.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT035-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 2,
+    "health": 0,
+    "description": "Conceda +2|+1 a um aliado nesta rodada.\r\n<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Compre 1.",
+    "descriptionRaw": "Conceda +2|+1 a um aliado nesta rodada.\r\nAnoitecer: Compre 1.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Sob o manto da noite, guardada por uma lua pálida.\"<br>– Diana",
+    "artistName": "Kudos Productions",
+    "name": "Cascata Lívida",
+    "cardCode": "03MT035",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO018.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03IO018-full.png"
+      }
+    ],
+    "region": "Ionia",
+    "regionRef": "Ionia",
+    "attack": 3,
+    "cost": 4,
+    "health": 3,
+    "description": "Quando me auxiliarem, me conceda +0|+3 nesta rodada.\r\n<link=vocab.Support><style=Vocab>Auxiliar</style></link>: Conceda +3|+0 ao meu aliado auxiliado nesta rodada.",
+    "descriptionRaw": "Quando me auxiliarem, me conceda +0|+3 nesta rodada.\r\nAuxiliar: Conceda +3|+0 ao meu aliado auxiliado nesta rodada.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Os silfos roxos são criaturinhas tão dóceis que todos que os encontram querem cuidar deles. Bom, quase todos.",
+    "artistName": "Dao Le",
+    "name": "Cuidador Felpudo",
+    "cardCode": "03IO018",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003T1.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003T1-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Compre 2 Dragões diferentes.",
+    "descriptionRaw": "Compre 2 Dragões diferentes.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Ovo de dragão (Dragão Estridente, Draco murmurationis)\nNotas: a casca ficou mais fina na última virada. O movimento interno se intensificou. Rachaduras na superfície?\nRabiscos: OVO CHOCANDO!\n– Notas de Anden Mayne, Pesquisador Acadêmico",
+    "artistName": "Kudos Productions",
+    "name": "Ovo Chocado",
+    "cardCode": "03MT003T1",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT090.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT090-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 4,
+    "cost": 1,
+    "health": 1,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"O ouro do sol brilha em seus chifres, e as luzes do fogo em seu coração. Que o trovão dos nossos escudos ecoe como o trovão de seus cascos pelo horizonte!\" – Grito de guerra Solari",
+    "artistName": "Kudos Productions",
+    "name": "O Acometedor",
+    "cardCode": "03MT090",
+    "keywords": [
+      "Sobrepujar"
+    ],
+    "keywordRefs": [
+      "Overwhelm"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "Nenhuma",
+    "rarityRef": "None",
+    "subtype": "CELESTIAL",
+    "subtypes": [
+      "CELESTIAL"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI010.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03SI010-full.png"
+      }
+    ],
+    "region": "Ilhas das Sombras",
+    "regionRef": "ShadowIsles",
+    "attack": 2,
+    "cost": 5,
+    "health": 5,
+    "description": "<link=keyword.Nightfall><style=Keyword>Anoitecer</style></link>: Eu ganho +1|+0 por cada vez que ativamos <link=keyword.Nightfall><style=Keyword>Anoitecer</style></link> nesta partida. <style=Variable></style>",
+    "descriptionRaw": "Anoitecer: Eu ganho +1|+0 por cada vez que ativamos Anoitecer nesta partida. ",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "A cada pôr do sol, a noite abre suas asas escuras e apaga os últimos resquícios de esperança.",
+    "artistName": "SIXMOREVODKA",
+    "name": "Cavaleiro do Crepúsculo",
+    "cardCode": "03SI010",
+    "keywords": [
+      "Assustador"
+    ],
+    "keywordRefs": [
+      "Fearsome"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT036.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT036-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 5,
+    "health": 0,
+    "description": "Dê +3|+3 a um aliado.",
+    "descriptionRaw": "Dê +3|+3 a um aliado.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"Uma lembrancinha de Targon.\" – Taric",
+    "artistName": "Max Grecke",
+    "name": "Bênção de Targon",
+    "cardCode": "03MT036",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "RARA",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": true,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003T2.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT003T2-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 0,
+    "cost": 3,
+    "health": 0,
+    "description": "Dê +1|+1 a aliados Dragões.",
+    "descriptionRaw": "Dê +1|+1 a aliados Dragões.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "Ovo de dragão (Dragão Estridente, Draco murmurationis)\nNotas: a casca ficou mais fina na última virada. O movimento interno se intensificou. Rachaduras na superfície?\nRabiscos: OVO CHOCANDO!\n– Notas de Anden Mayne, Pesquisador Acadêmico",
+    "artistName": "Kudos Productions",
+    "name": "Ovo Esmagado",
+    "cardCode": "03MT003T2",
+    "keywords": [
+      "Súbito"
+    ],
+    "keywordRefs": [
+      "Burst"
+    ],
+    "spellSpeed": "Súbito",
+    "spellSpeedRef": "Burst",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Feitiço",
+    "collectible": false,
+    "set": "Set3"
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT039.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/pt_br/img/cards/03MT039-full.png"
+      }
+    ],
+    "region": "Targon",
+    "regionRef": "Targon",
+    "attack": 1,
+    "cost": 1,
+    "health": 1,
+    "description": "",
+    "descriptionRaw": "",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "No espaço, ninguém ouve sua alegria.",
+    "artistName": "Dao Le",
+    "name": "Poroboleta",
+    "cardCode": "03MT039",
+    "keywords": [
+      "Escudo de Feitiço"
+    ],
+    "keywordRefs": [
+      "SpellShield"
+    ],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "COMUM",
+    "rarityRef": "Common",
+    "subtype": "PORO",
+    "subtypes": [
+      "PORO"
+    ],
+    "supertype": "",
+    "type": "Unidade",
+    "collectible": true,
+    "set": "Set3"
+  }
+]
