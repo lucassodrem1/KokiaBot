@@ -1,4 +1,7 @@
-# Initial page
+# Kokia
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 Bot para o Discord com múltiplas funcionalidades.
 
