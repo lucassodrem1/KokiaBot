@@ -23,7 +23,7 @@
     "node-fetch": "^2.6.0",
     "pg": "^7.4.3",
     "rss-parser": "^3.8.0",
-    "runeterra": "^0.1.0",
+    "runeterra": "^2.0.0",
     "ytdl-core": "^2.1.0"
   },
   "devDependencies": {

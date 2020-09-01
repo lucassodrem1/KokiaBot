@@ -1,6 +1,6 @@
 const cardsData1 = require("../../../assets/lor/data/en/cardsSet1.json");
 const cardsData2 = require("../../../assets/lor/data/en/cardsSet2.json");
-const cardsData3 = require("../../../assets/lor/data/pt/cardsSet3.json");
+const cardsData3 = require("../../../assets/lor/data/en/cardsSet3.json");
 
 const regionIcons = {
   "Bilgewater": "https://cdn.discordapp.com/attachments/712882676880900196/719610077354655804/icon-bilgewater.png",
