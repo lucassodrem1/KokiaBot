@@ -12,7 +12,7 @@ module.exports.checkStream = async function(client, guildData, social) {
     });
     let response = await requestStreamer.json();
 
-    if(!response) return;
+    if(!response || !response.data) return;
     
     // Verificar se stream está online.
     if(!response.data.length) {
