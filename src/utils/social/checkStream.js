@@ -12,6 +12,8 @@ module.exports.checkStream = async function(client, guildData, social) {
     });
     let response = await requestStreamer.json();
 
+    if(!response) return;
+    
     // Verificar se stream está online.
     if(!response.data.length) {
       // Setar online para 0 se já não estiver.
