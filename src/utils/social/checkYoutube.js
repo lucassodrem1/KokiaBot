@@ -8,7 +8,7 @@ module.exports.checkYoutube = async function(client, guildData, social) {
   let feed = await parser.parseURL(`https://www.youtube.com/feeds/videos.xml?channel_id=${social.username}`)
     .catch(e => {});
 
-  if(!feed) return;
+  if(!feed || !feed.items[0]) return;
 
   try {
     
