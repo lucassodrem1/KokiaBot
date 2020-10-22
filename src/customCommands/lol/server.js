@@ -71,7 +71,8 @@ module.exports = {
           'mundo': 'dr mundo',
           'reksai': 'rek sai',
           'kogmaw': 'kog maw',
-          'jarvan': 'jarvan IV'
+          'jarvan': 'jarvan IV',
+          'wukong': 'monkey king'
         };
 
         if(championsFormatName[account.main]) 
