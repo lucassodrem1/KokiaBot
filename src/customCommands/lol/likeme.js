@@ -62,7 +62,8 @@ module.exports = {
         let championsFormatName = {
           'bardo': 'bard',
           'mundo': 'dr mundo',
-          'reksai': 'rek sai'
+          'reksai': 'rek sai',
+          'kogmaw': 'kog maw'
         };
 
         if(championsFormatName[account.main]) 
