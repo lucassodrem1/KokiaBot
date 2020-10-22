@@ -3877,6 +3877,44 @@
     "description": "Widely considered one of the most adept sorcerers on Runeterra, Ryze is an ancient, hard-bitten archmage with an impossibly heavy burden to bear. Armed with immense arcane power and a boundless constitution, he tirelessly hunts for World Runes—fragments..."
   },
   {
+    "id": "samira",
+    "key": "360",
+    "name": "Samira",
+    "title": "the Desert Rose",
+    "tags": [
+      "Marksman"
+    ],
+    "stats": {
+      "hp": 530,
+      "hpperlevel": 88,
+      "mp": 348.88,
+      "mpperlevel": 38,
+      "movespeed": 335,
+      "armor": 28,
+      "armorperlevel": 3,
+      "spellblock": 30,
+      "spellblockperlevel": 0.5,
+      "attackrange": 500,
+      "hpregen": 3.25,
+      "hpregenperlevel": 0.55,
+      "mpregen": 8.176,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 59,
+      "attackdamageperlevel": 2.3,
+      "attackspeedperlevel": 3.3,
+      "attackspeed": 0.658
+    },
+    "icon": "http://ddragon.leagueoflegends.com/cdn/10.21.1/img/champion/Samira.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/10.21.1/img/sprite/champion3.png",
+      "x": 0,
+      "y": 48
+    },
+    "description": "Samira stares death in the eye with unyielding confidence, seeking thrill wherever she goes. After her Shuriman home was destroyed as a child, Samira found her true calling in Noxus, where she built a reputation as a stylish daredevil taking on..."
+  },
+  {
     "id": "sejuani",
     "key": "113",
     "name": "Sejuani",
