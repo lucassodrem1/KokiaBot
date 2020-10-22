@@ -66,8 +66,24 @@ module.exports = {
 
       // Mostrar imagem do main se tiver definido.
       if(account.main !== 'indefinido') {
-        embed.setThumbnail(`https://opgg-static.akamaized.net/images/lol/champion/${account.main}.png?image=q_auto,w_46&v=1595653530`);
-        embed.setImage(`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${account.main.charAt(0).toUpperCase() + account.main.slice(1)}_0.jpg`);
+        let championsFormatName = {
+          'bardo': 'bard',
+          'mundo': 'dr mundo',
+          'reksai': 'rek sai'
+        };
+
+        if(championsFormatName[account.main]) 
+          account.main = championsFormatName[account.main];
+
+        // Formatar nome de personagem para splash art.
+        let mainArray = account.main.split(" ");
+        let mainWords = [];
+        mainArray.forEach(words => {
+          mainWords.push(words.charAt(0).toUpperCase() + words.slice(1));
+        });
+
+        embed.setThumbnail(`https://opgg-static.akamaized.net/images/lol/champion/${mainWords.join('')}.png?image=q_auto,w_46&v=1595653530`);
+        embed.setImage(`https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${mainWords.join('')}_0.jpg`);
       }
     
       message.channel.send(`<@${message.author.id}>, usuário neste servidor foi encontrado!`, {embed: embed, split: true});
