@@ -63,7 +63,8 @@ module.exports = {
           'bardo': 'bard',
           'mundo': 'dr mundo',
           'reksai': 'rek sai',
-          'kogmaw': 'kog maw'
+          'kogmaw': 'kog maw',
+          'jarvan': 'jarvan IV'
         };
 
         if(championsFormatName[account.main]) 
