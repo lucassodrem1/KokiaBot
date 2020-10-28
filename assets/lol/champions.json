@@ -3993,6 +3993,45 @@
     "description": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light, and fiercely fought back—only to be killed, her soul imprisoned in a lantern by the cruel wraith Thresh. But refusing to..."
   },
   {
+    "id": "seraphine",
+    "key": "147",
+    "name": "Seraphine",
+    "title": "the Starry-Eyed Songstress",
+    "tags": [
+      "Mage",
+      "Support"
+    ],
+    "stats": {
+      "hp": 500,
+      "hpperlevel": 80,
+      "mp": 440,
+      "mpperlevel": 40,
+      "movespeed": 325,
+      "armor": 19,
+      "armorperlevel": 3,
+      "spellblock": 30,
+      "spellblockperlevel": 0.5,
+      "attackrange": 525,
+      "hpregen": 6.5,
+      "hpregenperlevel": 0.6,
+      "mpregen": 10,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 3,
+      "attackspeedperlevel": 1,
+      "attackspeed": 0.669
+    },
+    "icon": "http://ddragon.leagueoflegends.com/cdn/10.22.1/img/champion/Seraphine.png",
+    "sprite": {
+      "url": "http://ddragon.leagueoflegends.com/cdn/10.22.1/img/sprite/champion3.png",
+      "x": 144,
+      "y": 48
+    },
+    "description": "Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She..."
+  },
+  {
     "id": "sett",
     "key": "875",
     "name": "Sett",
