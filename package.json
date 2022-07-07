@@ -19,7 +19,7 @@
     "discord.js": "^12.1.1",
     "enmap": "^5.2.4",
     "ffmpeg": "0.0.4",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "node-fetch": "^2.6.0",
     "pg": "^7.4.3",
     "rss-parser": "^3.8.0",
